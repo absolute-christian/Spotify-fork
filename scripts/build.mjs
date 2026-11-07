@@ -2,8 +2,12 @@ import { build } from 'esbuild';
 import { mkdir, copyFile, writeFile, readFile } from 'node:fs/promises';
 import { ensureDotifySources } from './ensure-dotify.mjs';
 import { buildDotifyFrame } from './build-dotify.mjs';
-ensureDotifySources();
-await buildDotifyFrame();
+// The repository contains adapted modules and a generated document with the
+// original styles already embedded. CI can build from that checked-in snapshot
+// without access to a developer's private Dotify installation.
+const useCheckedInAssets = process.argv.includes('--checked-in-assets');
+if (!useCheckedInAssets) ensureDotifySources();
+await buildDotifyFrame({ useCheckedInAssets });
 const dir = 'dist/my-wave';
 await mkdir(dir, { recursive: true });
 const reactShim = { name: 'spotify-react', setup(b) {

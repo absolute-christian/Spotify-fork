@@ -5,7 +5,9 @@ SHA-256 EXE: e222e41f4553e798f765283cd1c231ead118e9e45bd1420474588221ec792358
 Исходные байты и контрольные суммы: .local/dotify-original/extraction-manifest.json
 Границы адаптации: frontend/dotify/adaptation.json
 Список выбранных модулей: frontend/dotify/original/provenance.json
-При сборке проверяются контрольные суммы оригиналов
+При обычной сборке проверяются контрольные суммы оригиналов. Команда
+`npm run build:checked-in` использует сохранённые в репозитории адаптированные
+модули и встроенные стили; она не проверяет исходный EXE или его ресурсы.
 
 Логотип Spotify в навигации Dotify и иконка расширения: Simple Icons, CC0-1.0
 Источник: https://github.com/simple-icons/simple-icons/blob/develop/icons/spotify.svg

@@ -6,7 +6,7 @@
 
 - Windows, настольный Spotify и настроенный [Spicetify](https://spicetify.app/docs/getting-started/).
 - Python 3.10+ и Node.js 22.18+ в ветке 22 или 24.11+ — для сборки.
-- Ресурсы интерфейса для первой сборки. Порядок подготовки описан в [документации](docs/dotify-extraction.md).
+- Для полной пересборки ресурсов интерфейса нужен их оригинал. Также можно собрать проект из сохранённых в репозитории ресурсов.
 - OAuth-токен Яндекс Музыки. [Как его получить](https://ym.marshal.dev/token/).
 
 ## Установка
@@ -45,9 +45,11 @@
 ```powershell
 npm ci
 npm run build
+npm test
+python -m unittest discover -s tests
 ```
 
-Дополнительные сведения о проверках — в [docs/verification.md](docs/verification.md). Команда `npm test` предусмотрена в проекте, но тесты в текущем репозитории отсутствуют.
+Если оригинальные ресурсы интерфейса недоступны, вместо `npm run build` используйте `npm run build:checked-in`. Дополнительные сведения о проверках — в [docs/verification.md](docs/verification.md).
 
 ## Отключение
 

@@ -3,6 +3,7 @@ import json
 import os
 from pathlib import Path
 import secrets
+import time
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / '.local'
@@ -18,7 +19,19 @@ def pairing_key() -> str:
                 json.dump({'api_key': secrets.token_urlsafe(32)}, f)
         except FileExistsError:
             pass
-    return json.loads(path.read_text(encoding='utf-8'))['api_key']
+    # Another process may observe the file between exclusive creation and the
+    # final write. Never replace an existing key: installed clients rely on it.
+    deadline = time.monotonic() + 3
+    while True:
+        try:
+            key = json.loads(path.read_text(encoding='utf-8'))['api_key']
+            if not isinstance(key, str) or not key:
+                raise ValueError('Invalid pairing key')
+            return key
+        except (json.JSONDecodeError, KeyError, ValueError):
+            if time.monotonic() >= deadline:
+                raise RuntimeError('Local pairing configuration is invalid or incomplete') from None
+            time.sleep(.05)
 
 
 def load_token() -> str | None:

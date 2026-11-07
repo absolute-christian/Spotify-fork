@@ -3,19 +3,33 @@ import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { resolve, extname } from 'node:path';
 
-export async function buildDotifyFrame() {
+export async function buildDotifyFrame({ useCheckedInAssets = false } = {}) {
+  let checkedInCss;
+  if (useCheckedInAssets) {
+    const snapshot = await readFile('frontend/dotify/frame-document.html', 'utf8');
+    const start = snapshot.indexOf('<style>');
+    const end = snapshot.indexOf('</style>', start + 7);
+    if (start < 0 || end < 0) throw new Error('Checked-in interface stylesheet is missing');
+    checkedInCss = snapshot.slice(start + 7, end);
+    const external = [...checkedInCss.matchAll(/url\(\s*(['"]?)(.*?)\1\s*\)/g)]
+      .map(match => match[2]).filter(name => !name.startsWith('data:') && !name.startsWith('#'));
+    if (!checkedInCss || external.length) throw new Error('Checked-in interface stylesheet contains missing resources');
+  }
   for (const overlay of [false, true]) {
   const result = await build({ entryPoints: [overlay ? 'frontend/dotify/overlay-entry.jsx' : 'frontend/dotify/entry.jsx'], bundle: true, write: false, format: 'iife',
     loader: { '.svg': 'text' },
     minify: true, jsxFactory: 'React.createElement', jsxFragment: 'React.Fragment', target: 'chrome110',
     define: { 'process.env.NODE_ENV': '"production"' }, logOverride: { 'empty-import-meta': 'silent' } });
-  let css = (await Promise.all(['globals-bA04W_Hq.css', 'view-BA7NuomZ.css', 'view-D_3niiR2.css'].map(file => readFile(`.local/dotify-original/assets/${file}`, 'utf8')))).join('\n');
-  const files = [...new Set([...css.matchAll(/url\(([^)'"\s]+)\)/g)].map(match => match[1]).filter(name => !name.startsWith('data:') && !name.startsWith('#')))];
-  for (const file of files) {
-    const content = await readFile(file.startsWith('/') ? resolve('.local/dotify-original', '.' + file) : resolve('.local/dotify-original/assets', file));
-    const mime = { '.woff2': 'font/woff2', '.woff': 'font/woff', '.ttf': 'font/ttf', '.svg': 'image/svg+xml' }[extname(file)] || 'application/octet-stream';
-    const url = `data:${mime};base64,${content.toString('base64')}`;
-    css = css.replaceAll(`url(${file})`, `url(${url})`);
+  let css = checkedInCss;
+  if (!useCheckedInAssets) {
+    css = (await Promise.all(['globals-bA04W_Hq.css', 'view-BA7NuomZ.css', 'view-D_3niiR2.css'].map(file => readFile(`.local/dotify-original/assets/${file}`, 'utf8')))).join('\n');
+    const files = [...new Set([...css.matchAll(/url\(([^)'"\s]+)\)/g)].map(match => match[1]).filter(name => !name.startsWith('data:') && !name.startsWith('#')))];
+    for (const file of files) {
+      const content = await readFile(file.startsWith('/') ? resolve('.local/dotify-original', '.' + file) : resolve('.local/dotify-original/assets', file));
+      const mime = { '.woff2': 'font/woff2', '.woff': 'font/woff', '.ttf': 'font/ttf', '.svg': 'image/svg+xml' }[extname(file)] || 'application/octet-stream';
+      const url = `data:${mime};base64,${content.toString('base64')}`;
+      css = css.replaceAll(`url(${file})`, `url(${url})`);
+    }
   }
   const code = result.outputFiles[0].text.replaceAll('</script', '<\\/script');
   const integrationCss = `html,body,#root{width:100%;height:100%;margin:0}body{background:var(--bg-base,#0b0b0b);overflow:hidden}#root{isolation:isolate}

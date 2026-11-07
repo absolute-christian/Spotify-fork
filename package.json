@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "build:checked-in": "node scripts/build.mjs --checked-in-assets",
     "test": "node --test tests/*.test.mjs",
     "preview": "node scripts/preview.mjs"
   },
