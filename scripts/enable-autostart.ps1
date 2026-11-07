@@ -7,11 +7,16 @@ $taskName = 'ForkSpotify Background'
 if ($Disable) {
     Remove-ItemProperty -LiteralPath $registryPath -Name $name -ErrorAction SilentlyContinue
     if (Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) {
-        Stop-ScheduledTask -TaskName $taskName
+        Stop-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue
         Unregister-ScheduledTask -TaskName $taskName -Confirm:$false
     }
     Get-CimInstance Win32_Process -Filter "Name='pythonw.exe'" | Where-Object {
         $_.CommandLine -like ('*' + (Join-Path $root 'backend\autostart.py') + '*')
+    } | ForEach-Object { Stop-Process -Id $_.ProcessId -ErrorAction SilentlyContinue }
+    # Stop only workers launched with this installation's private interpreter.
+    $projectPython = Join-Path $root '.venv\Scripts\pythonw.exe'
+    Get-CimInstance Win32_Process -Filter "Name='pythonw.exe'" | Where-Object {
+        $_.ExecutablePath -eq $projectPython -and $_.CommandLine -match '\-m backend(?:\.desktop)?(?:\s|$)'
     } | ForEach-Object { Stop-Process -Id $_.ProcessId -ErrorAction SilentlyContinue }
     Write-Host 'Automatic background startup and recovery disabled'
     return
