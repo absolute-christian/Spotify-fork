@@ -34,7 +34,7 @@ aside{background:#222}footer{grid-area:footer;height:80px;background:#222}iframe
 </style><div id="tools"><button id="replace">Replace panels</button><button id="restore">Restore Spotify panels</button><button id="remount">Recreate right panel</button><button id="profile">Profile menu delegate</button><button id="close-profile">Close profile menu</button><output id="profile-status"></output></div>
 <div class="native-root-hash"><header class="native-header-hash">Spotify header and duplicate logo (test fixture)<button data-testid="user-widget-link" aria-expanded="false">Native profile trigger (fixture)</button></header>
 <aside aria-label="Spotify library" style="grid-area:left">Spotify library</aside>
-<main><iframe title="Dotify demo" src="http://127.0.0.1:4173/"></iframe></main>
+<main><iframe title="UI test frame" srcdoc="<!doctype html><p>Test frame</p>"></iframe></main>
 <aside aria-label="Spotify right panel" style="grid-area:right">Spotify right panel</aside>
 <footer aria-label="Spotify player">Spotify player</footer></div><script type="module" src="/check.js"></script></html>`;
 createServer((req, res) => {

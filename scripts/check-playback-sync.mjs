@@ -2,6 +2,7 @@
 // No Spotify/Yandex accounts, music playback or service requests.
 import {build} from 'esbuild';
 import {createServer} from 'node:http';
+import { uiTestShell } from './ui-test-shell.mjs';
 const result=await build({stdin:{contents:`
 import React from 'react';import {createRoot} from 'react-dom/client';
 import {App} from './frontend/src/frame-host.jsx';
@@ -18,7 +19,7 @@ document.querySelector('#switch').onclick=()=>{progress=25000;controller.state={
 document.querySelector('#old').onclick=()=>{resolveOld?.({synced:true,lines:[{text:'Устаревший текст первого трека',start:0}]});document.querySelector('#late').textContent='Старый ответ доставлен'};
 document.querySelector('#clear').onclick=()=>{controller.state={...controller.state,nativeUri:null,nativeTrack:null,playing:false,progress:0,duration:0};publish()};
 setInterval(()=>{if(controller.state.playing){progress+=250;controller.state={...controller.state,progress};publish()}},250);
-createRoot(document.querySelector('#app')).render(<App controller={controller} demo/>);
-`,resolveDir:process.cwd(),loader:'jsx'},bundle:true,write:false,format:'esm',loader:{'.html':'text'},define:{'process.env.NODE_ENV':'"production"'}});
+createRoot(document.querySelector('#app')).render(<App controller={controller}/>);
+`,resolveDir:process.cwd(),loader:'jsx'},bundle:true,write:false,format:'esm',plugins:[uiTestShell],loader:{'.html':'text'},define:{'process.env.NODE_ENV':'"production"'}});
 const html='<!doctype html><meta charset="utf-8"><title>Проверка синхронизации Dotify</title><style>body{margin:0;background:#222;color:white;font-family:sans-serif}#controls{height:44px;display:flex;gap:12px;align-items:center}</style><div id="controls"><span>Локальный тест без звука</span><button id="switch">Сменить фактический трек</button><button id="old">Доставить старый текст</button><button id="clear">Очистить текущий трек</button><output id="requests"></output><output id="late"></output></div><div id="app"></div><script type="module" src="/check.js"></script>';
 createServer((req,res)=>{const js=req.url==='/check.js';res.writeHead(200,{'Content-Type':js?'text/javascript':'text/html; charset=utf-8','Cache-Control':'no-store'});res.end(js?result.outputFiles[0].text:html)}).listen(4178,'127.0.0.1',()=>console.log('Playback sync fixture: http://127.0.0.1:4178'));

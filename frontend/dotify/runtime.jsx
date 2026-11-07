@@ -217,10 +217,7 @@ export const navigationStore = createStore({ activeTab: 'home', isSettingsDialog
   setIsSettingsDialogOpen: value => navigationStore.setState({ isSettingsDialogOpen: value }),
   setSettingsDialogOpen: value => navigationStore.setState({ isSettingsDialogOpen: value }),
   setIsProfileDialogOpen: () => openAccount(),
-  toggleProfileNav: () => {
-    if (playerStore.getState().demo) return openAccount();
-    action('openProfile');
-  },
+  toggleProfileNav: () => action('openProfile'),
   setProfileNavTab: value => navigationStore.getState().setActiveTab(value),
   selectProfileTab: value => navigationStore.getState().setActiveTab(value),
   toLibraryHub: () => { selectCollection(null); navigationStore.getState().setActiveTab('library'); },
@@ -373,16 +370,16 @@ const qualityKeys = ['auto', 'low', 'medium', 'high', 'veryhigh', 'max'];
 const qualityTitles = ['Автоматически', 'Низкое', 'Среднее', 'Высокое', 'Очень высокое', 'Без потерь'];
 export function audioQualityCards() { return qualityKeys.map((key,index) => ({ key, title: qualityTitles[index], numeric: '', icon: originalUi.Icons[index === 5 ? 'wave' : index > 2 ? 'qualityHigh' : index === 2 ? 'qualityMedium' : 'qualityLow'] })); }
 export function useSpotifyAudioBundle() {
-  const audio = nativeAudioStore(), demo = playerStore(s => s.demo), scroll = React.useRef(null);
+  const audio = nativeAudioStore(), scroll = React.useRef(null);
   React.useEffect(() => { let live = true;
     nativeAudioStore.setState({ loading: true });
-    const load = async () => { try { const value = demo ? { quality: 0, maxQuality: 4, device: 'default', devices: [], normalization: true, gapless: true, crossfade: false } : await call('audioSettings'); if (live) nativeAudioStore.setState({ ...value, loaded: true, loading: false }); } catch (error) { if (live) { nativeAudioStore.setState({ loaded: false, loading: false }); notificationStore.setState({ error: error.message }); } } };
+    const load = async () => { try { const value = await call('audioSettings'); if (live) nativeAudioStore.setState({ ...value, loaded: true, loading: false }); } catch (error) { if (live) { nativeAudioStore.setState({ loaded: false, loading: false }); notificationStore.setState({ error: error.message }); } } };
     load(); return () => { live = false; };
-  }, [demo]);
+  }, []);
   const save = async patch => {
     if (!audio.loaded || audio.loading) return;
     nativeAudioStore.setState({ loading: true });
-    try { const value = demo ? { ...nativeAudioStore.getState(), ...patch, ...(patch.quality ? { quality: qualityKeys.indexOf(patch.quality) } : {}) } : await call('updateAudioSettings', patch); nativeAudioStore.setState({ ...value, loading: false }); }
+    try { const value = await call('updateAudioSettings', patch); nativeAudioStore.setState({ ...value, loading: false }); }
     catch (error) { nativeAudioStore.setState({ loading: false }); notificationStore.setState({ error: error.message }); }
   };
   return { audioDataValue: { audioDevices: audio.devices, activeDeviceId: audio.device, gaplessEnabled: audio.gapless, crossfadeEnabled: audio.crossfade, normalizationEnabled: audio.normalization, hasLosslessAccess: audio.maxQuality >= 5, currentAudioQuality: qualityKeys[audio.quality] || 'auto', playerSettings: {}, loading: audio.loading || !audio.loaded },
@@ -557,11 +554,11 @@ export function AccountPanel() {
   const connected = accountStore(s => s.isAuthenticated), [token, setToken] = React.useState(''), [saving, setSaving] = React.useState(false);
   const [replaceToken, setReplaceToken] = React.useState(false);
   const [authError, setAuthError] = React.useState(''), [authSuccess, setAuthSuccess] = React.useState(false);
-  const status = playerStore(s => s.bridgeStatus || {}), demo = playerStore(s => s.demo);
-  return <div className="space-y-6 p-5"><h3 className="text-lg font-semibold">Яндекс Музыка</h3><p className="text-sm text-muted-foreground">{demo ? 'Демонстрационный режим: музыка и подключение к аккаунтам имитируются' : connected ? 'Аккаунт подключён' : 'Подключите аккаунт для Моей волны'}</p>
-    {!demo && status.savedToken && <p role="status" className="text-sm text-muted-foreground">{connected ? 'Токен сохранён в хранилище Windows, подключение восстанавливается автоматически' : status.restoring ? 'Восстанавливаем подключение с сохранённым токеном…' : status.accountError || 'Токен сохранён'}</p>}
-    {!demo && (connected || status.savedToken) && <Button variant="ghost" onClick={() => setReplaceToken(value => !value)}>{replaceToken ? 'Отмена' : 'Заменить токен'}</Button>}
-    {!demo && ((!connected && !status.savedToken) || replaceToken) && <form className="space-y-3" noValidate onSubmit={async event => {
+  const status = playerStore(s => s.bridgeStatus || {});
+  return <div className="space-y-6 p-5"><h3 className="text-lg font-semibold">Яндекс Музыка</h3><p className="text-sm text-muted-foreground">{connected ? 'Аккаунт подключён' : 'Подключите аккаунт для Моей волны'}</p>
+    {status.savedToken && <p role="status" className="text-sm text-muted-foreground">{connected ? 'Токен сохранён в хранилище Windows, подключение восстанавливается автоматически' : status.restoring ? 'Восстанавливаем подключение с сохранённым токеном…' : status.accountError || 'Токен сохранён'}</p>}
+    {(connected || status.savedToken) && <Button variant="ghost" onClick={() => setReplaceToken(value => !value)}>{replaceToken ? 'Отмена' : 'Заменить токен'}</Button>}
+    {((!connected && !status.savedToken) || replaceToken) && <form className="space-y-3" noValidate onSubmit={async event => {
       event.preventDefault(); if (saving) return;
       setAuthError(''); setAuthSuccess(false);
       if (token.trim().length < 10) { setAuthError('Введите OAuth-токен Яндекс Музыки целиком'); return; }
@@ -576,7 +573,7 @@ export function AccountPanel() {
       {authError && <p id="yandex-auth-error" role="alert" className="text-sm text-destructive">{authError}</p>}
       {authSuccess && <p role="status" className="text-sm">Аккаунт Яндекс Музыки подключён</p>}
     </form>}
-    {!demo && <div className="space-y-2 text-sm text-muted-foreground"><p>{status.online ? 'Локальный мост доступен' : 'Нет связи с локальным мостом'}</p><p>Ожидают доставки: {status.pending || 0}</p>{status.error && <p role="alert">{status.error}</p>}</div>}
+    <div className="space-y-2 text-sm text-muted-foreground"><p>{status.online ? 'Локальный мост доступен' : 'Нет связи с локальным мостом'}</p><p>Ожидают доставки: {status.pending || 0}</p>{status.error && <p role="alert">{status.error}</p>}</div>
     <Button variant="ghost" onClick={() => action('stopWave')}>Выключить Мою волну</Button></div>;
 }
 let lastReportedError = '';
@@ -599,7 +596,7 @@ export function acceptSnapshot(snapshot) {
   playerStore.setState({ currentSong: stableSong, queueSongs, duration: snapshot.duration / 1000,
     isPlaying: snapshot.playing, isLoading: snapshot.loading, volume: snapshot.volume, isMuted: snapshot.volume === 0,
     repeatMode: snapshot.active ? 'none' : snapshot.repeat === 2 ? 'one' : snapshot.repeat ? 'all' : 'none', isShuffled: !snapshot.active && !!snapshot.shuffle, shuffleType: snapshot.active ? 'none' : snapshot.shuffleType || (snapshot.shuffle ? 'normal' : 'none'),
-    queueName: stableSong?.fromplaylist || '', queueType: snapshot.active ? 'wave' : 'playlist', fromplaylist: stableSong?.fromplaylist || '', playlistTitle: stableSong?.fromplaylist || '', waveActive: snapshot.active, connected: snapshot.connected, demo: !!snapshot.demo,
+    queueName: stableSong?.fromplaylist || '', queueType: snapshot.active ? 'wave' : 'playlist', fromplaylist: stableSong?.fromplaylist || '', playlistTitle: stableSong?.fromplaylist || '', waveActive: snapshot.active, connected: snapshot.connected,
     bridgeStatus: shallowEqual(previous.bridgeStatus,nextBridge) ? previous.bridgeStatus : nextBridge });
   if (!playerStore.getState().isSeeking) timeStore.setState({ currentTime: snapshot.progress / 1000 });
   if (stableSong && favoriteStore.getState().favorites.has(stableSong.id)!==!!snapshot.liked) { const favorites = new Set(favoriteStore.getState().favorites); snapshot.liked ? favorites.add(stableSong.id) : favorites.delete(stableSong.id); favoriteStore.setState({ favorites }); }

@@ -4,7 +4,7 @@ const sameTrack = (a,b) => Object.is(a,b) || !!a && !!b && Object.keys(a).length
 
 // Queue changes can arrive while paused, without any controller state change.
 // Poll just that data at a bounded cadence, while media/actions stay immediate.
-export function createFrameSnapshotPublisher(controller, send, {now=()=>performance.now(),hidden=()=>false,demo=false}={}) {
+export function createFrameSnapshotPublisher(controller, send, {now=()=>performance.now(),hidden=()=>false}={}) {
   const shouldPublish=snapshotCadence(now);
   let queue=[],queueAt=-Infinity,queueActive,queueUri;
   return (force=false)=>{
@@ -14,7 +14,7 @@ export function createFrameSnapshotPublisher(controller, send, {now=()=>performa
       if (next.length!==queue.length || next.some((track,index)=>!sameTrack(track,queue[index]))) queue=next;
       queueAt=time;queueActive=state.active;queueUri=state.nativeUri;
     }
-    const payload={...state,queue,demo};
+    const payload={...state,queue};
     if (!shouldPublish(payload,background,force)) return false;
     send(payload);return true;
   };
