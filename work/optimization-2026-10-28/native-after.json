@@ -1,9 +1,0 @@
-{
-  "http_requests": 240,
-  "http_response_bytes": 146452,
-  "native_bridge_bytes": 146450,
-  "measurement_ms": 130.65,
-  "simulated_seconds": 60,
-  "includes_live_spotify": false,
-  "fixture_design_bytes": 100000
-}
