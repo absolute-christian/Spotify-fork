@@ -27,6 +27,6 @@ Source: "..\build\embedded-python\*"; DestDir: "{app}\.venv\Scripts"; Flags: ign
 [Icons]
 Name: "{group}\Configure My Wave"; Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\scripts\setup-release.ps1"""; WorkingDir: "{app}"
 [Run]
-Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\scripts\setup-release.ps1"""; WorkingDir: "{app}"; Description: "Configure Spotify and start the background component"; Flags: postinstall waituntilterminated
+Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\scripts\setup-release.ps1"""; WorkingDir: "{app}"; Description: "Configure Spotify and start the background component"; Flags: postinstall waituntilterminated skipifsilent
 [UninstallRun]
 Filename: "{sys}\WindowsPowerShell\v1.0\powershell.exe"; Parameters: "-NoProfile -ExecutionPolicy Bypass -File ""{app}\scripts\enable-autostart.ps1"" -Disable"; WorkingDir: "{app}"; Flags: runhidden waituntilterminated; RunOnceId: "StopMyWave"

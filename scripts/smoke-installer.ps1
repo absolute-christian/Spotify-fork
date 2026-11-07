@@ -6,7 +6,11 @@ $destination = Join-Path $env:RUNNER_TEMP 'mywave-install-smoke'
 if (Test-Path -LiteralPath $destination) { throw 'Smoke test destination already exists.' }
 $worker = $null
 try {
-    $setup = Start-Process -FilePath $installer -ArgumentList @('/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART','/SP-',('/DIR="' + $destination + '"')) -Wait -PassThru
+    $setup = Start-Process -FilePath $installer -ArgumentList @('/VERYSILENT','/SUPPRESSMSGBOXES','/NORESTART','/SP-',('/DIR="' + $destination + '"')) -PassThru
+    if (-not $setup.WaitForExit(180000)) {
+        Stop-Process -Id $setup.Id -Force -ErrorAction SilentlyContinue
+        throw 'Installer smoke test timed out.'
+    }
     if ($setup.ExitCode -ne 0) { throw "Installer smoke test failed with exit code $($setup.ExitCode)." }
     $python = Join-Path $destination '.venv\Scripts\python.exe'
     if (-not (Test-Path -LiteralPath $python)) { throw 'Installed runtime is missing.' }

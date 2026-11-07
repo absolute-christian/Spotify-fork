@@ -85,13 +85,21 @@ if (-not $NoApply) {
     # stock client can be backed up. Never replace an existing backup here.
     if ($applyExit -ne 0 -and ($applyOutput -join "`n") -match "You haven't backed up\. Run") {
         Write-Host 'Creating the first Spotify backup before applying the fork'
-        & $spicetify -n backup apply
-        $applyExit = $LASTEXITCODE
+        try {
+            $ErrorActionPreference = 'Continue'
+            $backupOutput = @(& $spicetify -n backup apply 2>&1)
+            $applyExit = $LASTEXITCODE
+        } finally { $ErrorActionPreference = $previousPreference }
+        $backupOutput | ForEach-Object { Write-Host $_ }
     }
     if ($applyExit -ne 0 -and ($applyOutput -join "`n") -match 'Spotify version and backup version are mismatched') {
         Write-Host 'Spotify updated; refreshing the matching original backup before applying the fork'
-        & $spicetify -n backup apply
-        $applyExit = $LASTEXITCODE
+        try {
+            $ErrorActionPreference = 'Continue'
+            $backupOutput = @(& $spicetify -n backup apply 2>&1)
+            $applyExit = $LASTEXITCODE
+        } finally { $ErrorActionPreference = $previousPreference }
+        $backupOutput | ForEach-Object { Write-Host $_ }
     }
     if ($applyExit -ne 0) { throw 'Cannot apply the fork to the current Spotify version' }
 }
