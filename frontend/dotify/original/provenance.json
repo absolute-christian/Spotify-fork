@@ -1,0 +1,260 @@
+{
+  "source": "e222e41f4553e798f765283cd1c231ead118e9e45bd1420474588221ec792358",
+  "modules": [
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "declarations": 1208,
+      "adapters": {
+        "Br": "unsupportedNativeApi",
+        "Oy": "windowStore",
+        "gu": "useTranslation",
+        "tx": "cacheStore",
+        "Xx": "Nothing",
+        "mo": "unsupportedDatabase",
+        "Hi": "coverUrl",
+        "Ga": "settingsStore",
+        "LS": "playerStore",
+        "Ar": "preload",
+        "go": "designDatabase",
+        "ba": "applyOriginalTheme",
+        "B_": "accountStore",
+        "bh": "emptyStore",
+        "H_": "accountStore",
+        "Ch": "emptyStore",
+        "bi": "unsupportedNativeApi",
+        "Fp": "nativeCache",
+        "wg": "unsupportedAction",
+        "Ly": "notificationStore",
+        "km": "useArtistSubscription",
+        "mm": "emptyStore",
+        "Yy": "navigationStore",
+        "ly": "libraryStore",
+        "Pm": "favoriteStore",
+        "fw": "unsupportedAudio",
+        "am": "unsupportedLibrary",
+        "yo": "unsupportedDatabase",
+        "wo": "unsupportedDatabase",
+        "XP": "audioStore",
+        "S_": "dislikeStore",
+        "PP": "remoteStore",
+        "CP": "remoteStore",
+        "Xa": "usePlayerSettings",
+        "ts": "useViewSettings",
+        "ss": "useQueueSettings",
+        "os": "useCoverSettings",
+        "us": "useUiSettings",
+        "Vy": "sourcesStore",
+        "F_": "historyStore",
+        "Qy": "useActiveTab",
+        "LP": "timeStore",
+        "um": "trackOrigin"
+      }
+    },
+    {
+      "file": "view--KkOqVCp.js",
+      "declarations": 98,
+      "adapters": {
+        "St": "Nothing",
+        "pt": "Nothing",
+        "ft": "NativeAudioButton",
+        "Ae": "Nothing"
+      }
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "declarations": 742,
+      "adapters": {
+        "Ot": "spotifyWindow",
+        "It": "desktopPlatform",
+        "tf": "nativeDesktopAvailable",
+        "r": "settingsStore",
+        "u": "playerStore",
+        "c": "useSettings",
+        "w": "navigationStore",
+        "b": "panelStore",
+        "Jp": "TrackMenuTrigger",
+        "_i": "copyText",
+        "le": "timeStore",
+        "qx": "clock",
+        "j": "Nothing",
+        "on": "useViewSettings",
+        "oa": "useDislike",
+        "vg": "useFavorite",
+        "cx": "Nothing",
+        "Vl": "canControl",
+        "Dn": "lyricsStore",
+        "ox": "noCanvas",
+        "ch": "readTrackSettings",
+        "up": "usePlayerActions",
+        "cp": "usePlayerData",
+        "mp": "usePlayerBundle",
+        "mv": "PlaylistAction",
+        "Rg": "TrackMenu",
+        "_l": "emptyStore",
+        "rn": "useFavoriteActions",
+        "Wv": "useHasLyrics",
+        "Bc": "Nothing",
+        "au": "useSearchBundle",
+        "Ku": "SpotifyLogo",
+        "ms": "useLocation",
+        "Nj": "useNavigation",
+        "Ff": "TabTrigger",
+        "pj": "SearchTrigger",
+        "cn": "useUiSettings",
+        "Fk": "Nothing",
+        "ru": "searchOverlayStore",
+        "Hx": "useTime"
+      }
+    },
+    {
+      "file": "transport-B7U9wFta.js",
+      "declarations": 12,
+      "adapters": {}
+    },
+    {
+      "file": "view-CvHfwEcU.js",
+      "declarations": 106,
+      "adapters": {}
+    },
+    {
+      "file": "view-CtpRf6zv.js",
+      "declarations": 37,
+      "adapters": {}
+    },
+    {
+      "file": "view-juTcB9hq.js",
+      "declarations": 220,
+      "adapters": {
+        "yl": "Nothing",
+        "xt": "artistNavigationStore",
+        "ie": "useSavedAlbums",
+        "Bt": "libraryHubStore",
+        "hl": "Nothing",
+        "aa": "queueCollection",
+        "Dr": "LibraryHub",
+        "en": "Nothing",
+        "Xr": "useLibraryBundle",
+        "u": "useNavigationType",
+        "d": "useLocation",
+        "c": "useSearchParams"
+      }
+    },
+    {
+      "file": "view-B8ykjgw8.js",
+      "declarations": 297,
+      "adapters": {
+        "it": "browserOpenFiles",
+        "he": "themeRepository",
+        "oe": "navigationStore",
+        "Ei": "Nothing",
+        "an": "usePresets",
+        "Ye": "browserSaveFile",
+        "Ks": "Nothing",
+        "je": "removeCustomFont",
+        "be": "saveCustomFont",
+        "we": "loadCustomFonts",
+        "pe": "getThemeGroup",
+        "Tr": "AccountPanel",
+        "ss": "useDimensions",
+        "se": "panelStore",
+        "t": "useLocation",
+        "Ts": "useSettingsRoute"
+      }
+    },
+    {
+      "file": "titles-4S49xODV.js",
+      "declarations": 5,
+      "adapters": {}
+    },
+    {
+      "file": "seek-KEpYCFv_.js",
+      "declarations": 14,
+      "adapters": {}
+    },
+    {
+      "file": "view-Bg7pA49X.js",
+      "declarations": 63,
+      "adapters": {
+        "_": "overlayEventManager",
+        "P": "overlayInvoke",
+        "S": "overlaySettingsRepository",
+        "C": "overlayEmit",
+        "f": "overlayStorage"
+      }
+    },
+    {
+      "file": "progress-B9dXWW2R.js",
+      "declarations": 14,
+      "adapters": {}
+    },
+    {
+      "file": "reveal-w9O7xfRv.js",
+      "declarations": 6,
+      "adapters": {}
+    },
+    {
+      "file": "operations-gCk3_j9p.js",
+      "declarations": 36,
+      "adapters": {}
+    },
+    {
+      "file": "use-premium-Dm1tM_kA.js",
+      "declarations": 29,
+      "adapters": {
+        "I": "useAccess"
+      }
+    },
+    {
+      "file": "friends-D1sx-wsm.js",
+      "declarations": 15,
+      "adapters": {}
+    },
+    {
+      "file": "wave-DG_BvUe1.js",
+      "declarations": 1,
+      "adapters": {
+        "v": "waveStore"
+      }
+    },
+    {
+      "file": "storage-CTKTSESD.js",
+      "declarations": 37,
+      "adapters": {}
+    },
+    {
+      "file": "chips-vEIc28iB.js",
+      "declarations": 9,
+      "adapters": {}
+    },
+    {
+      "file": "textarea-FtyWk6W3.js",
+      "declarations": 5,
+      "adapters": {}
+    },
+    {
+      "file": "store-Dk25DwWn.js",
+      "declarations": 16,
+      "adapters": {}
+    },
+    {
+      "file": "popover-_PbJvV10.js",
+      "declarations": 15,
+      "adapters": {}
+    },
+    {
+      "file": "tracks-S2LS9kyP.js",
+      "declarations": 25,
+      "adapters": {}
+    },
+    {
+      "file": "view-CHncH6PY.js",
+      "declarations": 56,
+      "adapters": {}
+    },
+    {
+      "file": "loading-vDvH3hqW.js",
+      "declarations": 5,
+      "adapters": {}
+    }
+  ]
+}

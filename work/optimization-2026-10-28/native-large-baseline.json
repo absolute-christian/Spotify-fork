@@ -1,0 +1,10 @@
+{
+  "http_requests": 360,
+  "http_response_bytes": 36117000,
+  "native_bridge_bytes": 24077520,
+  "measurement_ms": 461.56,
+  "simulated_seconds": 60,
+  "includes_live_spotify": false,
+  "fixture_padding_bytes": 100000,
+  "mode": "legacy"
+}

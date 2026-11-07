@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Пример Dotify 09.05.2025",
+    "data": {
+      "gifSettings": [
+        {
+          "overlay": 0,
+          "url": "https://i.pinimg.com/originals/f1/eb/a0/f1eba09749f72888d17f62c3ae0c7e7e.gif",
+          "usage": "background"
+        },
+        {
+          "url": "https://i.pinimg.com/originals/77/c5/01/77c5016752c557b2bf8ee52e006be75f.gif",
+          "usage": "cover"
+        }
+      ],
+      "transparency": {
+        "enabled": true,
+        "opacity": 80
+      },
+      "gifLibrary": [
+        "https://i.pinimg.com/originals/77/c5/01/77c5016752c557b2bf8ee52e006be75f.gif",
+        "https://i.pinimg.com/originals/f1/eb/a0/f1eba09749f72888d17f62c3ae0c7e7e.gif"
+      ],
+      "timestamp": "2025-05-09T20:15:00.370Z"
+    }
+  }
+]

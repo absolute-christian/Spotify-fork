@@ -1,0 +1,39 @@
+{
+  "synthetic": true,
+  "seconds": 60,
+  "queueLength": 50,
+  "cases": [
+    {
+      "playing": false,
+      "hidden": false,
+      "notifications": 1,
+      "posts": 1,
+      "bytes": 12556,
+      "queueReads": 61
+    },
+    {
+      "playing": false,
+      "hidden": true,
+      "notifications": 1,
+      "posts": 1,
+      "bytes": 12556,
+      "queueReads": 21
+    },
+    {
+      "playing": true,
+      "hidden": false,
+      "notifications": 241,
+      "posts": 241,
+      "bytes": 3025709,
+      "queueReads": 61
+    },
+    {
+      "playing": true,
+      "hidden": true,
+      "notifications": 241,
+      "posts": 61,
+      "bytes": 765842,
+      "queueReads": 21
+    }
+  ]
+}

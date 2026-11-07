@@ -1,0 +1,324 @@
+{
+  "roots": [
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "cl",
+      "as": "OriginalShuffle"
+    },
+    {
+      "file": "view--KkOqVCp.js",
+      "name": "default"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Wf",
+      "local": true,
+      "as": "OriginalShell"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "qk",
+      "local": true,
+      "as": "OriginalMini"
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "B",
+      "as": "Button"
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "I",
+      "as": "Icons"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "aU",
+      "as": "LikeButton"
+    },
+    {
+      "file": "transport-B7U9wFta.js",
+      "name": "W",
+      "as": "Transport"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Xj",
+      "local": true,
+      "as": "OriginalNavigation"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Ty",
+      "local": true,
+      "as": "OriginalFullscreen"
+    },
+    {
+      "file": "view-CvHfwEcU.js",
+      "name": "default"
+    },
+    {
+      "file": "view-CtpRf6zv.js",
+      "name": "default"
+    },
+    {
+      "file": "view-juTcB9hq.js",
+      "name": "default"
+    },
+    {
+      "file": "view-B8ykjgw8.js",
+      "name": "default"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "cu",
+      "local": true,
+      "as": "OriginalSearchHeader"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Vf",
+      "local": true,
+      "as": "OriginalPanelFrame"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "ik",
+      "local": true,
+      "as": "OriginalPlaybackPanel"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "ok",
+      "local": true,
+      "as": "OriginalFullscreenPortal"
+    },
+    {
+      "file": "view-juTcB9hq.js",
+      "name": "pr",
+      "as": "OriginalLibrarySections",
+      "local": true
+    },
+    {
+      "file": "titles-4S49xODV.js",
+      "name": "T",
+      "as": "OriginalSectionTabs",
+      "local": false
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "cQ",
+      "as": "OriginalThemes"
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "e7",
+      "as": "OriginalThemeGroups"
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "xi",
+      "as": "originalThemeVariables",
+      "local": true
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "ap",
+      "as": "OriginalTabPage",
+      "local": true
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Ei",
+      "local": true,
+      "as": "OriginalThemeAutomation"
+    },
+    {
+      "file": "globals-Bc3qFUyf.js",
+      "name": "dx",
+      "local": true,
+      "as": "OriginalCustomAssets"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "Tm",
+      "local": true,
+      "as": "OriginalBackground"
+    },
+    {
+      "file": "seek-KEpYCFv_.js",
+      "name": "OriginalMaterialSettings",
+      "local": true
+    },
+    {
+      "file": "view-Bg7pA49X.js",
+      "name": "default"
+    },
+    {
+      "file": "main-DVjTVWDM.js",
+      "name": "af",
+      "local": true,
+      "as": "OriginalWindowControls"
+    }
+  ],
+  "replace": {
+    "main-DVjTVWDM.js": {
+      "Ku": "SpotifyLogo",
+      "cp": "usePlayerData",
+      "up": "usePlayerActions",
+      "mp": "usePlayerBundle",
+      "ox": "noCanvas",
+      "cx": "Nothing",
+      "qx": "clock",
+      "Hx": "useTime",
+      "ch": "readTrackSettings",
+      "uh": "writeTrackSettings",
+      "dh": "writeTrackSettings",
+      "vg": "useFavorite",
+      "oa": "useDislike",
+      "rn": "useFavoriteActions",
+      "mv": "PlaylistAction",
+      "Rg": "TrackMenu",
+      "sn": "useCoverSettings",
+      "on": "useViewSettings",
+      "ln": "useQueueSettings",
+      "cn": "useUiSettings",
+      "c": "useSettings",
+      "r": "settingsStore",
+      "u": "playerStore",
+      "le": "timeStore",
+      "b": "panelStore",
+      "sp": "statsStore",
+      "ep": "inventoryStore",
+      "j": "Nothing",
+      "Jp": "TrackMenuTrigger",
+      "Vl": "canControl",
+      "_l": "emptyStore",
+      "Lk": "unsupportedAction",
+      "Fk": "Nothing",
+      "Nj": "useNavigation",
+      "pj": "SearchTrigger",
+      "Ff": "TabTrigger",
+      "ru": "searchOverlayStore",
+      "w": "navigationStore",
+      "_i": "copyText",
+      "au": "useSearchBundle",
+      "Dn": "lyricsStore",
+      "Wv": "useHasLyrics",
+      "Bc": "Nothing",
+      "tf": "nativeDesktopAvailable",
+      "It": "desktopPlatform",
+      "Ot": "spotifyWindow"
+    },
+    "globals-Bc3qFUyf.js": {
+      "LS": "playerStore",
+      "Ga": "settingsStore",
+      "Oy": "windowStore",
+      "XP": "audioStore",
+      "LP": "timeStore",
+      "UP": "audioEngine",
+      "gu": "useTranslation",
+      "Br": "unsupportedNativeApi",
+      "Qy": "useActiveTab",
+      "Ar": "preload",
+      "Xx": "Nothing",
+      "um": "trackOrigin",
+      "us": "useUiSettings",
+      "lN": "Nothing",
+      "yo": "unsupportedDatabase",
+      "mo": "unsupportedDatabase",
+      "wo": "unsupportedDatabase",
+      "go": "designDatabase",
+      "kh": "noDotifySession",
+      "bh": "emptyStore",
+      "Ch": "emptyStore",
+      "ly": "libraryStore",
+      "Ly": "notificationStore",
+      "Vy": "sourcesStore",
+      "Hy": "panelStore",
+      "By": "emptyStore",
+      "Yy": "navigationStore",
+      "rm": "emptyStore",
+      "km": "useArtistSubscription",
+      "mm": "emptyStore",
+      "Pm": "favoriteStore",
+      "S_": "dislikeStore",
+      "F_": "historyStore",
+      "H_": "accountStore",
+      "B_": "accountStore",
+      "cw": "lyricsStore",
+      "CP": "remoteStore",
+      "PP": "remoteStore",
+      "tx": "cacheStore",
+      "ww": "unsupportedRealtime",
+      "fw": "unsupportedAudio",
+      "bi": "unsupportedNativeApi",
+      "wg": "unsupportedAction",
+      "Up": "nativeCache",
+      "Fp": "nativeCache",
+      "am": "unsupportedLibrary",
+      "os": "useCoverSettings",
+      "ts": "useViewSettings",
+      "ss": "useQueueSettings",
+      "Xa": "usePlayerSettings",
+      "ba": "applyOriginalTheme",
+      "Hi": "coverUrl"
+    },
+    "view--KkOqVCp.js": {
+      "pt": "Nothing",
+      "ft": "NativeAudioButton",
+      "Ae": "Nothing",
+      "St": "Nothing"
+    },
+    "wave-DG_BvUe1.js": {
+      "v": "waveStore"
+    },
+    "use-premium-Dm1tM_kA.js": {
+      "I": "useAccess"
+    },
+    "view-juTcB9hq.js": {
+      "Xr": "useLibraryBundle",
+      "c": "useSearchParams",
+      "d": "useLocation",
+      "u": "useNavigationType",
+      "Dr": "LibraryHub",
+      "ie": "useSavedAlbums",
+      "Bt": "libraryHubStore",
+      "xt": "artistNavigationStore",
+      "hl": "Nothing",
+      "yl": "Nothing",
+      "en": "Nothing",
+      "aa": "queueCollection"
+    },
+    "view-B8ykjgw8.js": {
+      "an": "usePresets",
+      "Ts": "useSettingsRoute",
+      "t": "useLocation",
+      "oe": "navigationStore",
+      "se": "panelStore",
+      "ss": "useDimensions",
+      "Tr": "AccountPanel",
+      "Ei": "Nothing",
+      "he": "themeRepository",
+      "we": "loadCustomFonts",
+      "be": "saveCustomFont",
+      "je": "removeCustomFont",
+      "Ks": "Nothing",
+      "pe": "getThemeGroup",
+      "it": "browserOpenFiles",
+      "Ye": "browserSaveFile"
+    },
+    "view-Bg7pA49X.js": {
+      "C": "overlayEmit",
+      "P": "overlayInvoke",
+      "_": "overlayEventManager",
+      "S": "overlaySettingsRepository",
+      "f": "overlayStorage"
+    }
+  },
+  "inlineBundles": {
+    "view-CvHfwEcU.js": {
+      "homeDataValue": "useHomeBundle"
+    }
+  }
+}

@@ -1,0 +1,5221 @@
+{
+  "album": {
+    "release_date": "Релиз"
+  },
+  "api": {
+    "errors": {
+      "unknown": "Неизвестная ошибка",
+      "not_found": "Не найдено",
+      "forbidden": "Доступ запрещен",
+      "server_error": "Ошибка сервера",
+      "platform_error": "Ошибка музыкального сервиса",
+      "network_error": "Ошибка сети",
+      "timeout_error": "Превышено время ожидания",
+      "service_unavailable": "Сервис недоступен",
+      "account_banned": "Ваш аккаунт заблокирован",
+      "token_expired": "Сессия истекла",
+      "playlist": {
+        "resolve_url_failed": "Не удалось разрешить короткую ссылку",
+        "invalid_url": "Неверный формат ссылки",
+        "private_or_restricted": "Плейлист недоступен или скрыт настройками приватности. Проверьте ваш токен в настройках.",
+        "not_found": "Плейлист не найден",
+        "unsupported_platform": "Данная платформа временно не поддерживается для импорта",
+        "auth_required": "Требуется авторизация в сервисе"
+      }
+    }
+  },
+  "artist": {
+    "selection": {
+      "title": "Исполнители"
+    },
+    "retry": "Повторить",
+    "loading": "Загрузка...",
+    "subscribe": "Подписаться",
+    "unsubscribe": "Отписаться",
+    "subscribed": "Вы подписаны",
+    "tabs": {
+      "tracks": "Треки",
+      "albums": "Альбомы",
+      "album": "Альбом",
+      "artists": "Исполнители",
+      "feats": "Фиты",
+      "popular": "Популярные",
+      "new": "Новое",
+      "reposts": "Репосты",
+      "related": "Похожие"
+    },
+    "album": {
+      "release_date": "Релиз",
+      "no": {
+        "tracks": "Треки не найдены",
+        "albums": "Альбомы не найдены"
+      },
+      "error": {
+        "title": "Ошибка"
+      }
+    },
+    "subscription": {
+      "error": "Ошибка при изменении подписки"
+    },
+    "tracks": {
+      "other": "{{count}} треков"
+    },
+    "stats": {
+      "listeners": "слушателей",
+      "and": "и"
+    },
+    "listeners": "Слушателей",
+    "popular": "Популярные",
+    "new": "Новое",
+    "albums": "Альбомы",
+    "reposts": "Репосты",
+    "feats": "Фиты",
+    "related": "Похожие",
+    "about": "Об артисте",
+    "listen": "Слушать",
+    "shuffle": "Перемешать",
+    "albums_count": {
+      "one": "{{count}} альбом",
+      "few": "{{count}} альбома",
+      "many": "{{count}} альбомов",
+      "other": "{{count}} альбомов"
+    },
+    "wave": "Волна по артисту"
+  },
+  "auction": {
+    "title": "Торговая площадка",
+    "subtitle": "Покупайте и продавайте редкие предметы",
+    "tabs": {
+      "market": "Рынок",
+      "sell": "Продать",
+      "my": "Мои лоты"
+    },
+    "buy": "Купить",
+    "listed": "Предмет выставлен на продажу!",
+    "cancelled": "Лот снят с продажи",
+    "empty": "На рынке пока нет предметов",
+    "empty_hint": "Выставьте свой предмет на продажу, он появится здесь",
+    "select_item": "Выберите предмет для продажи",
+    "price": "Цена продажи",
+    "list_item": "Выставить на продажу",
+    "select_hint": "Выберите предмет из инвентаря слева, чтобы выставить его на торги",
+    "commission": "Комиссия (5%)",
+    "you_receive": "Вы получите",
+    "no_listings": "У вас нет активных объявлений",
+    "confirm_title": "Подтверждение покупки",
+    "confirm_desc": "Вы уверены, что хотите потратить {{price}} монет на этот предмет?",
+    "confirm_item_desc": "Вы уверены, что хотите купить {{name}}?",
+    "buy_now": "Оплатить",
+    "cannot_buy_self": "Вы не можете купить свой предмет",
+    "status": {
+      "active": "В продаже",
+      "completed": "Продано",
+      "cancelled": "Отменено",
+      "expired": "Истёк срок",
+      "finished": "Завершён"
+    },
+    "item": {
+      "unknown": "Неизвестный предмет",
+      "unnamed": {
+        "title": "Титул #{id}",
+        "design": "Дизайн #{id}",
+        "case": "Кейс #{id}",
+        "nft": "Подарок #{id}",
+        "emblem": "Безымянная эмблема"
+      }
+    },
+    "item_type": {
+      "title": "Титул",
+      "design": "Дизайн",
+      "case": "Кейс",
+      "nft": "Подарок",
+      "username": "Имя"
+    },
+    "category": {
+      "all": "Все",
+      "title": "Титулы",
+      "design": "Дизайны",
+      "case": "Кейсы",
+      "nft": "Подарки",
+      "username": "Имена",
+      "emblem": "Эмблемы"
+    },
+    "sort": {
+      "price_desc": "По цене (убыв.)",
+      "price_asc": "По цене (возр.)",
+      "rarity_desc": "По редкости",
+      "name_asc": "По имени (А-Я)"
+    },
+    "create": {
+      "title": "Создание аукциона",
+      "invalid_price": "Неверная цена",
+      "success": "Лот создан",
+      "price_label": "Цена",
+      "submit": "Выставить",
+      "select_hint": "Выберите предмет"
+    },
+    "design_type": {
+      "frame": "Рамка",
+      "default": "Дизайн"
+    },
+    "received": "Вы получите",
+    "buy_success": "Успешная покупка",
+    "invalid_price": "Неверная цена",
+    "cancel_success": "Отменено",
+    "my_listings": {
+      "empty": "Нет лотов"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Вход",
+      "welcome_back": "С возвращением!",
+      "prompt": "Введите свои данные для входа в аккаунт",
+      "login_label": "Логин или почта",
+      "login_or_email_placeholder": "Логин или почта",
+      "password_placeholder": "Пароль",
+      "forgot_password": "Забыли пароль?",
+      "login_button": "Войти",
+      "tab_login": "Войти",
+      "logging_in": "Вход...",
+      "or_continue_with": "Или продолжить с",
+      "create_account_button": "Создать",
+      "no_account": "Еще нет аккаунта?",
+      "switch_account": "Войти в другой аккаунт"
+    },
+    "register": {
+      "title": "Регистрация",
+      "subtitle": "Давай создадим тебе аккаунт",
+      "prompt": "Введите свои данные для создания аккаунта",
+      "has_account": "Есть аккаунт",
+      "create_account": "Создать",
+      "tab_create": "Создать",
+      "nickname_label": "Имя",
+      "username_label": "Юзернейм",
+      "email_label": "Почта",
+      "password_label": "Пароль",
+      "bio_label": "О себе",
+      "password_hint": "Минимум 8 символов",
+      "step1_title": "Давай начнем с почты",
+      "step2_title": "Теперь придумай пароль",
+      "step3_title": "Выбери себе юзернейм",
+      "step4_title": "Почти готово! Еще чуток",
+      "step1_prompt": "Сначала укажите данные для входа",
+      "step2_prompt": "Теперь немного о себе",
+      "email_placeholder": "Ваш email",
+      "password_placeholder": "Ваш пароль",
+      "password_prompt": "Придумай что-то надежное",
+      "password_secure": "Надёжный",
+      "password_short_hint": "Слишком короткий",
+      "password_weak_hint": "Слабый пароль",
+      "username_prompt": "Выбери уникальный юзернейм",
+      "next_button": "Далее",
+      "checking": "Проверка...",
+      "email_available": "Свободен",
+      "email_taken": "Занят",
+      "nickname_placeholder": "Ваш никнейм",
+      "username_placeholder": "Ваш юзернейм",
+      "username_available": "Свободен",
+      "username_taken": "Занят",
+      "bio_placeholder": "О себе",
+      "invite_label": "Инвайт",
+      "invite_placeholder": "Инвайт",
+      "avatar_placeholder": "Ссылка на фото",
+      "back_button": "Назад",
+      "finish_button": "Готово",
+      "creating": "Создание...",
+      "loading": "Создание...",
+      "button": "Создать",
+      "button_submit": "Зарегистрироваться",
+      "already_have_account": "Уже есть аккаунт?",
+      "login_link": "Войти",
+      "login_button": "Войти",
+      "errors": {
+        "invalid_email": "Что-то не так с почтой",
+        "email_taken": "Почта уже используется",
+        "password_short": "Пароль слишком короткий",
+        "username_short": "Слишком короткий юзернейм",
+        "registration_failed": "Не вышло зарегистрироваться",
+        "username_taken": "Этот юзернейм занят",
+        "email_not_supported": "Этот домен почты не поддерживается"
+      },
+      "email": {
+        "placeholder": "Ваш email",
+        "available": "Свободен",
+        "taken": "Занят"
+      },
+      "password": {
+        "placeholder": "Ваш пароль",
+        "secure": "Надёжный",
+        "short_hint": "Слишком короткий",
+        "weak_hint": "Слабый пароль"
+      },
+      "username": {
+        "placeholder": "Ваш юзернейм",
+        "available": "Свободен",
+        "taken": "Занят"
+      },
+      "nickname": {
+        "placeholder": "Ваш никнейм"
+      },
+      "bio": {
+        "placeholder": "О себе"
+      },
+      "invite": {
+        "placeholder": "Инвайт код"
+      }
+    },
+    "password_reset": {
+      "title": "Восстановление пароля",
+      "step1_prompt": "Введите почту, чтобы мы отправили код",
+      "step2_prompt": "Введите код из письма и новый пароль",
+      "step3_prompt": "Отлично! Ваш пароль изменен",
+      "email_placeholder": "Ваша почта",
+      "send_code_button": "Отправить код",
+      "sending": "Отправка...",
+      "code_placeholder": "123456",
+      "reset_button": "Сбросить пароль",
+      "resetting": "Сброс...",
+      "back_button": "Назад",
+      "return_to_login": "Вернуться",
+      "password_placeholder": "Новый пароль",
+      "confirm_password": "Повторите пароль",
+      "errors": {
+        "user_not_found": "Пользователь не найден",
+        "request_fail": "Не удалось отправить",
+        "code_invalid": "Неверный код",
+        "passwords_mismatch": "Пароли не совпадают",
+        "password_short": "Пароль слишком короткий"
+      }
+    },
+    "common": {
+      "or": "или"
+    },
+    "agreement": {
+      "prefix": "Войдя в систему, вы соглашаетесь с нашими ",
+      "tos": "Условиями использования",
+      "and": " и ",
+      "privacy": "Политикой конфиденциальности"
+    }
+  },
+  "captcha": {
+    "title": "Проверка безопасности",
+    "verify_title": "Подтвердите, что вы не робот",
+    "verify_button": "Проверить",
+    "please_enter_answer": "Пожалуйста, введите ответ",
+    "wrong_answer": "Неправильный ответ, попробуйте еще раз",
+    "image_label": "Введите код с картинки",
+    "text_placeholder": "XXXXX",
+    "retry": "Повторить",
+    "loading": "Загрузка капчи...",
+    "load_error": "Не удалось загрузить капчу"
+  },
+  "chat": {
+    "title": "Чат",
+    "tabs": {
+      "global": "Общий",
+      "premium": "Элитный",
+      "room": "Текущая комната"
+    },
+    "global_desc": "Системный чат для всех",
+    "premium_desc": "Приватная комната элиты",
+    "pinned": "Закреплено",
+    "search_placeholder": "Поиск",
+    "user_fallback": "Пользователь",
+    "members_suffix": "участников",
+    "online_suffix": "в сети",
+    "online": "В сети",
+    "offline": "Не в сети",
+    "system_filter": "Системные",
+    "unavailable": "Недоступно",
+    "premium": {
+      "description": "Эксклюзивный чат для элитных пользователей",
+      "required": "Требуется подписка любого уровня"
+    },
+    "empty": {
+      "title": "Пока нет сообщений",
+      "description": "Станьте первым, кто напишет в этом чате!"
+    },
+    "loading": {
+      "title": "Загрузка чата...",
+      "subtitle": "Получаем сообщения"
+    },
+    "input": {
+      "placeholder": "Сообщение в чат...",
+      "blocked_placeholder": "Отправка сообщений ограничена",
+      "current_track": "Текущий трек",
+      "attach_music": "Прикрепить музыку"
+    },
+    "no_selection": {
+      "title": "Выберите чат",
+      "description": "Откройте диалог или комнату слева, чтобы начать общение",
+      "input_hint": "Выберите чат слева, чтобы написать сообщение"
+    },
+    "select_chat": "Выберите чат",
+    "select_chat_desc": "Выберите собеседника или комнату в левой панели, чтобы начать общение",
+    "search": "Поиск",
+    "message": {
+      "copy": "Копировать текст",
+      "delete": "Удалить сообщение",
+      "edit": "Изменить",
+      "edited": "ред.",
+      "play": "Воспроизвести",
+      "save": "Сохранить",
+      "cancel": "Отмена",
+      "reply": "Ответить"
+    },
+    "request": {
+      "title": "Запрос на переписку",
+      "description": "Этот пользователь хочет переписываться с вами. Вы можете принять запрос, чтобы начать общение, или отклонить его.",
+      "accept": "Принять",
+      "decline": "Отклонить"
+    }
+  },
+  "comments": {
+    "comment": "Комментарий",
+    "comment_placeholder": "Поделитесь мнением о треке...",
+    "submitting": "Отправка...",
+    "submit": "Отправить",
+    "update": "Обновить",
+    "success": "Готово",
+    "no_comments": "Комментариев пока нет",
+    "be_first_to_comment": "Будьте первым кто оставит комментарий!",
+    "load_more": "Загрузить ещё",
+    "show_replies": "Ответы",
+    "hide_replies": "Скрыть ответы",
+    "load_more_replies": "Загрузить ещё ответы",
+    "reply_placeholder": "Написать ответ...",
+    "time": {
+      "just_now": "Только что",
+      "minutes_ago": "{} мин назад",
+      "hours_ago": "{} ч назад",
+      "days_ago": "{} д назад"
+    }
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "offline": "оффлайн",
+    "current": "Текущее",
+    "connect": "Подключить",
+    "connected": "Подключено",
+    "disconnect": "Отвязать",
+    "disconnected": "Отключено",
+    "configured": "Настроено",
+    "unconfigured": "Не настроено",
+    "save": "Сохранить",
+    "done": "Готово",
+    "reset": "Сбросить",
+    "play": "Воспроизвести",
+    "pause": "Пауза",
+    "search": "Поиск",
+    "find": "Найти",
+    "retry": "Повторить",
+    "subscribe": "Подписаться",
+    "unsubscribe": "Отписаться",
+    "share": "Поделиться",
+    "like": "Нравится",
+    "dislike": "Не нравится",
+    "version": "v{{version}}",
+    "restart": "Перезапустить",
+    "stop": "Остановить",
+    "start": "Запустить",
+    "user": "Пользователь",
+    "create": "Создать",
+    "add": "Добавить",
+    "refresh": "Обновить",
+    "cancel": "Отмена",
+    "close": "Закрыть",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "import": "Импортировать",
+    "send": "Отправить",
+    "message": "Сообщение",
+    "show_all": "Показать все",
+    "show_less": "Свернуть",
+    "back": "Назад",
+    "navigation": "Переключить навигацию",
+    "error": "Ошибка",
+    "success": "Успешно",
+    "yes": "Да",
+    "no": "Нет",
+    "or": "или",
+    "saving": "Сохранение...",
+    "submit": "Отправить",
+    "warning": "Предупреждение",
+    "info": "Информация",
+    "please_wait": "Пожалуйста, подождите",
+    "enabled": "Включено",
+    "all": "Все",
+    "you": "Вы",
+    "errors": {
+      "unknownError": "Произошла неизвестная ошибка",
+      "error": "Ошибка"
+    },
+    "time": {
+      "secondsAbbr": "сек",
+      "minutesAbbr": "мин",
+      "hoursAbbr": "ч",
+      "daysAbbr": "д",
+      "hours": {
+        "one": "час",
+        "few": "часа",
+        "many": "часов"
+      }
+    },
+    "download": {
+      "default": "Скачать",
+      "track": "Трек",
+      "queue": "Очередь",
+      "cover": "Обложка"
+    },
+    "and": "и",
+    "off": "Выкл",
+    "notifications": {
+      "title": "Уведомления"
+    },
+    "show_password": "Показать пароль",
+    "hide_password": "Скрыть пароль",
+    "to_settings": "В настройки",
+    "auto": "Автоматически",
+    "track": {
+      "no_tracks": "Нет треков",
+      "unit": {
+        "one": "трек",
+        "few": "трека",
+        "many": "треков"
+      }
+    },
+    "units": {
+      "track": {
+        "one": "трек",
+        "few": "трека",
+        "many": "треков"
+      },
+      "tracks": {
+        "one": "трек",
+        "few": "трека",
+        "many": "треков"
+      },
+      "follower": {
+        "one": "подписчик",
+        "few": "подписчика",
+        "many": "подписчиков"
+      },
+      "followers": {
+        "one": "подписчик",
+        "few": "подписчика",
+        "many": "подписчиков"
+      },
+      "subscriber": {
+        "one": "подписчик",
+        "few": "подписчика",
+        "many": "подписчиков"
+      },
+      "subscribers": {
+        "one": "подписчик",
+        "few": "подписчика",
+        "many": "подписчиков"
+      },
+      "album": {
+        "one": "альбом",
+        "few": "альбома",
+        "many": "альбомов"
+      },
+      "albums": {
+        "one": "альбом",
+        "few": "альбома",
+        "many": "альбомов"
+      },
+      "playlist": {
+        "one": "плейлист",
+        "few": "плейлиста",
+        "many": "плейлистов"
+      },
+      "playlists": {
+        "one": "плейлист",
+        "few": "плейлиста",
+        "many": "плейлистов"
+      },
+      "friend": {
+        "one": "друг",
+        "few": "друга",
+        "many": "друзей"
+      },
+      "friends": {
+        "one": "друг",
+        "few": "друга",
+        "many": "друзей"
+      },
+      "hour": {
+        "one": "час",
+        "few": "часа",
+        "many": "часов"
+      },
+      "hours": {
+        "one": "час",
+        "few": "часа",
+        "many": "часов"
+      },
+      "minute": {
+        "one": "минута",
+        "few": "минуты",
+        "many": "минут"
+      },
+      "minutes": {
+        "one": "минута",
+        "few": "минуты",
+        "many": "минут"
+      },
+      "second": {
+        "one": "секунда",
+        "few": "секунды",
+        "many": "секунд"
+      },
+      "seconds": {
+        "one": "секунда",
+        "few": "секунды",
+        "many": "секунд"
+      },
+      "listen": {
+        "one": "прослушивание",
+        "few": "прослушивания",
+        "many": "прослушиваний"
+      },
+      "listens": {
+        "one": "прослушивание",
+        "few": "прослушивания",
+        "many": "прослушиваний"
+      },
+      "play": {
+        "one": "прослушивание",
+        "few": "прослушивания",
+        "many": "прослушиваний"
+      },
+      "plays": {
+        "one": "прослушивание",
+        "few": "прослушивания",
+        "many": "прослушиваний"
+      },
+      "like": {
+        "one": "лайк",
+        "few": "лайка",
+        "many": "лайков"
+      },
+      "likes": {
+        "one": "лайк",
+        "few": "лайка",
+        "many": "лайков"
+      }
+    },
+    "tabs": {
+      "home": "Главная",
+      "player": "Плеер",
+      "search": "Поиск",
+      "library": "Библиотека",
+      "settings": "Настройки",
+      "rooms": "Комнаты",
+      "social": "Социальное",
+      "profile": "Профиль",
+      "trade": "Магазин",
+      "auction": "Аукцион",
+      "chat": "Чат",
+      "friends": "Друзья",
+      "artist": "Артист",
+      "album": "Альбом",
+      "playlist": "Плейлист",
+      "market": "Маркет"
+    },
+    "listen": "Слушать",
+    "listen_all": "Слушать все",
+    "understand": "Понятно",
+    "locale": "Язык",
+    "results": "Результаты",
+    "none": "Нет",
+    "disabled": "Отключено",
+    "unknown_error": "Неизвестная ошибка",
+    "no_notifications": "Нет уведомлений",
+    "filters": {
+      "week": "Неделя",
+      "month": "Месяц",
+      "all": "Всегда"
+    },
+    "downloading": "Загрузка…",
+    "open": "Открыть",
+    "undo": "Отменить",
+    "verified": "Подтверждённый исполнитель",
+    "window": {
+      "minimize": "Свернуть",
+      "maximize": "Развернуть",
+      "on_top_on": "Окно поверх других",
+      "on_top_off": "Окно больше не поверх других"
+    }
+  },
+  "downloads": {
+    "export_button_title": "В файл",
+    "cancel": "Отменить",
+    "saved": "Сохранено в «{{folder}}»: {{count}}",
+    "show_in_folder": "В папке",
+    "choose_folder": "Папка для скачивания",
+    "saving": "Скачано {{done}} из {{total}}",
+    "saving_one": "Скачивание «{{title}}»",
+    "failed": "Не удалось скачать: {{count}}",
+    "caching": "Кешировано {{done}} из {{total}}",
+    "cached": "В кеше: {{count}}"
+  },
+  "equalizer": {
+    "title": "Эквалайзер",
+    "presets": "Пресеты",
+    "reset": "Сброс",
+    "custom": "Ваши пресеты",
+    "enter_preset_name": "Название пресета...",
+    "enabled": "Включен",
+    "disabled": "Выключен",
+    "remember": "Запомнить",
+    "remembered": "Запомнено",
+    "preset": {
+      "flat": "Нейтральный",
+      "bass": "Басы",
+      "treble": "Высокие",
+      "classical": "Классика",
+      "rock": "Рок",
+      "pop": "Поп",
+      "vocal": "Вокал",
+      "jazz": "Джаз"
+    },
+    "preamp": "Усиление",
+    "rotation": "3D звук",
+    "space": "Пространство",
+    "reverb": "Объем",
+    "intensity": "Интенсивность",
+    "rotation_speed": "Скорость вращения",
+    "rotation_speed_short": "Скорость",
+    "spatial_dimension": "Измерение",
+    "rotation_modes": {
+      "off": "Выкл",
+      "8d": "8D",
+      "12d": "12D",
+      "16d": "16D"
+    },
+    "reverb_modes": {
+      "off": "Выключено",
+      "headphones": "Наушники",
+      "room": "Колонки",
+      "hall": "Зал"
+    }
+  },
+  "errors": {
+    "ACCOUNT_BANNED": "Аккаунт заблокирован",
+    "AUCTION_ENDED": "Аукцион завершен",
+    "BAD_GATEWAY": "Сервис недоступен",
+    "BAD_REQUEST": "Неверный запрос",
+    "BIO_TOO_LONG": "Биография слишком длинная (максимум 80 символов)",
+    "STATUS_TOO_LONG": "Статус слишком длинный (максимум 32 символа)",
+    "CACHE_ERROR": "Ошибка кэша",
+    "CONFIGURATION_ERROR": "Ошибка конфигурации сервера",
+    "CLOCK_SKEW": "Проверьте дату и время на компьютере",
+    "CONFLICT": "Уже существует",
+    "CONNECTION_FAILED": "Нет соединения с сервером — проверьте интернет, VPN или прокси в настройках",
+    "CONNECTION_CLOSED": "Соединение закрыто",
+    "EMAIL_REGISTERED": "Эта почта уже зарегистрирована",
+    "EMAIL_EMPTY": "Введите почту",
+    "EMAIL_TOO_LONG": "Почта слишком длинная",
+    "INVALID_EMAIL_FORMAT": "Проверьте почту: она указана неверно",
+    "NICKNAME_EMPTY": "Введите имя",
+    "NICKNAME_TOO_LONG": "Имя слишком длинное",
+    "USERNAME_EMPTY": "Введите юзернейм",
+    "USERNAME_INVALID_CHARS": "Юзернейм может содержать только латинские буквы, цифры и подчёркивание",
+    "USERNAME_RESERVED": "Этот юзернейм зарезервирован",
+    "FILE_TOO_LARGE": "Файл слишком большой",
+    "PAYLOAD_TOO_LARGE": "Файл слишком большой",
+    "FILE_UPLOAD_ERROR": "Не удалось загрузить файл",
+    "FORBIDDEN": "Доступ запрещен",
+    "GATEWAY_TIMEOUT": "Сервис слишком долго отвечает",
+    "GONE": "Ресурс больше недоступен",
+    "GIFT_MESSAGE_TOO_LONG": "Сообщение к подарку слишком длинное (максимум 24 символа)",
+    "INSUFFICIENT_BALANCE": "Недостаточно монет",
+    "INSUFFICIENT_PERMISSIONS": "Недостаточно прав",
+    "INTERNAL_SERVER_ERROR": "Ошибка сервера",
+    "INVALID_AUTH_HEADER": "Войдите, чтобы продолжить",
+    "INVALID_BID_AMOUNT": "Неверная сумма ставки",
+    "INVALID_CREDENTIALS": "Неверная почта, логин или пароль",
+    "INVALID_FIELD_VALUE": "Неверное значение поля",
+    "INVALID_FILE_FORMAT": "Неверный формат файла",
+    "INVALID_REQUEST_FORMAT": "Неверный формат запроса",
+    "INVALID_TOKEN": "Сессия истекла. Войдите снова",
+    "IP_LIMIT_EXCEEDED": "Слишком много активных сессий",
+    "ITEM_NOT_AVAILABLE": "Предмет недоступен",
+    "ITEM_NOT_FOUND": "Предмет не найден",
+    "JSON_PARSE_ERROR": "Неверный формат JSON",
+    "MISSING_FIELD": "Не заполнено обязательное поле",
+    "MISSING_TOKEN": "Войдите, чтобы продолжить",
+    "NETWORK_ERROR": "Ошибка сети. Проверьте соединение или используйте VPN",
+    "NOT_FOUND": "Не найдено",
+    "PROFILE_PRIVATE": "Этот профиль скрыт",
+    "PROFILE_NOT_FOUND": "Профиль не найден",
+    "PLAYLIST_PRIVATE": "Этот плейлист скрыт настройками приватности",
+    "PLAYLIST_NOT_FOUND": "Плейлист не найден",
+    "NOT_IMPLEMENTED": "Эта функция пока недоступна",
+    "PAYMENT_ERROR": "Ошибка оплаты",
+    "PAYMENT_REQUIRED": "Требуется оплата",
+    "PERMISSION_DENIED": "Доступ запрещен",
+    "PREMIUM_REQUIRED": "Для доступа к этой функции требуется подписка Dotify Infinity",
+    "TRACK_NOT_FOUND": "Трек не найден",
+    "PLATFORM_NOT_SUPPORTED": "Эта платформа не поддерживается",
+    "INVALID_URL": "Неверный формат ссылки",
+    "PLATFORM_ERROR": "Ошибка музыкального сервиса",
+    "RATE_LIMITED": "Слишком много запросов. Попробуйте позже",
+    "RATE_LIMIT_EXCEEDED": "Слишком много запросов. Попробуйте позже",
+    "REDIS_ERROR": "Временная ошибка сервера",
+    "REQUEST_TIMEOUT": "Превышено время ожидания запроса",
+    "ROOM_FULL": "Комната заполнена",
+    "ROOM_NOT_FOUND": "Комната не найдена",
+    "SERIALIZATION_ERROR": "Ошибка обработки ответа",
+    "SERVICE_UNAVAILABLE": "Сервис недоступен",
+    "TIMEOUT_ERROR": "Превышено время ожидания",
+    "TOKEN_ERROR": "Ошибка авторизации. Войдите снова",
+    "TOKEN_EXPIRED": "Сессия истекла. Войдите снова",
+    "TOO_MANY_REQUESTS": "Слишком много запросов. Попробуйте позже",
+    "UNAUTHORIZED": "Войдите, чтобы продолжить",
+    "UNKNOWN_ERROR": "Неизвестная ошибка",
+    "UPDATE_REQUIRED": "Обновите приложение, чтобы продолжить",
+    "USERNAME_TAKEN": "Этот юзернейм уже занят",
+    "USERNAME_TOO_LONG": "Юзернейм слишком длинный (максимум 12 символов)",
+    "USERNAME_TOO_SHORT": "Имя пользователя слишком короткое (минимум 3 символа)",
+    "USERNAME_FORBIDDEN": "Это имя пользователя запрещено для использования",
+    "USERNAME_LIMIT_REACHED": "Достигнут лимит юзернеймов (10 для базового аккаунта, 15 с Infinity)",
+    "USERNAME_INVALID": "Некорректное имя пользователя",
+    "USERNAME_INVALID_LENGTH": "Длина юзернейма — от 3 до 12 символов",
+    "USERNAME_INVALID_CHARACTERS": "Имя пользователя может содержать только латинские буквы, цифры и знак подчёркивания",
+    "USERNAME_CHANGE_COOLDOWN": "Юзернейм можно менять не чаще, чем раз в 3 дня",
+    "USERNAME_ON_AUCTION": "Ваш текущий юзернейм выставлен на маркет",
+    "USERNAME_NOT_GIFTABLE": "Юзернеймы нельзя передавать в подарок напрямую",
+    "CANNOT_GIFT_SELF": "Нельзя подарить подписку или монеты самому себе",
+    "DOWNGRADE_NOT_ALLOWED": "Понижение тарифа недоступно при активной подписке",
+    "INVALID_SLOT_INDEX": "Неверный индекс семейного слота",
+    "CANNOT_ASSIGN_SLOT_TO_SELF": "Нельзя назначить семейный слот самому себе",
+    "MEMBER_ALREADY_HAS_SUBSCRIPTION": "У пользователя уже есть активная подписка",
+    "MEMBER_ALREADY_IN_FAMILY_SLOT": "Пользователь уже занимает слот в семье",
+    "SLOT_ON_COOLDOWN": "Слот находится на перезарядке после смены участника",
+    "SLOT_IS_EMPTY": "Этот слот пуст",
+    "CANNOT_BUY_OWN_LOT": "Нельзя купить собственный лот на маркете",
+    "CANNOT_CANCEL_FOREIGN_LOT": "Нельзя отменить чужой лот",
+    "LOT_ALREADY_SOLD": "Этот лот уже продан или снят с продажи",
+    "INVALID_DURATION": "Недопустимая длительность лота",
+    "INVALID_PRICE": "Недопустимая цена",
+    "INVALID_INSTANCE_ID": "Неверный идентификатор предмета",
+    "IOS_SUBSCRIPTION_REQUIRED": "Для доступа на iOS требуется активная подписка Infinity",
+    "CANNOT_ADD_SELF": "Нельзя добавить себя в друзья",
+    "ALREADY_FRIENDS": "Вы уже друзья с этим пользователем",
+    "REQUEST_ALREADY_SENT": "Запрос в друзья уже отправлен",
+    "INVALID_RELATION_STATUS": "Неизвестный статус отношений",
+    "FRIEND_NOT_FOUND": "Пользователь не найден в списке друзей",
+    "EMAIL_DOMAIN_NOT_ALLOWED": "Почтовый домен не поддерживается",
+    "EMAIL_NOT_SUPPORTED": "Почтовый сервис не поддерживается",
+    "USER_NOT_FOUND": "Пользователь не найден",
+    "PASSWORD_EMPTY": "Введите пароль",
+    "PASSWORD_TOO_SHORT": "Пароль слишком короткий — минимум 8 символов",
+    "PASSWORD_TOO_LONG": "Пароль слишком длинный: до 72 символов латиницей, русские буквы считаются за две",
+    "PASSWORD_WEAK": "Пароль слабый — используйте буквы разного регистра, цифры и спецсимволы",
+    "VALIDATION_ERROR": "Проверьте введенные данные",
+    "WEBSOCKET_ERROR": "Ошибка realtime-соединения",
+    "ALREADY_EXISTS": "Уже существует",
+    "DISPLAY_NAME_EMPTY": "Введите никнейм",
+    "system": {
+      "unknown": "Неизвестная ошибка",
+      "unknown_error": "Произошла неизвестная ошибка",
+      "error": "Ошибка",
+      "error_title": "Произошла ошибка",
+      "not_found": "Не найдено",
+      "forbidden": "Доступ запрещен",
+      "server_error": "Ошибка сервера",
+      "server_unavailable": "Сервер не отвечает. Попробуйте включить VPN",
+      "network_error": "Ошибка сети. Проверьте подключение к интернету или включите VPN",
+      "timeout_error": "Превышено время ожидания",
+      "service_unavailable": "Сервис недоступен",
+      "too_many_requests": "Слишком много попыток. Попробуйте позже",
+      "rate_limit": "Слишком много попыток. Попробуйте позже",
+      "connection_fail": "Ошибка соединения",
+      "loading_error": "Ошибка загрузки",
+      "action_error": "Произошла ошибка при выполнении действия",
+      "download_failed": "Не удалось скачать",
+      "upload_too_large": "Файл слишком большой",
+      "payload_too_large": "Файл слишком большой",
+      "already_exists": "Уже существует"
+    },
+    "auth": {
+      "login": {
+        "missing_login": "Введите логин или почту",
+        "missing_password": "Введите пароль",
+        "invalid_email": "Неверный формат почты",
+        "invalid_credentials": "Неверная почта, логин или пароль",
+        "user_not_found": "Пользователь не найден. Зарегистрируйтесь сначала",
+        "account_banned": "Ваш аккаунт заблокирован",
+        "token_expired": "Сессия истекла",
+        "auto_login_failed": "Регистрация прошла успешно, но не удалось войти автоматически",
+        "captcha_fail": "Неверный код с картинки"
+      },
+      "register": {
+        "password_short": "Пароль должен содержать минимум 8 символов",
+        "password_required": "Пароль обязателен",
+        "nickname_required": "Никнейм обязателен",
+        "nickname_short": "Минимальная длина: 2 символа",
+        "nickname_long": "Максимальная длина: 16 символов",
+        "bio_long": "Максимальная длина: 80 символов",
+        "email_taken": "Эта почта уже зарегистрирована",
+        "email_not_supported": "Эта почта не поддерживается",
+        "email_required": "Почта обязательна",
+        "email_wait": "Подождите, идет проверка почты...",
+        "username_required": "Имя пользователя обязательно",
+        "username_format": "Только a-z, 0-9, _ и .",
+        "username_short": "Минимальная длина: 3 символа",
+        "username_long": "Максимальная длина: 15 символов",
+        "username_forbidden": "Это имя пользователя недоступно",
+        "username_taken": "Это имя пользователя уже занято",
+        "username_wait": "Подождите, идет проверка имени пользователя..."
+      },
+      "password": {
+        "current_required": "Требуется текущий пароль",
+        "new_required": "Требуется новый пароль",
+        "new_too_short": "Пароль должен быть не менее 8 символов",
+        "mismatch": "Пароли не совпадают",
+        "current_invalid": "Текущий пароль неверен",
+        "change_failed": "Не удалось изменить пароль",
+        "reset_fail": "Ошибка сброса пароля",
+        "code_required": "Введите код из письма",
+        "code_invalid": "Неверный код, или срок его действия истек",
+        "user_not_found": "Пользователь с такой почтой не найден",
+        "request_fail": "Ошибка запроса кода. Попробуйте позже"
+      },
+      "email": {
+        "required": "Требуется почта",
+        "invalid_format": "Неверный формат почты",
+        "change_failed": "Не удалось изменить почту",
+        "check_fail": "Ошибка проверки почты"
+      },
+      "invalid_email": "Неверный email"
+    },
+    "platforms": {
+      "general": {
+        "platform_error": "Ошибка музыкального сервиса",
+        "not_configured": "Сервис не настроен",
+        "auth_required": "Требуется авторизация в сервисе",
+        "invalid_token": "Токен недействителен",
+        "save_error": "Ошибка сохранения настроек"
+      },
+      "vk": {
+        "token_required": "Пожалуйста, введите токен VK",
+        "invalid_token": "Неверный токен VK",
+        "not_configured": "Настройте VK в настройках",
+        "auth_required": "Требуется авторизация VK"
+      },
+      "spotify": {
+        "credentials_required": "Пожалуйста, введите и Client ID, и Client Secret",
+        "invalid_credentials": "Неверные учетные данные Spotify",
+        "not_configured": "Настройте Spotify в настройках",
+        "auth_required": "Требуется авторизация Spotify",
+        "rate_limit": "Слишком много запросов к Spotify. Попробуйте позже"
+      },
+      "yandex": {
+        "token_required": "Пожалуйста, введите токен Яндекс",
+        "invalid_token": "Неверный токен Яндекс",
+        "not_configured": "Настройте Yandex в настройках",
+        "auth_required": "Требуется авторизация Яндекс"
+      },
+      "soundcloud": {
+        "id_required": "Пожалуйста, введите или выберите SoundCloud Client ID",
+        "invalid_id": "Неверный Client ID SoundCloud",
+        "not_configured": "Настройте SoundCloud в настройках"
+      },
+      "deezer": {
+        "token_required": "Требуется токен Deezer",
+        "invalid_token": "Неверный токен Deezer"
+      }
+    },
+    "library": {
+      "playlist": {
+        "not_found": "Плейлист не найден",
+        "invalid_url": "Неверный формат ссылки",
+        "private_restricted": "Плейлист недоступен или скрыт настройками приватности",
+        "resolve_failed": "Не удалось разрешить ссылку",
+        "unsupported_platform": "Платформа не поддерживается для импорта",
+        "fetch_error": "Ошибка загрузки треков",
+        "import_error": "Ошибка импорта плейлиста",
+        "json_invalid": "Некорректный формат JSON файла",
+        "create_error": "Ошибка создания плейлиста",
+        "delete_error": "Ошибка удаления плейлиста",
+        "share_no_url": "Невозможно поделиться: отсутствует URL"
+      },
+      "track": {
+        "not_found": "Трек не найден или больше не существует",
+        "remove_failed": "Не удалось удалить трек",
+        "order_save_failed": "Не удалось сохранить порядок треков",
+        "stream_error": "Ошибка при получении потока воспроизведения",
+        "lyrics_load_error": "Не удалось загрузить текст песни",
+        "no_lyrics": "У этого трека нет текста"
+      },
+      "favorites": {
+        "load_error": "Ошибка загрузки избранного",
+        "order_save_failed": "Не удалось сохранить порядок любимых треков"
+      },
+      "neuro": {
+        "insufficient_stats": "Недостаточно статистики для генерации",
+        "generation_error": "Не удалось сгенерировать плейлист"
+      }
+    },
+    "inventory": {
+      "load_error": "Ошибка загрузки инвентаря",
+      "action_error": "Произошла ошибка при действии с предметом",
+      "case_load_failed": "Не удалось загрузить содержимое кейса",
+      "purchase_failed": "Ошибка покупки",
+      "no_coins": "Недостаточно монет",
+      "item_owned": "Этот предмет уже у вас есть",
+      "promo_error": "Ошибка активации промокода",
+      "gift_load_error": "Не удалось загрузить данные для подарка"
+    },
+    "social": {
+      "room": {
+        "join_failed": "Не удалось присоединиться к комнате",
+        "creation_error": "Ошибка создания комнаты",
+        "code_required": "Введите код комнаты",
+        "code_empty": "Код комнаты не может быть пустым",
+        "not_found": "Комната не найдена",
+        "password_required": "Эта комната требует пароль",
+        "max_participants": "Достигнут лимит участников для вашего уровня подписки"
+      },
+      "chat": {
+        "load_error": "Не удалось загрузить чат",
+        "premium_required": "Для доступа к этому чату нужна подписка"
+      },
+      "friends": {
+        "load_error": "Ошибка загрузки списка друзей",
+        "request_fail": "Ошибка отправки запроса"
+      }
+    },
+    "app": {
+      "settings": {
+        "save_error": "Ошибка сохранения настроек",
+        "import_error": "Ошибка импорта настроек"
+      },
+      "themes": {
+        "create_error": "Ошибка создания темы",
+        "export_error": "Ошибка экспорта темы",
+        "import_error": "Ошибка импорта темы",
+        "generation_error": "Не удалось сгенерировать тему"
+      },
+      "storage": {
+        "load_error": "Ошибка загрузки информации о хранилище",
+        "clear_error": "Ошибка при очистке хранилища",
+        "delete_error": "Ошибка при удалении данных"
+      },
+      "update": {
+        "check_error": "Ошибка при проверке обновлений",
+        "download_error": "Ошибка при загрузке обновления"
+      },
+      "captcha": {
+        "load_error": "Не удалось загрузить капчу",
+        "wrong_answer": "Неправильный ответ, попробуйте еще раз",
+        "fail": "Неверный код с картинки"
+      },
+      "wave": {
+        "generation_failed": "Не удалось сгенерировать волну",
+        "insufficient_history": "Послушайте больше треков для генерации волны"
+      }
+    },
+    "premium": {
+      "required": "Требуется Premium подписка",
+      "upgrade_required": "Для этой функции нужен уровень подписки выше"
+    },
+    "network_error": "Ошибка сети",
+    "AUTH_ALREADY_REGISTERED": "Пользователь с такой почтой уже зарегистрирован",
+    "AUTH_AMBIGUOUS_ACCOUNT": "Найдено несколько аккаунтов с такой почтой. Войдите, указав почту с точным регистром или логин.",
+    "AUTH_CURRENT_PASSWORD_REQUIRED": "Требуется текущий пароль",
+    "AUTH_EMAIL_TAKEN": "Почта уже используется",
+    "AUTH_INVALID_CREDENTIALS": "Неверные данные для входа",
+    "AUTH_INVALID_PASSWORD": "Неверный пароль",
+    "AUTH_PASSWORD_REQUIRED": "Требуется пароль",
+    "AUTH_SESSION_EXPIRED": "Сессия истекла. Войдите снова",
+    "AUTH_TOKEN_INVALID": "Сессия истекла. Войдите снова",
+    "AUTH_USER_NOT_FOUND": "Пользователь не найден",
+    "AUTH_USERNAME_REQUIRED": "Необходимо выбрать юзернейм",
+    "AUTH_USERNAME_TAKEN": "Имя пользователя уже занято",
+    "CAPTCHA_INVALID": "Неверный код с картинки",
+    "CHATS_CAN_ONLY_DELETE_OWN": "Можно удалять только свои сообщения",
+    "CHATS_CAN_ONLY_EDIT_OWN": "Можно редактировать только свои сообщения",
+    "CHATS_CHANNEL_NOT_FOUND": "Канал не найден",
+    "CHATS_MESSAGE_EMPTY": "Сообщение не может быть пустым",
+    "CHATS_MESSAGE_TOO_LONG": "Сообщение слишком длинное",
+    "CHATS_NOT_FOUND": "Сообщение не найдено",
+    "CHATS_NOT_MEMBER": "Вы не участник этого канала",
+    "CHATS_NOT_ROOM_MEMBER": "Вы не участник этой комнаты",
+    "CHATS_PREMIUM_REQUIRED_CHAT": "Требуется Премиум для доступа к этому чату",
+    "CHATS_SYSTEM_MESSAGE_EDIT": "Системные сообщения нельзя редактировать",
+    "FRIENDS_CANNOT_VIEW_OWN_PROFILE": "Свой профиль здесь открыть нельзя",
+    "FRIENDS_NOT_FRIENDS": "Вы не друзья с этим пользователем",
+    "GENERAL_CONFLICT": "Такое уже есть",
+    "GENERAL_FORBIDDEN": "Доступ запрещён",
+    "GENERAL_INTERNAL_ERROR": "Что-то пошло не так. Попробуйте ещё раз",
+    "GENERAL_INVALID_FORMAT": "Проверьте данные и попробуйте ещё раз",
+    "GENERAL_INVALID_REQUEST": "Проверьте данные и попробуйте ещё раз",
+    "GENERAL_NOT_FOUND": "Не найдено",
+    "GENERAL_PAYLOAD_TOO_LARGE": "Файл слишком большой",
+    "GENERAL_RATE_LIMITED": "Слишком часто, попробуйте позже",
+    "IMPORT_INVALID_ALBUM_URL": "Неверная ссылка на альбом",
+    "IMPORT_INVALID_PLAYLIST_URL": "Неверная ссылка на плейлист",
+    "IMPORT_PROFILE_NOT_FOUND": "Пользователь не найден",
+    "IMPORT_PROFILE_URL_REQUIRED": "Нужна ссылка на профиль",
+    "IMPORT_URL_REQUIRED": "Необходимо указать ссылку на плейлист",
+    "ITEMS_CASE_NOT_FOUND": "Кейс не найден",
+    "ITEMS_DESIGN_NOT_FOUND": "Дизайн не найден",
+    "ITEMS_DESIGN_NOT_OBTAINABLE": "Этот дизайн нельзя получить",
+    "ITEMS_EMBLEM_NOT_FOUND": "Эмблема не найдена",
+    "ITEMS_EMBLEM_NOT_OWNED": "Эмблемы нет в инвентаре",
+    "ITEMS_INVALID_CASE_INSTANCE_ID": "Неверный кейс",
+    "ITEMS_NO_PRIZES_AVAILABLE": "Призы отсутствуют",
+    "ITEMS_NOT_FOUND": "Предмет не найден",
+    "ITEMS_PACK_INVALID_CONTENTS": "Некорректное содержимое пака",
+    "ITEMS_PACK_NOT_FOUND": "Пак не найден",
+    "ITEMS_PRIZE_ID_MISSING": "Не указан предмет приза",
+    "ITEMS_TITLE_LIMIT_REACHED": "Достигнут лимит количества этого титула",
+    "ITEMS_TITLE_NOT_FOUND": "Титул не найден",
+    "ITEMS_TITLE_NOT_OWNED": "У вас нет этого титула",
+    "ITEMS_UNKNOWN_PRIZE": "Неизвестный тип приза",
+    "LIBRARY_DB_UNAVAILABLE": "Библиотека временно недоступна",
+    "LIBRARY_PLAYLIST_NOT_FOUND": "Плейлист не найден",
+    "LYRICS_ARTIST_REQUIRED": "Укажите исполнителя",
+    "LYRICS_TITLE_REQUIRED": "Укажите название трека",
+    "MARKET_ALREADY_ON_AUCTION": "Предмет уже выставлен на продажу",
+    "MARKET_INVALID_INSTANCE_ID": "Неверный предмет",
+    "MARKET_ITEM_NOT_FOUND": "Предмет не найден",
+    "MARKET_LOT_NOT_FOUND": "Лот не найден",
+    "MARKET_OUT_OF_STOCK": "Товар закончился",
+    "PAYMENT_ALREADY_PAID": "Заказ уже оплачен",
+    "PAYMENT_CHARGE_ALREADY_USED": "Этот платёж уже был использован",
+    "PAYMENT_COIN_PACK_NOT_FOUND": "Пакет монет не найден",
+    "PAYMENT_INVALID_AMOUNT": "Неверная сумма",
+    "PAYMENT_INVALID_ORDER_ID": "Неверный номер заказа",
+    "PAYMENT_INVALID_ORDER_TYPE": "Неверный тип заказа",
+    "PAYMENT_INVALID_PERIOD": "Неверный период подписки",
+    "PAYMENT_ORDER_CANNOT_CANCEL": "Этот заказ уже нельзя отменить",
+    "PAYMENT_ORDER_NOT_FOUND": "Заказ не найден",
+    "PAYMENT_UNKNOWN_ORDER_TYPE": "Неизвестный тип заказа",
+    "PAYMENT_UNSUPPORTED_METHOD": "Метод оплаты не поддерживается",
+    "PREMIUM_NOT_ACTIVE": "Премиум не активен",
+    "PREMIUM_PLAN_NOT_FOUND": "Тарифный план не найден",
+    "PROFILE_URL_REQUIRED": "Укажите ссылку на профиль",
+    "ROOMS_CANNOT_KICK_SELF": "Нельзя кикнуть себя",
+    "ROOMS_CANNOT_TRANSFER_SELF": "Нельзя передать комнату самому себе",
+    "ROOMS_FULL": "Комната заполнена",
+    "ROOMS_INVALID_NAME": "Название содержит недопустимый контент",
+    "ROOMS_NOT_FOUND": "Комната не найдена",
+    "ROOMS_NOT_IN_ROOM": "Вы не находитесь в этой комнате",
+    "ROOMS_NOT_PARTICIPANT": "Вы не участник этой комнаты",
+    "ROOMS_ONLY_CREATOR_KICK": "Только создатель может кикать",
+    "ROOMS_ONLY_CREATOR_RENAME": "Только создатель может переименовать",
+    "ROOMS_PASSWORD_REQUIRED": "Требуется пароль для этой комнаты",
+    "ROOMS_RECIPIENT_NOT_IN_ROOM": "Получатель не находится в этой комнате",
+    "ROOMS_RECIPIENT_PREMIUM_REQUIRED": "У получателя должна быть активная подписка",
+    "ROOMS_SYNC_FAILED": "Не удалось синхронизировать плеер",
+    "SOCIAL_GIFT_ACTIVE_ITEM": "Нельзя дарить активный предмет",
+    "SOCIAL_GIFT_ALREADY_CLAIMED": "Этот подарок уже был кем-то активирован",
+    "SOCIAL_GIFT_LOCKED_ITEM": "Нельзя подарить заблокированный или выставленный на продажу предмет",
+    "SOCIAL_GIFT_RECEIVER_ALREADY_HAS": "У вас уже есть этот уникальный предмет",
+    "SOCIAL_GIFT_UNTRADEABLE_ITEM": "Этот предмет является персональным и его нельзя подарить",
+    "SOCIAL_IMAGE_UPLOAD_FAILED": "Не удалось загрузить изображение",
+    "SOCIAL_INVALID_DESCRIPTION": "Описание содержит недопустимый контент",
+    "SOCIAL_INVALID_NAME": "Название содержит недопустимый контент или слишком длинное",
+    "SOCIAL_POST_NO_PERMISSION": "Нет прав для удаления этого поста",
+    "SOCIAL_POST_NOT_FOUND": "Пост не найден",
+    "SOCIAL_POST_RATE_LIMITED": "Публиковать снова можно через {{minutes}} мин.",
+    "SOCIAL_PREVIEW_UPLOAD_FAILED": "Не удалось загрузить превью",
+    "USERS_AVATAR_INVALID_FORMAT": "Аватар должен быть изображением",
+    "USERS_BALANCE_INSUFFICIENT": "Недостаточно средств",
+    "USERS_FRIEND_NOT_FOUND": "Друг не найден",
+    "USERS_GIF_AVATAR_PREMIUM_REQUIRED": "Анимированные аватары доступны с Премиум 2+",
+    "USERS_INVENTORY_ITEM_NOT_FOUND": "Предмет не найден",
+    "USERS_ITEM_ON_AUCTION": "Предмет выставлен на продажу",
+    "USERS_NFT_SLOT_LIMIT": "Достигнут лимит слотов для NFT",
+    "USERS_PROMOCODE_ALREADY_USED": "Промокод уже использован",
+    "USERS_PROMOCODE_EXPIRED": "Срок действия промокода истёк",
+    "USERS_PROMOCODE_INACTIVE": "Промокод неактивен",
+    "USERS_PROMOCODE_INVALID_DAYS": "Некорректное количество дней",
+    "USERS_PROMOCODE_INVALID_REWARD": "Некорректная сумма награды",
+    "USERS_PROMOCODE_LIMIT": "Лимит активаций промокода исчерпан",
+    "USERS_PROMOCODE_NOT_FOUND": "Промокод не найден или недействителен",
+    "USERS_PROMOCODE_PLAN_NOT_FOUND": "Базовый план не найден",
+    "USERS_PROMOCODE_UNSUPPORTED_TYPE": "Неподдерживаемый тип награды",
+    "USERS_TRANSFER_SELF": "Нельзя переводить монеты самому себе",
+    "VALIDATION_ACCESS_DENIED": "Доступ запрещён",
+    "ARTIST_NOT_FOUND": "Артист не найден",
+    "AUTH_GOOGLE_AMBIGUOUS": "Нашлось несколько аккаунтов с этой почтой. Войдите по логину и паролю",
+    "AUTH_GOOGLE_NO_EMAIL": "В аккаунте Google нет почты",
+    "AUTH_OAUTH_ALREADY_LINKED": "Этот аккаунт уже привязан к другому пользователю",
+    "AUTH_OAUTH_EXPIRED": "Вход устарел. Попробуйте ещё раз",
+    "CHATS_ATTACHMENTS_LIMIT": "Слишком много вложений",
+    "CHATS_DM_CLOSED": "Пользователь ограничил личные сообщения",
+    "CHATS_GROUP_NAME_REQUIRED": "Укажите название группы",
+    "CHATS_NO_PERMISSION": "Нет прав на отправку сообщений",
+    "CHATS_PREMIUM_REQUIRED": "Требуется Премиум {{level}}+",
+    "CHATS_SELF_CHAT": "Нельзя написать самому себе",
+    "CLIP_NOT_FOUND": "Клип к треку не найден",
+    "GENERAL_GONE": "Ссылка устарела. Попробуйте ещё раз",
+    "GENERAL_INVALID_URL": "Не получилось открыть эту ссылку",
+    "GENERAL_NOT_IMPLEMENTED": "Это пока недоступно",
+    "GENERAL_OPTION_DISABLED": "Этот вариант сейчас недоступен",
+    "GENERAL_PAYMENT_REQUIRED": "Это доступно с подпиской",
+    "GENERAL_PLATFORM_NOT_SUPPORTED": "Этот сервис пока не поддерживается",
+    "GENERAL_SERVICE_UNAVAILABLE": "Сервис временно недоступен. Попробуйте позже",
+    "GENERAL_SHARE_CODE_FAILED": "Не удалось создать код ссылки",
+    "GENERAL_SUBSCRIPTION_REQUIRED": "Для этого нужна подписка Infinity",
+    "GENERAL_TIMEOUT": "Сервер долго не отвечает. Попробуйте ещё раз",
+    "GENERAL_UPDATE_REQUIRED": "Обновите приложение, чтобы продолжить",
+    "IMPORT_ALBUM_EMPTY": "В альбоме нет треков или он удалён",
+    "IMPORT_INVALID_PROFILE_URL": "Не получилось открыть ссылку на профиль",
+    "IMPORT_NO_PUBLIC_PLAYLISTS": "Открытых плейлистов не нашлось",
+    "IMPORT_NO_TRACKS": "Нет треков для переноса",
+    "IMPORT_PLAYLIST_EMPTY": "В плейлисте нет треков или он удалён",
+    "IMPORT_PLAYLIST_UNAVAILABLE": "Не удалось загрузить плейлист. Проверьте, что он открыт",
+    "IMPORT_SAME_PLATFORM": "Выберите другой сервис для переноса",
+    "ITEMS_QUANTITY_LIMIT": "Этот предмет закончился",
+    "LIBRARY_ALBUM_NOT_FOUND": "Альбом не найден",
+    "LIBRARY_ALBUMS_LIMIT": "В медиатеке уже максимум альбомов",
+    "LIBRARY_ARTISTS_LIMIT": "Вы подписаны на максимум артистов",
+    "LIBRARY_COLLABORATOR_AMBIGUOUS": "Нашлось несколько друзей. Укажите @юзернейм",
+    "LIBRARY_COLLABORATOR_NOT_FRIEND": "Соавтором может быть только друг",
+    "LIBRARY_EDIT_FORBIDDEN": "Редактировать плейлист могут только владелец и соавторы",
+    "LIBRARY_FAVORITES_LIMIT": "В избранном уже максимум треков",
+    "LIBRARY_HIDDEN_LIMIT": "Скрыто слишком много треков",
+    "LIBRARY_OWNER_NOT_COLLABORATOR": "Владелец уже есть в плейлисте",
+    "LIBRARY_OWNER_ONLY": "Это может только владелец плейлиста",
+    "LIBRARY_PLAYLIST_PRIVATE": "Этот плейлист скрыт",
+    "LIBRARY_PLAYLIST_TRACKS_LIMIT": "В плейлисте уже максимум треков",
+    "LIBRARY_PLAYLISTS_LIMIT": "Создано максимальное число плейлистов",
+    "MARKET_AUCTION_ENDED": "Аукцион уже закончился",
+    "MARKET_INVALID_BID": "Ставка должна быть выше текущей",
+    "MARKET_ITEM_NOT_AVAILABLE": "Этот предмет сейчас недоступен",
+    "NEWS_COMMENT_EMPTY": "Напишите комментарий",
+    "NEWS_COMMENT_NOT_FOUND": "Комментарий не найден",
+    "NEWS_NOT_FOUND": "Новость не найдена",
+    "PAYMENT_INSUFFICIENT_BALANCE": "Недостаточно средств",
+    "PAYMENT_PAYMENT_FAILED": "Ошибка оплаты",
+    "PROFILE_TOKEN_REQUIRED": "Подключите аккаунт этого сервиса",
+    "ROOMS_CODE_UNAVAILABLE": "Не удалось создать комнату. Попробуйте ещё раз",
+    "ROOMS_PARTICIPANTS_LIMIT": "Для вашего уровня доступно от 2 до {{max}} участников",
+    "SEARCH_QUERY_EMPTY": "Запрос не может быть пустым",
+    "SEARCH_QUERY_REQUIRED": "Укажите поисковый запрос",
+    "SHAZAM_NO_MATCH": "Не удалось распознать трек",
+    "SOCIAL_COMMENT_TOO_LONG": "Комментарий не более 1000 символов",
+    "STREAM_NOT_FOUND": "Трек не найден",
+    "STREAM_REGION_BLOCKED": "Трек недоступен в вашем регионе",
+    "STREAM_UNAVAILABLE": "Этот трек сейчас недоступен",
+    "USERS_REFERRAL_BALANCE_INSUFFICIENT": "Недостаточно реферального баланса",
+    "USERS_SESSION_CURRENT": "Текущую сессию отсюда завершить нельзя",
+    "USERS_SESSION_NOT_FOUND": "Сессия не найдена",
+    "WAVE_EMPTY": "Не удалось собрать волну. Попробуйте позже",
+    "WORKSHOP_DUPLICATE": "Такая работа уже опубликована",
+    "WORKSHOP_EXTERNAL_LINKS": "Ссылки в работах запрещены",
+    "WORKSHOP_PREVIEW_REQUIRED": "Добавьте хотя бы одно превью",
+    "WORKSHOP_TOO_MANY_PREVIEWS": "Слишком много превью"
+  },
+  "fame": {
+    "level": "Фейм",
+    "fame": "Фейм",
+    "dialog": {
+      "title": "Уровень {{level}}",
+      "description": "Фейм отображает твою активность в приложении и награждает",
+      "description_user": "Фейм отображает активность {{name}} в приложении",
+      "what_gives": "Что даёт?",
+      "listening": "Прослушивание треков",
+      "daily_logins": "Ежедневные заходы",
+      "feature_usage": "Использование функций",
+      "and_more": "И другое",
+      "progress": "{{current}} / {{total}} XP до следующего уровня",
+      "close": "Понятно",
+      "target_title": "Активная цель",
+      "target_remaining": "Вам осталось послушать {{left}} {{unit}} к {{title}} для награды",
+      "target_remaining_album": "Вам осталось послушать {{left}} треков в {{title}} для награды",
+      "target_remaining_artist": "Вам осталось послушать {{left}} треков от {{title}} для награды",
+      "target_remaining_track": "Вам осталось послушать {{left}} раз трек {{title}} для награды",
+      "target_ready": "Награда готова к получению!",
+      "secret_reward": "Секретная награда",
+      "secret_hint": "Откроется по завершению цели",
+      "claim": "Забрать",
+      "claimed": "Получено!",
+      "claiming": "Получаем…",
+      "unit_tracks": "прослушиваний",
+      "unit_days": "дней",
+      "unit_levels": "уровней"
+    },
+    "aria_level": "Фейм {{level}}",
+    "reward": {
+      "next": "Следующая награда",
+      "received": "Награда добавлена в инвентарь",
+      "error": "Не удалось забрать награду. Попробуй ещё раз",
+      "retry": "Обновить",
+      "loading": "Загружаем…",
+      "empty": "Сейчас нет доступных наград",
+      "plays": "Прослушивания",
+      "tracks": "Разные записи",
+      "days": "Дни",
+      "level": "Уровень",
+      "claim": "Забрать",
+      "claiming": "Получаем…"
+    },
+    "item_types": {
+      "frame": "Рамка",
+      "design": "Дизайн",
+      "title": "Титул",
+      "emblem": "Эмблема",
+      "nft": "Подарок",
+      "case": "Кейс",
+      "pack": "Пак",
+      "username": "Имя пользователя",
+      "banner": "Баннер",
+      "background": "Фон"
+    }
+  },
+  "home": {
+    "artist": "Артист",
+    "playlist": "Плейлист",
+    "album": "Альбом",
+    "wave": {
+      "generation_failed": "Не удалось сгенерировать вашу волну. Попробуйте позже.",
+      "unlock_message": "Послушайте минимум {{count}} треков, чтобы погрузиться в волну",
+      "my_wave": "Моя волна",
+      "title_hero": "Моя\nволна",
+      "platform_label": "Платформа",
+      "platform_hint": "Доступны источники, по которым у вас есть история прослушивания",
+      "mood_label": "Настроение",
+      "moods": {
+        "default": "Обычная",
+        "hype": "Хайп",
+        "night": "Ночная",
+        "rage": "Жёсткая",
+        "focus": "Концентрация",
+        "niche": "Нишевая",
+        "iceberg": "Айсберг",
+        "unknown": "Незнакомое",
+        "chill": "Чилл",
+        "happy": "Весёлая",
+        "sad": "Грустная",
+        "workout": "Энергия",
+        "sleep": "Сон",
+        "study": "Фокус",
+        "summer": "Летнее",
+        "winter": "Зимнее"
+      },
+      "no": {
+        "favorites": "У вас нет избранных треков для генерации волны",
+        "playlists": "Нет плейлистов"
+      },
+      "select": {
+        "playlist": "Выберите",
+        "source": "Выберите источник для генерации волны"
+      },
+      "source": {
+        "stats": "Статистика",
+        "favorites": "Любимые",
+        "playlist": "Плейлист"
+      },
+      "use_service_label": "Волна сервиса",
+      "use_service_hint": "Использовать рекомендации сервиса вместо локальной статистики прослушивания"
+    },
+    "sections": {
+      "recently_played": "Недавние треки",
+      "playlists": "Плейлисты",
+      "leaderboards": "Топы",
+      "recent": {
+        "title": "История",
+        "subtitle": "Ваше прослушанное"
+      },
+      "likes": {
+        "title": "Любимые треки",
+        "subtitle": "Ваша коллекция любимой музыки"
+      },
+      "rooms": {
+        "listen_together": "Слушать вместе",
+        "description": "Присоединяйтесь к комнатам и слушайте музыку с друзьями",
+        "login_required": "Войдите в аккаунт для доступа к комнатам"
+      },
+      "subscriptions": {
+        "title": "Подписки"
+      },
+      "mixes": {
+        "title": "Миксы",
+        "tracks_count": "{{count}} треков"
+      },
+      "favorites": {
+        "title": "Любимые"
+      },
+      "for_you": {
+        "title": "Для вас",
+        "morning": "Доброе утро",
+        "day": "Добрый день",
+        "evening": "Добрый вечер",
+        "night": "Доброй ночи"
+      },
+      "start": {
+        "title": "С кого начнём?",
+        "subtitle": "Отметьте артистов, которых любите, — по ним соберём «Для вас» и волну",
+        "done": "Готово"
+      },
+      "niche": {
+        "title": "Нишевое"
+      },
+      "similar": {
+        "title": "Похожее"
+      },
+      "popular": {
+        "title": "Чарты"
+      },
+      "new_releases": {
+        "title": "Релизы"
+      },
+      "user_content": {
+        "title": "Пользовательское",
+        "subtitle": "Плейлисты сообщества Dotify"
+      },
+      "recent_tracks": {
+        "no_recent": "Нет недавних треков",
+        "no_recent_subtitle": "Начните слушать музыку, чтобы увидеть историю"
+      },
+      "no": {
+        "playlists_title": "Нет плейлистов",
+        "playlists_subtitle": "Создайте плейлисты"
+      }
+    },
+    "leaderboards": {
+      "no_data": "Нет данных",
+      "unknown": "Неизвестный",
+      "items_count": "{{count}} предмет",
+      "top": {
+        "rich": "Богачи",
+        "collectors": "Коллекционеры",
+        "spenders": "Транжиры",
+        "tracks": "Лучшие треки",
+        "comments": "комментов"
+      }
+    }
+  },
+  "integrations": {
+    "proxy": {
+      "title": "Прокси",
+      "description": "Маршрутизация трафика и обход ограничений",
+      "covers_title": "Проксирование обложек",
+      "covers_description": "Загружать обложки через прокси",
+      "services_for_proxy": "Сервисы через прокси",
+      "services_description": "Треки с выбранных сервисов будут воспроизводиться через прокси",
+      "custom_title": "Свой прокси",
+      "custom_description": "Введите адрес прокси и перезапустите приложение",
+      "custom_placeholder": "Введите socks5://host:port или http://host:port",
+      "personal_url_placeholder": "vless://..., trojan://... или socks5://...",
+      "autocheck_title": "Проверка доступности",
+      "autocheck_description": "Проверить доступность треков и обложек всех сервисов и настроить прокси",
+      "run_diagnostics": "Проверить сейчас",
+      "checking": "Проверка...",
+      "autocheck_alert_title": "Прокси настроен",
+      "autocheck_alert_message": "Автоматически включен прокси для заблокированных сервисов",
+      "delivery": {
+        "title": "Доставка аудио",
+        "description": "Как брать трек, когда он идёт через прокси",
+        "proxy_title": "Обычный",
+        "proxy_description": "Оборачивать ссылку через серверный прокси",
+        "storage_title": "Хранилище",
+        "storage_description": "Брать трек из серверного хранилища",
+        "storage_locked": "Требуется Infinity",
+        "storage_feature": "Доступ к трекам через хранилище (прокси)"
+      },
+      "sections": {
+        "additional": "Дополнительно",
+        "custom": "Свой прокси",
+        "services": "Сервисы для проксирования",
+        "services_description": "Авто — треки играют напрямую и сами переходят на прокси, если площадку режут. Прокси — всегда через прокси"
+      },
+      "mode_title": "Режим прокси",
+      "mode_disabled": "Выключен",
+      "mode_disabled_desc": "Не использовать прокси и обход блокировок",
+      "mode_internal": "Встроенный",
+      "mode_internal_desc": "Использовать встроенный бесплатный прокси плеера",
+      "mode_internal_locked": "Требуется подписка для встроенного прокси",
+      "mode_internal_feature": "Встроенный прокси",
+      "mode_personal": "Личный",
+      "mode_personal_desc": "Пустить весь трафик плеера через VLESS, Trojan, Shadowsocks",
+      "mode_zapret": "Запрет",
+      "mode_zapret_desc": "Локальный обход блокировок через утилиту Zapret",
+      "zapret_path_detect_success": "Найден путь: {path}",
+      "zapret_path_detect_failed": "Не удалось найти автоматически, укажите вручную",
+      "personal_config": "Настройка личного прокси",
+      "personal_label": "Адрес прокси",
+      "personal_desc_field": "Поддерживаются VLESS и Trojan ссылки (с Reality/TLS/WS), Shadowsocks, а также SOCKS5 и HTTP прокси",
+      "save_btn": "Применить",
+      "invalid_format": "Неверный формат:",
+      "connecting": "Подключение и запуск прокси...",
+      "save_relaunch": "Настройки сохранены. Перезапуск плеера...",
+      "restarting_mode": "Переключение режима, перезапуск плеера...",
+      "start_failed": "Не удалось запустить прокси службу",
+      "covers_btn": "Обложки",
+      "tracks_btn": "Треки",
+      "tracks_auto": "Авто",
+      "tracks_proxy": "Прокси",
+      "direct": "Напрямую"
+    },
+    "discord": {
+      "title": "Discord RPC",
+      "status_active": "Discord RPC активен",
+      "status_active_desc": "Плеер транслирует информацию о прослушивании в Discord",
+      "status_inactive": "Трансляция отключена",
+      "status_inactive_desc": "Включите активность, чтобы делиться треками в Discord",
+      "action_enable": "Включить трансляцию",
+      "action_disable": "Выключить трансляцию",
+      "activity_status": "Активность в Discord",
+      "activity_description": "Показывать в Discord, что вы слушаете",
+      "options_title": "Параметры",
+      "preview_title": "Предпросмотр",
+      "custom_cover": "Кастомная обложка",
+      "custom_cover_description": "Отображать оригинальную обложку трека в статусе",
+      "progress": "Прогресс воспроизведения",
+      "progress_description": "Показывать оставшееся время прослушивания трека",
+      "preview": {
+        "listening": "Слушает Dotify",
+        "track": "Track Name",
+        "artist": "Artist"
+      },
+      "strings": {
+        "button_text": "Скачать Dotify",
+        "paused_small_text": "На паузе",
+        "playing_small_text": "Воспроизводится",
+        "playing_from": "из",
+        "idle": {
+          "state": "воспроизводится...",
+          "details": "Ничего не",
+          "small_text": "В ожидании"
+        }
+      }
+    },
+    "obs": {
+      "title": "OBS Studio",
+      "description": "Виджет текущего трека для трансляций",
+      "status_active": "Виджет активен",
+      "status_active_desc": "Ссылка создана и готова для вставки в OBS",
+      "status_inactive": "Виджет не настроен",
+      "status_inactive_desc": "Сгенерируйте персональную ссылку для OBS",
+      "generate_button": "Сгенерировать ссылку",
+      "generating_button": "Генерация...",
+      "copy_button": "Скопировать",
+      "copied_button": "Скопировано",
+      "regenerate_button": "Пересоздать",
+      "revoke_button": "Отозвать",
+      "guide_title": "Как подключить в OBS?",
+      "guide_subtitle": "Инструкция по настройке",
+      "guide_step1": "В OBS добавьте источник «Браузер»",
+      "guide_step2": "Вставьте скопированную ссылку в поле «URL»",
+      "guide_step3": "Укажите размер: ширина 450, высота 130",
+      "appearance_section": "Оформление виджета",
+      "appearance_description": "Настройка внешнего вида и отображения элементов виджета",
+      "hide_on_pause": "Скрывать при паузе",
+      "hide_on_pause_desc": "Плавно убирать плашку со стрима, когда трек остановлен",
+      "accent_glow": "Динамическое свечение",
+      "accent_glow_desc": "Мягкое свечение в цвет обложки текущего трека",
+      "show_wave": "Анимация звука",
+      "show_wave_desc": "Анимированный эквалайзер рядом с названием трека",
+      "style_label": "Стиль оформления",
+      "style_desc": "Тема и прозрачность плашки",
+      "style_glass": "Стекло",
+      "style_dark": "Тёмный",
+      "style_minimal": "Простой",
+      "size_label": "Размер плашки",
+      "size_desc": "Габариты на экране стрима",
+      "size_default": "Стандартный",
+      "size_compact": "Компактный"
+    },
+    "lastfm": {
+      "title": "Last.fm",
+      "status_active": "Last.fm подключен",
+      "status_active_desc": "Подключено как {username}",
+      "status_inactive": "Аккаунт Last.fm не привязан",
+      "status_inactive_desc": "Подключите аккаунт Last.fm, чтобы скробблить прослушиваемую музыку",
+      "action_connect": "Подключить аккаунт",
+      "action_disconnect": "Отключить аккаунт",
+      "connected": "Подключено",
+      "not_connected": "Не подключено",
+      "connect_description": "Подключите аккаунт для отслеживания музыки",
+      "account": "Аккаунт Last.fm",
+      "connected_as": "Подключен как",
+      "tracking": "Отслеживание прослушиваний",
+      "connect": "Подключить",
+      "settings_title": "Настройки отслеживания",
+      "history": "История прослушиваний",
+      "history_description": "Сохранять прослушанные треки",
+      "now_playing": "Сейчас играет",
+      "now_playing_description": "Показывать текущий трек в профиле"
+    },
+    "zapret": {
+      "title": "Zapret",
+      "description": "Обход блокировок и замедлений (DPI)",
+      "status": "Статус службы",
+      "path": "Путь к Zapret",
+      "path_description": "Папка, где находится Zapret",
+      "path_saved": "Путь сохранён",
+      "path_invalid": "Неверный путь к Zapret",
+      "path_not_set": "Укажите путь к папке с Zapret для запуска обхода",
+      "auto_detect": "Автоматический поиск",
+      "select_folder": "Выбрать папку",
+      "path_empty": "Не указан",
+      "ipset_mode": "Режим IPSet",
+      "ipset_description": "Более эффективный способ фильтрации трафика",
+      "game_filter": "Игровой фильтр",
+      "game_filter_description": "Позволяет обходить блокировки в голосовых чатах игр",
+      "configuration": "Настройка",
+      "domains": {
+        "title": "Список доменов",
+        "add": "Добавить домен",
+        "placeholder": "example.com",
+        "list_empty": "Список пуст"
+      },
+      "service": {
+        "start": "Запустить службу",
+        "stop": "Остановить службу",
+        "restart": "Перезапустить",
+        "running": "Служба запущена",
+        "stopped": "Служба остановлена",
+        "unknown": "Статус неизвестен",
+        "starting": "Запуск...",
+        "stopping": "Остановка...",
+        "title": "Управление службой",
+        "description": "Управление фоновой службой"
+      },
+      "status_description": "Статус интеграции"
+    },
+    "api": {
+      "title": "API",
+      "status": {
+        "active": "API сервер активен",
+        "address": "Адрес",
+        "offline": "API сервер выключен"
+      },
+      "description": "Локальный API сервер позволяет внешним приложениям и виджетам OBS управлять приложением",
+      "start": "Запустить API сервер",
+      "stop": "Остановить сервер",
+      "autolaunch": "Автозапуск при старте",
+      "autolaunch_desc": "Автоматически запускать сервер при открытии приложения",
+      "docs": {
+        "player_get": "Получить текущее состояние плеера и информацию о треке",
+        "player_play": "Возобновить или начать воспроизведение",
+        "player_pause": "Поставить на паузу",
+        "player_next": "Переключить на следующий трек",
+        "player_prev": "Вернуться к предыдущему треку",
+        "player_seek_abs": "Перемотать на указанную позицию (в секундах)",
+        "player_volume_abs": "Установить уровень громкости (от 0.0 до 1.0)"
+      }
+    }
+  },
+  "inventory": {
+    "title": "Инвентарь",
+    "category": {
+      "title": "Категории",
+      "all": "Все",
+      "titles": "Титулы",
+      "designs": "Дизайны",
+      "cases": "Кейсы",
+      "nfts": "Подарки",
+      "emblems": "Эмблемы",
+      "packs": "Паки",
+      "usernames": "Имена"
+    },
+    "empty": "В инвентаре пока пусто",
+    "empty_hint": "Здесь появятся ваши предметы после их получения",
+    "premium": {
+      "no_subscription_title": "Нет активной подписки",
+      "no_subscription_subtitle": "Получите доступ ко всем возможностям",
+      "subscription_info_lifetime": "{{planName}}, навсегда",
+      "benefits_button": "Возможности"
+    },
+    "sort": {
+      "rarity_desc": "Редкость",
+      "rarity_asc": "Редкость (по возрастанию)",
+      "name_asc": "Имя (А-Я)"
+    },
+    "notifications": {
+      "action_error": "Произошла ошибка"
+    },
+    "status": {
+      "empty_title": "Предметы не найдены",
+      "empty_subtitle": "Предметов по вашему запросу не найдено"
+    },
+    "cards": {
+      "default_user": "Пользователь",
+      "unequip": "Снять",
+      "equip": "Надеть",
+      "deactivate": "Снять",
+      "activate": "Применить",
+      "open": "Открыть",
+      "acquired": "Получено",
+      "wrap_gift": "Завернуть в подарок",
+      "left": "Осталось {{time}}",
+      "left_days": "{{count}} д",
+      "left_hours": "{{count}} ч",
+      "left_minutes": "{{count}} мин"
+    },
+    "design_type": {
+      "frame": "Рамка",
+      "design": "Дизайн"
+    },
+    "case": {
+      "preview_title": "Содержимое кейса",
+      "preview_description": "Просмотр содержимого кейса и шансов выпадения призов"
+    },
+    "username": {
+      "card_title": "Имя пользователя",
+      "equipped": "Поставлен",
+      "equip": "Поставить"
+    },
+    "roulette": {
+      "title": "Открытие кейса",
+      "close_button": "Закрыть",
+      "close_button_sr": "Закрыть",
+      "premium_title": "Премиум",
+      "premium_days": "{count} дней",
+      "unknown_prize": "?",
+      "open_more_button_default": "Открыть еще",
+      "closes": [
+        "Закрыть",
+        "Готово",
+        "Принять",
+        "Забрать",
+        "Продолжить",
+        "Ок",
+        "Принять",
+        "Завершить",
+        "Закрыть окно",
+        "Ещё один",
+        "Открыть ещё",
+        "Попробовать снова",
+        "Снова"
+      ],
+      "won_1": "Вы выиграли",
+      "won_2": "Ваш приз",
+      "won_3": "Поздравляем",
+      "won_4": "Вот ваш приз",
+      "won_5": "Вы получили",
+      "won_6": "Удача",
+      "won_7": "Победа",
+      "won_8": "Отлично"
+    },
+    "auction": {
+      "title": "Выставить на аукцион"
+    },
+    "item_preview": {
+      "title": "Просмотр предмета",
+      "active": "Активен"
+    },
+    "tooltips": {
+      "equip": "Экипировать",
+      "unequip": "Снять"
+    },
+    "exchange": {
+      "title": "Предложить обмен"
+    },
+    "gift": {
+      "confirm_title": "Подарить",
+      "confirm_desc": "Выберите друга — ему придёт подарок. Или сделайте ссылку для кого угодно. Предмет пропадёт из вашего инвентаря.",
+      "to_friend": "Подарить",
+      "by_link": "Ссылкой",
+      "sent_title": "Подарок отправлен",
+      "sent_desc": "{{name}} получит уведомление и сможет принять подарок",
+      "error_not_yours": "Этот подарок предназначен другому человеку",
+      "accept": "Принять",
+      "wrap_button": "Завернуть",
+      "wrapping_status": "Заворачиваем ваш подарок...",
+      "success_title": "Подарок готов!",
+      "success_desc": "Мы сгенерировали уникальную ссылку. Отправьте её тому, кому хотите передать этот предмет!",
+      "confirm_claim_title": "Получить подарок?",
+      "confirm_claim_desc": "Вам прислали подарок. Вы хотите добавить его в свой инвентарь?",
+      "claim_button": "Забрать",
+      "success_claim_title": "Подарок получен!",
+      "success_claim_desc": "Предмет успешно добавлен в ваш инвентарь.",
+      "loading_status": "Загрузка данных о подарке...",
+      "claiming_status": "Забираем ваш подарок...",
+      "error_not_found": "Подарок не найден или уже был кем-то активирован",
+      "error_already_owned": "У вас уже есть этот уникальный предмет",
+      "error_title": "Подарок недоступен",
+      "message_placeholder": "Сообщение для получателя",
+      "sub_success_title": "Подарок активирован",
+      "sub_success_desc": "Подписка успешно активирована на ваш аккаунт",
+      "join_elite_chat": "Войти в элитный чат",
+      "default_item_name": "Предмет",
+      "copy_link": "Копировать ссылку"
+    },
+    "empty_sellable": "Нет предметов для продажи"
+  },
+  "library": {
+    "title": "Библиотека",
+    "settings": {
+      "title": "Медиатека",
+      "insertion": "Добавление",
+      "insertion_description": "Куда добавлять новые треки в плейлистах",
+      "start": "В начало",
+      "end": "В конец"
+    },
+    "system": {
+      "title": "Системные"
+    },
+    "playlists": {
+      "title": "Плейлисты",
+      "count_plural": "плейлистов"
+    },
+    "tracks_plural": "треков",
+    "tracks_plural_count": {
+      "one": "{{count}} трек",
+      "few": "{{count}} трека",
+      "many": "{{count}} треков",
+      "other": "{{count}} треков"
+    },
+    "search": {
+      "placeholder": "Поиск по трекам, исполнителям..."
+    },
+    "search_playlists": "Поиск плейлиста",
+    "filters": {
+      "regular": {
+        "title": "Обычные"
+      },
+      "starred": {
+        "title": "Избранные"
+      }
+    },
+    "state": {
+      "select_collection": "Вы ничего еще не выбрали",
+      "select_collection_subtitle": "Выберите плейлист в меню слева",
+      "loading": "Загрузка...",
+      "no_duplicates": "Дубликаты не найдены",
+      "all_tracks_unique": "Все треки в этом плейлисте уникальны",
+      "empty_playlist_title": "Добавьте первый трек",
+      "empty_playlist_subtitle": "У вас еще нет тут треков",
+      "generating": "Генерация..."
+    },
+    "actions": {
+      "open": "Открыть плейлист",
+      "title": "Действия",
+      "import": "Импортировать",
+      "play": "Воспроизвести",
+      "create_playlist": "Создать плейлист",
+      "refresh": "Обновить",
+      "reload": "Перезагрузить",
+      "make_public": "Сделать публичным",
+      "make_private": "Сделать приватным",
+      "loading_playlist": "Загрузка плейлиста...",
+      "please_wait": "Пожалуйста, подождите",
+      "rename": "Переименовать",
+      "edit": "Изменить",
+      "delete": "Удалить",
+      "pin": "Закрепить",
+      "unpin": "Открепить",
+      "change_icon": "Изменить обложку",
+      "shuffle_play": "Перемешать и запустить",
+      "queue": "В очередь",
+      "wave_by_playlist": "Волна по плейлисту",
+      "find_duplicates": "Найти дубликаты",
+      "sort": "Сортировка",
+      "download": "Скачать",
+      "search": "Поиск в плейлисте",
+      "clear": "Очистить",
+      "create": "Создать",
+      "deselect_all": "Снять выделение",
+      "select_all": "Выделить всё",
+      "share": "Поделиться",
+      "more": "Еще",
+      "menu": "Меню",
+      "add_to_library": "Добавить в библиотеку",
+      "add": {
+        "to": {
+          "queue": "В очередь",
+          "starred": "Добавить в избранное",
+          "favorites": "Добавить в любимое",
+          "playlist": "Добавить в плейлист"
+        }
+      },
+      "remove": {
+        "from": {
+          "starred": "Убрать из избранного",
+          "favorites": "Убрать из избранного"
+        }
+      },
+      "collab": {
+        "add_friend": "Добавить друга",
+        "friend_placeholder": "Введите никнейм или юзернейм",
+        "added": "Коллаборатор добавлен",
+        "add_error": "Не удалось добавить коллаборатора",
+        "remove": "Удалить",
+        "removed": "Коллаборатор удален",
+        "remove_error": "Не удалось удалить коллаборатора"
+      }
+    },
+    "sort": {
+      "default": "По умолчанию",
+      "title_asc": "По названию (А-Я)",
+      "title_desc": "По названию (Я-А)",
+      "artist_asc": "По исполнителю (А-Я)",
+      "artist_desc": "По исполнителю (Я-А)",
+      "duration_asc": "По длительности (возр.)",
+      "duration_desc": "По длительности (убыв.)",
+      "added_asc": "По добавлению (старые)",
+      "added_desc": "По добавлению (новые)",
+      "downloaded_all": "Все загруженные",
+      "by": {
+        "own": "Свой порядок",
+        "title": "Название",
+        "artist": "Исполнитель",
+        "duration": "Длительность",
+        "added": "Добавлено",
+        "duplicates": "Дубликаты"
+      }
+    },
+    "playlist": {
+      "create": "Создать плейлист",
+      "created_by": "Создан",
+      "import": {
+        "title": "Импорт",
+        "from_json": "Из файла",
+        "from_list": "Из списка",
+        "from_list_title": "Импорт из списка",
+        "from_list_placeholder": "Вставьте или впишите треки, по одному на строку",
+        "from_list_empty": "Список треков пуст",
+        "playlist_url": "Ссылка на плейлист",
+        "profile_url": "Ссылка на профиль",
+        "profile_url_or_id": "Ссылка на профиль или идентификатор",
+        "username_or_id": "Имя пользователя или идентификатор",
+        "profile": "Импорт профиля",
+        "start": "Импортировать",
+        "import_all": "Импортировать всё",
+        "importing": "Импортируем...",
+        "specify_profile": "Указать профиль (необязательно)",
+        "profile_select_service": "Выберите сервис для переноса аккаунта",
+        "requires_login": "Для этого сервиса нужна авторизация во вкладке настроек",
+        "from_list_desc": "Добавление плейлиста списком названий"
+      },
+      "imported": "Плейлист успешно импортирован",
+      "neuro": {
+        "title": "Нейро плейлист",
+        "subtitle": "Создайте плейлист на основе ваших предпочтений с помощью рекомендаций"
+      },
+      "empty": "Нет треков",
+      "untitled": "Без названия",
+      "imported_default_name": "Импортированный плейлист",
+      "name_placeholder": "Название плейлиста...",
+      "convert": {
+        "title": "Конвертировать плейлист",
+        "description": "Перенос треков на другую платформу",
+        "from_library": "Из библиотеки",
+        "pick_playlist": "Выберите плейлист",
+        "target": "Целевая платформа",
+        "start": "Конвертировать",
+        "converting": "Конвертируем...",
+        "processing": "Конвертируем...",
+        "completed": "Конвертация завершена",
+        "total": "Всего",
+        "matched": "Найдено",
+        "failed": "Не найдено"
+      }
+    },
+    "favorites": {
+      "title": "Любимые",
+      "subtitle": "Лайкнутые треки",
+      "empty": "Нет лайкнутых треков"
+    },
+    "dislikes": {
+      "title": "Дизлайки",
+      "subtitle": "Треки, которые вам не нравятся",
+      "empty_title": "Дизлайков пока нет",
+      "empty_subtitle": "Отметьте трек дизлайком, и он появится здесь"
+    },
+    "offline": {
+      "title": "Скачанные",
+      "subtitle": "Кеш и локальное",
+      "empty": "Нет скачанных треков",
+      "empty_tracks_title": "Здесь появятся ваши треки",
+      "empty_tracks_subtitle": "Перетащите аудиофайлы сюда или добавьте с компьютера"
+    },
+    "created_by": {
+      "import": "импортом",
+      "generation": "генерацией",
+      "user": "вами"
+    },
+    "errors": {
+      "track_remove_failed": "Не удалось удалить трек из плейлиста",
+      "favorites_order_save_failed": "Не удалось сохранить порядок любимых треков",
+      "unknown_error": "Неизвестная ошибка",
+      "import": {
+        "error": "Ошибка импорта",
+        "playlist_not_found": "Плейлист не найден",
+        "general_error": "Произошла ошибка при получении данных плейлиста",
+        "json_invalid": "Некорректный формат JSON файла",
+        "platform_error": "Ошибка платформы. Проверьте токен в настройках",
+        "unauthorized": "Требуется авторизация. Добавьте токен в настройках",
+        "invalid_url": "Неверная ссылка на плейлист",
+        "no_audio_found": "Аудиофайлы не найдены",
+        "rate_limited": "Слишком много запросов. Попробуйте позже",
+        "network_error": "Ошибка сети. Проверьте подключение",
+        "no_service_detected": "Не удалось определить сервис по ссылке"
+      },
+      "neuro": {
+        "insufficient_stats": "Недостаточно статистики для генерации",
+        "playlist_not_selected": "Плейлист не выбран",
+        "generation_error": "Не удалось сгенерировать плейлист. Попробуйте другие настройки",
+        "no": {
+          "favorites": "У вас нет избранных треков"
+        }
+      },
+      "no": {
+        "url": "Нет URL"
+      },
+      "invalid": {
+        "json": "Неверный JSON"
+      },
+      "auth": {
+        "required": {
+          "spotify": "Требуется авторизация Spotify",
+          "vk": "Требуется авторизация VK",
+          "yandex": "Требуется авторизация Яндекс"
+        }
+      }
+    },
+    "neuro_playlist": "Нейроплейлист",
+    "create_dialog": {
+      "title": "Управление библиотекой",
+      "description": "Создание, импорт и синхронизация плейлистов."
+    },
+    "updates": {
+      "title": "Обновления плейлистов"
+    },
+    "storage_error_title": "Не удалось загрузить данные",
+    "storage_error_description": "Не удалось прочитать локальные данные приложения",
+    "storage_retry": "Повторить",
+    "draft": {
+      "profile": "Профиль",
+      "neuro": "Нейро",
+      "fetching": "Загружаем плейлист…",
+      "searching": "Найдено {{current}} из {{total}}",
+      "loading": "Загружено {{current}} из {{total}}",
+      "not_found_count": "{{count}} не найдено",
+      "not_found": "не найден",
+      "failed": "Не получилось загрузить",
+      "again": "Ещё раз",
+      "lines": {
+        "one": "{{count}} строка",
+        "few": "{{count}} строки",
+        "many": "{{count}} строк"
+      },
+      "neuro_failed": "Подборка не собралась, попробуйте ещё раз"
+    },
+    "hub": {
+      "name_taken": "Плейлист с таким названием уже есть",
+      "signed_in": "Вы вошли как",
+      "playlists": "Плейлисты",
+      "albums": "Альбомы",
+      "artists": "Исполнители",
+      "find": "Найти",
+      "create_import": "Создать или импортировать плейлист",
+      "count": "{{current}} из {{total}}",
+      "field_profile": "Ссылка на профиль",
+      "list_hint": "Впишите треки",
+      "transfer": "Перенести",
+      "list_placeholder": "Трек — автор\nТрек — автор",
+      "profile_hint": "Вставьте ссылку на профиль или возьмите свой аккаунт",
+      "track_progress": "{{current}} из {{total}} треков",
+      "progress_label": "Импорт: {{name}}",
+      "profile_failed": "Не удалось импортировать коллекции: {{count}}",
+      "empty_playlists": "Плейлистов пока нет",
+      "empty_playlists_hint": "Создайте плейлист или добавьте его к себе, он появится здесь",
+      "empty_albums": "Альбомов пока нет",
+      "empty_albums_hint": "Добавьте альбом к себе, он появится здесь",
+      "empty_artists": "Исполнителей пока нет",
+      "empty_artists_hint": "Подпишитесь на исполнителя, он появится здесь",
+      "auto": "Автоматически",
+      "waiting": "Ожидает импорта",
+      "import_loading": "Импортируем треки…",
+      "convert_loading": "Конвертируем треки…",
+      "update_loading": "Обновляем…",
+      "cache_loading": "Кеширование",
+      "profile_loading": "Загружаем профиль…",
+      "profile_empty": "В этом профиле пока нет плейлистов",
+      "neuro_loading": "Подбираем треки по вашим предпочтениям…",
+      "link_failed": "Не удалось загрузить коллекцию",
+      "create": "Создать",
+      "convert": "Конвертация",
+      "convert_action": "Конвертировать",
+      "update": "Обновление",
+      "list": "Список",
+      "neuro": "Нейро",
+      "field_link": "Ссылка для импорта",
+      "link": "По ссылке",
+      "field_name": "Название",
+      "failed": "Не получилось, попробуйте ещё раз",
+      "not_found": "Ни одного трека не нашлось",
+      "update_failed": "Не все плейлисты обновились",
+      "import_account": "Импортировать профиль {{name}}",
+      "likes": "Лайки",
+      "link_unsupported": "Нужна ссылка на плейлист, альбом или профиль",
+      "pick_convert": "Выберите плейлист для конвертации",
+      "profile_failed_load": "Не удалось открыть профиль",
+      "profile_locked": "Импорт профиля доступен с Infinity"
+    }
+  },
+  "loading": {
+    "music": {
+      "title": "Загрузка музыки...",
+      "subtitle": "Получаем треки"
+    },
+    "search": {
+      "title": "Поиск...",
+      "subtitle": "Ищем результаты"
+    },
+    "inventory": {
+      "title": "Загрузка инвентаря...",
+      "subtitle": "Получаем предметы"
+    },
+    "artist": {
+      "title": "Загрузка артиста...",
+      "subtitle": "Получаем информацию"
+    },
+    "artist_unique": {
+      "subtitle": "Получаем информацию об исполнителе"
+    },
+    "player": {
+      "title": "Подготовка плеера...",
+      "subtitle": "Загружаем аудио"
+    },
+    "screen": {
+      "descriptions": [
+        "Подожди до конца, и всё будет хорошо",
+        "Открой для себя новый звук, типа «ЫЭэ»",
+        "Погрузись в мир музыки, и с нами тоже",
+        "Создано для настоящих меломанов, даже чтобы слушать «Марабу»",
+        "Музыка без границ, но не без нас",
+        "Больше чем просто плеер, на пару сантиметров выше тебя",
+        "Погрузись в мир музыки, и с нами тоже",
+        "Подожди, чтобы представить себя в эдите",
+        "Подожди, чтобы почувствовать себя уникальным",
+        "Кстати, загляни в настройки",
+        "Проверь звук, пока грузится",
+        "Кстати, у нас есть Телеграм, он там наверху",
+        "даже тёмный принц назвал наш плеер «мясным»..."
+      ]
+    }
+  },
+  "lyrics": {
+    "title": "Название",
+    "full_cover": {
+      "open": "Открыть текст на весь экран",
+      "synced": "Синхронизирован",
+      "not_synced": "Без синхронизации",
+      "no_lyrics": "Текст не найден",
+      "sync_button": "Синхронизировать",
+      "translate": "Перевести",
+      "original": "Оригинал",
+      "clip": "Клип",
+      "clip_disable": "Свернуть",
+      "view_mode": "Вид",
+      "view_mode_options": {
+        "both": "Всё",
+        "cover": "Обложка",
+        "lyrics": "Текст"
+      },
+      "sync_mode": "Синхронизация",
+      "sync_mode_options": {
+        "words": "По словам",
+        "lines": "По строкам"
+      },
+      "text_style": "Стиль текста",
+      "text_style_options": {
+        "normal": "Обычный",
+        "scale": "Масштаб",
+        "blur": "Размытие",
+        "cinematic": "Кино",
+        "shift": "Сдвиг"
+      },
+      "anim_style": "Анимация",
+      "anim_style_options": {
+        "default": "Обычная",
+        "fade": "Фейд",
+        "blur": "Размытие",
+        "flip3d": "3D Переворот",
+        "bounce": "Отскок",
+        "wave": "Волна",
+        "float": "Всплытие",
+        "drift": "Дрифт",
+        "zoom": "Глубина"
+      },
+      "controls": {
+        "like": "Добавить в избранное"
+      },
+      "right_click_hint": "Правая кнопка для настроек",
+      "right_click_hint_prefix": "Нажмите",
+      "right_click_hint_suffix": "по тексту для настроек",
+      "sync_offset": "Смещение",
+      "font_size_options": {
+        "sm": "Мелкий текст",
+        "md": "Средний текст",
+        "lg": "Крупный текст",
+        "xl": "Очень крупный текст"
+      },
+      "offset_ms": "{{value}} мс"
+    }
+  },
+  "news": {
+    "button": {
+      "news": "Новости"
+    },
+    "list": {
+      "empty": "Новостей пока нет"
+    },
+    "panel": {
+      "title": "Новости"
+    },
+    "feed": {
+      "subtitle": "Что нового в Dotify и ваши уведомления"
+    },
+    "poll": {
+      "title": "Опрос"
+    },
+    "comments": {
+      "title": "Комментарии",
+      "write": "Написать комментарий...",
+      "delete": "Удалить комментарий"
+    },
+    "loading": "Загрузка...",
+    "votes": {
+      "one": "голос",
+      "few": "голоса",
+      "many": "голосов"
+    },
+    "gallery": {
+      "previous": "Предыдущее фото",
+      "next": "Следующее фото"
+    }
+  },
+  "notifications": {
+    "notification": {
+      "title": "Уведомления"
+    },
+    "title": "Уведомления",
+    "clear": "Очистить",
+    "friend": {
+      "accept": "Принять",
+      "decline": "Отклонить"
+    },
+    "loading": "Загрузка...",
+    "empty": {
+      "title": "Пусто",
+      "description": "У вас нет новых уведомлений"
+    },
+    "types": {
+      "info": "Информация",
+      "success": "Готово",
+      "warning": "Внимание",
+      "error": "Ошибка"
+    }
+  },
+  "onboarding": {
+    "welcome_title_part1": "Вы хотите пройти",
+    "welcome_title_part2": "базовую настройку?",
+    "welcome_desc": "Мы поможем настроить приложение под ваши предпочтения, импортировать треки и настроить прокси-сервер",
+    "yes_button": "Да, настроить",
+    "skip_button": "Пропустить",
+    "next_button": "Продолжить",
+    "back_button": "Назад",
+    "done_button": "Готово",
+    "appearance_title_part1": "Настроить",
+    "appearance_title_part2": "внешний вид?",
+    "appearance_presets_title": "Вид мини плеера",
+    "appearance_tabs_title": "Расположение вкладок",
+    "appearance_desc": "Выберите удобное положение меню и стиль нижнего плеера",
+    "import_title_part1": "Импортировать",
+    "import_title_part2": "первый плейлист?",
+    "import_desc": "Вставьте ссылку на любой плейлист или альбом, чтобы скопировать треки",
+    "import_placeholder": "Вставьте ссылку на плейлист или альбом...",
+    "import_btn": "Импортировать",
+    "import_success": "Плейлист успешно перенесен в библиотеку!",
+    "import_save_error": "Не удалось сохранить импортированный плейлист во внутреннюю библиотеку.",
+    "import_error_default": "Ошибка импорта. Проверьте правильность ссылки и подключение к интернету.",
+    "proxy_title_part1": "Выбрать",
+    "proxy_title_part2": "недоступные сервисы?",
+    "proxy_desc": "Мы автоматически настроим и включим прокси для отмеченных платформ",
+    "auto_proxy": "Автонастройка прокси",
+    "auto_proxy_desc": "Автоматическая проверка и обход блокировок",
+    "checking_connection": "Тестируем подключение к серверам..."
+  },
+  "payment": {
+    "month": "Месяц",
+    "year": "Год",
+    "per_month": "/мес",
+    "choose_method": "Способ оплаты",
+    "method_title": "Способ оплаты",
+    "method_desc": "Выберите удобный способ оплаты",
+    "telegram_title": "Бот",
+    "telegram_desc": "Оплата и привязка",
+    "playerok_title": "PlayerOK",
+    "playerok_desc": "Ручная выдача",
+    "pay": "Оплатить",
+    "select_method": "Выберите метод",
+    "back": "Назад",
+    "or": "ИЛИ",
+    "pay_telegram": "Оплатить через бота в телеграмм",
+    "processing_title": "Ожидание оплаты",
+    "processing_desc": "Страница оплаты открыта в браузере. Не закрывайте это окно до завершения",
+    "i_paid": "Я оплатил",
+    "open_again": "Открыть снова",
+    "cancel": "Отмена",
+    "error": "Ошибка оплаты",
+    "success_title": "Успешно!",
+    "success_desc": "Подписка активирована. Спасибо за поддержку",
+    "success_desc_infinity": "Подписка Infinity активирована! Теперь вам доступны все возможности и элитный чат",
+    "join_elite_chat": "Вступить в элитный чат",
+    "close": "Отлично",
+    "desc_premium": "Выберите способ оплаты подписки",
+    "desc_item": "Выберите способ оплаты",
+    "success_desc_coins": "Монеты успешно зачислены на ваш баланс",
+    "pay_now": "Оплатить сейчас",
+    "coins_title": "Монеты",
+    "coins_desc": "Выберите подходящий пакет",
+    "coins_unit": "монет",
+    "coins_balance_desc": "Баланс монет для покупки титулов, значков и торговли на аукционе",
+    "coin_features_title": "Возможности монет",
+    "coin_features_desc": "На что можно потратить монеты в Dotify",
+    "coins_success_title": "Монеты начислены",
+    "coins_success_desc": "{{count}} монет успешно добавлены на ваш баланс",
+    "plans_title": "Выберите подписку",
+    "plans_desc": "Получите доступ к премиум-возможностям",
+    "features_show": "Показать возможности",
+    "features_hide": "Скрыть возможности",
+    "checking": "Проверяем...",
+    "1_day": "1 день",
+    "7_days": "7 дней",
+    "14_days": "14 дней",
+    "30_days": "30 дней",
+    "90_days": "90 дней",
+    "180_days": "180 дней",
+    "to_pay": "К оплате",
+    "paying": "Инициализация...",
+    "buy_short": "Купить",
+    "gift": "Подарить",
+    "message": "Сообщение",
+    "message_placeholder": "Сообщение для получателя",
+    "gift_premium": "Подарить Premium",
+    "success_title_gift": "Подарок отправлен!",
+    "success_desc_gift": "Подписка успешно подарена вашему другу.",
+    "basic_desc": "Базовые премиум-функции для комфортного прослушивания",
+    "infinity_desc": "Максимальные возможности и доступ в элитный чат",
+    "button_paying": "Создание платежа...",
+    "retry": "Повторить попытку",
+    "period": "Период",
+    "period_desc": "Длительность действия",
+    "slots_desc": "Размер семейного пакета",
+    "search_friend": "Поиск по имени...",
+    "invite_btn": "Пригласить →",
+    "empty_search": "Ничего не найдено",
+    "slots_free_member": "Свободное место для друга",
+    "slots_free_desc": "Управление участниками и доступными слотами",
+    "slots_available": "доступно",
+    "error_unknown": "Неизвестная ошибка",
+    "upgrade_notice": "Доплата за оставшиеся {{days}} дн.",
+    "upgrade_plan": "Улучшить тариф ({{price}} {{currency}})",
+    "payment_failed": "Платёж не выполнен",
+    "create_failed": "Не удалось создать платёж",
+    "slot_assign_failed": "Не удалось добавить пользователя в слот",
+    "slot_remove_failed": "Не удалось освободить слот",
+    "check_payment": "Проверить",
+    "done": "Оплачено",
+    "next": "Далее",
+    "period_label": "на {{count}} дней",
+    "duration_year": "1 год",
+    "duration_months": "{{count}} мес",
+    "unit_year": "год",
+    "unit_month": "мес",
+    "unit_day": "дн",
+    "link_copied": "Ссылка скопирована!",
+    "order_not_found": "Оплата не найдена. Пожалуйста, попробуйте еще раз позже.",
+    "free": "Бесплатно",
+    "payment_id": "Айди платежа",
+    "amount": "Количество",
+    "status_title": "Статус",
+    "waiting_payment": "Ожидание оплаты",
+    "payment_copied": "Скопировано",
+    "stamp_paid": "ОПЛАЧЕНО",
+    "for_seats": "для {{count}} мест",
+    "you": "Вы",
+    "your_slot": "Это ваше место"
+  },
+  "player": {
+    "controls": {
+      "play": "Воспроизвести",
+      "download": {
+        "track": "Скачать трек"
+      },
+      "no_playlists": "Нет доступных плейлистов",
+      "repeat": {
+        "off": "Повтор выкл",
+        "queue": "Повтор очереди",
+        "track": "Повтор трека"
+      }
+    },
+    "lyrics": {
+      "title": "Текст песни",
+      "loading": "Загрузка текста..."
+    },
+    "queue": {
+      "played": "Предыдущие",
+      "now_playing": "Сейчас играет",
+      "next": "Далее",
+      "track_queue": "Очередь треков",
+      "similar": "Похожие",
+      "clear": "Очистить очередь",
+      "favorites_playlist": "Любимые",
+      "empty_queue": "Очередь пуста",
+      "empty": "Очередь пуста",
+      "empty_subtitle": "Добавьте треки в очередь воспроизведения",
+      "title": "Очередь",
+      "track": {
+        "title": "трек"
+      },
+      "tracks": "треков"
+    },
+    "stats": {
+      "listened": "Прослушано {{count}} треков",
+      "total_for": "Всего за {{time}}",
+      "no_data": "Нет данных",
+      "zero_time": "0 сек"
+    },
+    "equalizer": {
+      "title": "Эквалайзер"
+    },
+    "local_track": {
+      "add": {
+        "local_track": "Добавить локальный трек",
+        "add_more": "Добавить ещё",
+        "folder": "Добавить папку",
+        "files": "Добавить файлы"
+      },
+      "scan_recursive": "Сканировать папку и подпапки",
+      "album": "Альбом",
+      "artist": "Исполнитель",
+      "drop_files_here": "Перетащите аудиофайлы сюда",
+      "limit": {
+        "title": "Лимит треков"
+      },
+      "or_click_to_browse": "или нажмите для выбора файлов",
+      "title": "Название",
+      "unknown_artist": "Неизвестный исполнитель",
+      "unknown_title": "Неизвестный трек"
+    },
+    "next_track": {
+      "coming_next": "Далее"
+    },
+    "speed": {
+      "apply": "Применить",
+      "custom": "Своя скорость",
+      "title": "Скорость воспроизведения",
+      "remember": "Запомнить",
+      "remembered": "Запомнено",
+      "forgotten": "Скорость для трека больше не запоминается"
+    },
+    "track_info": {
+      "select_track": "Выберите трек",
+      "select_track_to_play": "Выберите трек для воспроизведения"
+    },
+    "nothing_playing": "Ничего не играет",
+    "nothing_playing_subtitle": "Выберите трек для воспроизведения",
+    "panel": {
+      "lyrics": "Текст",
+      "queue": "Очередь"
+    },
+    "window": "Мини плеер в окне",
+    "unavailable": {
+      "next": "Трек недоступен, играет следующий",
+      "stop": "Трек недоступен",
+      "failed": "Не удалось загрузить трек"
+    },
+    "notice": {
+      "queue_title": "Очередь",
+      "queued": "Добавлен в очередь",
+      "already_queued": "Уже в очереди",
+      "next": "Играет следующим",
+      "added": "Трек добавлен",
+      "removed": "Трек убран"
+    }
+  },
+  "premium": {
+    "dialog": {
+      "title": "Премиум подписка",
+      "buy_button": "Оформить подписку",
+      "subtitle": "Откройте все возможности с планом {{planName}}",
+      "price_label": "Стоимость"
+    },
+    "expires_in": "До",
+    "feature_name": "эта функция",
+    "available_from": "Доступно от {{level}}",
+    "premium": "Премиум",
+    "click_to_unlock": "Нажмите для разблокировки",
+    "required_level": "Требуется премиум {level} уровня",
+    "get_premium": "Получить Premium",
+    "levels": {
+      "basic": {
+        "description": "Базовые функции и возможности"
+      },
+      "infinity": {
+        "description": "Все функции и безлимитный доступ"
+      }
+    },
+    "no_subscription": "Нет активной подписки",
+    "required": {
+      "subscription": "Требуется подписка",
+      "level": "Нужен {{level}} уровень",
+      "upgrade_level": "Для {{featureName}} нужен уровень выше"
+    },
+    "your_level": "Ваш уровень"
+  },
+  "profile": {
+    "title": "Профиль",
+    "loading": "Загрузка профиля",
+    "edit": {
+      "title": "Редактировать профиль",
+      "description": "Настройте свой профиль",
+      "nickname_label": "Никнейм",
+      "username_label": "Имя пользователя",
+      "bio_label": "О себе",
+      "avatar_placeholder": "Ссылка на аватарку",
+      "bio_placeholder": "Расскажите о себе",
+      "nickname_placeholder": "Ваш никнейм",
+      "username_placeholder": "Ваше имя пользователя",
+      "avatar_label": "Аватар",
+      "banner_label": "Баннер",
+      "background_label": "Фон",
+      "custom_color": "Свой цвет",
+      "change_image": "Изменить изображение",
+      "upload_image": "Загрузить файл",
+      "file_upload": "Загрузить файл",
+      "status_label": "Статус",
+      "status_placeholder": "Что у вас нового?",
+      "custom_link": "Своя ссылка",
+      "clear_image": "Очистить",
+      "no_color": "Без цвета",
+      "banner_placeholder": "Ссылка на баннер",
+      "background_placeholder": "Ссылка на фон",
+      "auto_save": "Изменения сохраняются автоматически."
+    },
+    "status": {
+      "online": "В сети",
+      "idle": "Отошёл",
+      "offline": "Не в сети",
+      "whats_new": "Что нового?",
+      "label": "Статус"
+    },
+    "errors": {
+      "user_data_unavailable": "Данные пользователя недоступны",
+      "user_data_description": "Не удалось получить данные этого пользователя",
+      "token_expired": "Сессия истекла",
+      "file_too_large": "Файл слишком большой",
+      "upload_failed": "Не удалось загрузить файл"
+    },
+    "notifications": {
+      "title": "Почта"
+    },
+    "password": {
+      "title": "Пароль",
+      "not_set": "Пароль не установлен",
+      "set_button": "Установить",
+      "current": "Текущий пароль",
+      "new": "Новый пароль",
+      "confirm": "Подтвердите пароль",
+      "errors": {
+        "current_required": "Требуется текущий пароль",
+        "new_required": "Требуется новый пароль",
+        "new_too_short": "Пароль должен быть не менее 8 символов",
+        "mismatch": "Пароли не совпадают",
+        "current_invalid": "Текущий пароль неверен",
+        "change_failed": "Не удалось изменить пароль"
+      },
+      "set": {
+        "title": "Установить пароль",
+        "button": "Установить",
+        "success": "Пароль успешно установлен"
+      },
+      "change": {
+        "title": "Изменить пароль",
+        "button": "Изменить пароль",
+        "success": "Пароль успешно изменен"
+      }
+    },
+    "email": {
+      "title": "Почта",
+      "set_button": "Установить",
+      "new": "Новая почта",
+      "password": "Пароль",
+      "errors": {
+        "new_required": "Требуется почта",
+        "password_required": "Требуется пароль",
+        "invalid_format": "Неверный формат почты",
+        "password_invalid": "Пароль неверен",
+        "change_failed": "Не удалось изменить почту"
+      },
+      "change": {
+        "title": "Изменить почту",
+        "button": "Изменить почту",
+        "success": "Почта успешно изменена"
+      }
+    },
+    "stats": {
+      "title": "Статистика",
+      "description": "Статистика профиля",
+      "detailed": {
+        "title": "Подробно",
+        "stats": "Подробная статистика"
+      },
+      "period": {
+        "day": "день",
+        "week": "неделя",
+        "month": "месяц",
+        "year": "год"
+      },
+      "top_tracks": "Топ треков",
+      "most_played": "Чаще всего слушает",
+      "top_artists": "Топ артистов",
+      "no_data": "Нет данных",
+      "avg_duration": "Средняя длительность",
+      "tracks_per_day": "Треков в день",
+      "unit": {
+        "track": "треков"
+      },
+      "period_buttons": {
+        "day": "День",
+        "week": "Неделя",
+        "month": "Месяц"
+      },
+      "tabs": {
+        "tracks": "Треки",
+        "artists": "Артисты"
+      },
+      "total": {
+        "time": "Общее время"
+      },
+      "periods": {
+        "week": "Неделя",
+        "month": "Месяц",
+        "year": "Год",
+        "all": "Всё время"
+      },
+      "total_tracks": "Всего треков",
+      "total_artists": "Всего артистов",
+      "total_time": "Общее время",
+      "avg_per_day": "В среднем в день",
+      "plays": "прослушиваний",
+      "favorite_artists": "Любимые исполнители",
+      "favorite_tracks": "Любимые треки",
+      "indicators": "Показатели",
+      "tracks_count": "треков",
+      "hours": "часов",
+      "minutes": "мин",
+      "hours_short": "ч",
+      "listened": "прослушано",
+      "tracks_over_hours": "{{tracks}} за {{hours}}"
+    },
+    "friends": {
+      "feed": {
+        "title": "Лента",
+        "subtitle": "Недавние действия друзей, лайки, плейлисты и то, что вам может понравиться",
+        "likes": "+{{count}} в любимом",
+        "new_playlist": "Новый плейлист",
+        "playlist_added": "+{{count}} в плейлисте",
+        "common": "у вас",
+        "pick": "для вас",
+        "empty": "Пока тихо — здесь появится, что друзья лайкают и собирают в плейлисты"
+      },
+      "notifications": {
+        "request": {
+          "rejected": "Запрос отклонён"
+        }
+      },
+      "description": {
+        "friends": "Управление списком друзей",
+        "search": "Поиск и добавление новых друзей"
+      },
+      "buttons": {
+        "add": "Добавить в друзья",
+        "cancel": "Отмена",
+        "gift": "Отправить подарок",
+        "remove": "Удалить из друзей",
+        "block": "Заблокировать",
+        "unblock": "Разблокировать",
+        "accept": "Принять запрос"
+      },
+      "status": {
+        "friend": "Друг",
+        "incoming": "Входящие",
+        "outgoing": "Исходящие",
+        "pending": "Ожидает подтверждения"
+      },
+      "sections": {
+        "incoming": "Входящие запросы",
+        "outgoing": "Исходящие запросы"
+      },
+      "loading": "Загрузка друзей...",
+      "gift": {
+        "title": "Название"
+      },
+      "incoming": "Входящие",
+      "search": {
+        "title": "Поиск",
+        "placeholder": "Поиск пользователей..."
+      },
+      "no": {
+        "friends": "Пока нет друзей",
+        "incoming": "Нет входящих запросов",
+        "outgoing": "Нет исходящих запросов",
+        "blocked": "Нет заблокированных пользователей"
+      },
+      "blocked": "Заблокированные",
+      "outgoing": "Исходящие",
+      "tabs": {
+        "friends": "Друзья",
+        "incoming": "Входящие",
+        "outgoing": "Исходящие",
+        "blocked": "Заблокированные",
+        "search": "Поиск"
+      },
+      "find": "Найти друзей",
+      "requests": "Заявки",
+      "no_results": "Ничего не найдено",
+      "try_another": "Попробуйте другой запрос",
+      "empty_hint": "Найдите кого-нибудь через поиск"
+    },
+    "logout": {
+      "title": "Выход",
+      "description": "Завершить текущую сессию на этом устройстве",
+      "confirmation": "Вы уверены, что хотите выйти из аккаунта?"
+    },
+    "account_settings": {
+      "title": "Настройки аккаунта",
+      "sections": {
+        "profile": "Профиль",
+        "email": "Почта"
+      },
+      "password": {
+        "title": "Пароль"
+      },
+      "edit_profile": {
+        "title": "Редактировать профиль"
+      },
+      "email": {
+        "title": "Почта"
+      }
+    },
+    "edit_modal": {
+      "title": "Ваш профиль"
+    },
+    "tabs": {
+      "title": "Навигация",
+      "profile": "Профиль",
+      "friends": "Друзья",
+      "settings": "Настройки",
+      "inventory": "Инвентарь"
+    },
+    "tabs_nav": {
+      "friends": "Друзья",
+      "inventory": "Инвентарь",
+      "social": "Социальное"
+    },
+    "social": {
+      "tabs": {
+        "leaderboards": "Лидерборды",
+        "popular": "Популярное"
+      }
+    },
+    "inventory": {
+      "title": "Инвентарь"
+    },
+    "user_info": {
+      "verified": "Подтверждён"
+    },
+    "sections": {
+      "information": "Основная информация",
+      "links": "Контакты и ссылки",
+      "about": "Основное",
+      "integrations": "Интеграции",
+      "integrations_description": "Привязка аккаунтов и ссылок на внешние социальные сети",
+      "profile_colors": "Цвет профиля",
+      "profile_colors_description": "Акцентный цвет карточки и шапки профиля",
+      "password": "Пароль",
+      "email": "Почта"
+    },
+    "fields": {
+      "status": "Статус"
+    },
+    "color": {
+      "schemes": {
+        "title": "Цветовые схемы",
+        "ocean": "Океан",
+        "sunset": "Закат",
+        "forest": "Лес",
+        "lavender": "Лаванда",
+        "rose": "Роза",
+        "mint": "Мята",
+        "amber": "Янтарь",
+        "indigo": "Индиго",
+        "monochrome": "Монохром",
+        "charcoal": "Уголь",
+        "dark": {
+          "ocean": "Тёмный океан",
+          "forest": "Тёмный лес"
+        }
+      },
+      "picker": {
+        "title": "Выбор цвета",
+        "color": "Цвет"
+      }
+    },
+    "settings": {
+      "title": "Настройки аккаунта",
+      "description": "Управление аккаунтом",
+      "edit": "Изменить",
+      "subscription": "Подписка",
+      "security_title": "Безопасность",
+      "security_description": "Управление паролем и почтой",
+      "security": "Безопасность",
+      "sections": {
+        "email": "Почта",
+        "password": "Пароль",
+        "oauth": "Привязанные аккаунты",
+        "privacy": "Приватность"
+      },
+      "sessions": {
+        "title": "Устройства",
+        "empty": "Сессии устройств не найдены.",
+        "current": "Текущее",
+        "current_device": "Текущее устройство",
+        "online": "Онлайн",
+        "offline": "Оффлайн",
+        "never": "Никогда",
+        "last_active": "Последняя активность: {{value}}",
+        "revoke": "Завершить сессию",
+        "revoked": "Сессия завершена",
+        "revoke_failed": "Не удалось завершить сессию",
+        "client": {
+          "desktop": "Компьютер",
+          "mobile": "Телефон",
+          "unknown": "Неизвестно"
+        }
+      },
+      "password": {
+        "title": "Пароль"
+      },
+      "email": {
+        "title": "Электронная почта",
+        "no_email": "Почта не установлена"
+      },
+      "oauth": {
+        "unlink": "Отвязать",
+        "link": "Привязать",
+        "not_linked": "Не привязан",
+        "link_failed": "Не удалось привязать аккаунт",
+        "already_linked": "Аккаунт уже привязан",
+        "unlink_failed": "Ошибка отвязки"
+      },
+      "privacy": {
+        "load_failed": "Не удалось загрузить настройки приватности",
+        "save_failed": "Не удалось сохранить настройки приватности",
+        "online": "Онлайн-статус",
+        "online_description": "Кто видит, что вы онлайн, и последнюю активность",
+        "activity": "Активность",
+        "activity_description": "Кто видит ваш статус и текущий трек",
+        "friends": "Количество друзей",
+        "friends_description": "Кто видит количество ваших друзей",
+        "stats": "Статистика профиля",
+        "stats_description": "Кто видит прослушивания и публичные счётчики",
+        "playlists": "Плейлисты",
+        "playlists_description": "Кто видит ваши публичные плейлисты в профиле",
+        "favorites": "Любимое",
+        "favorites_description": "Кто видит ваше любимое в профиле и ленте друзей",
+        "messages": "Описание профиля",
+        "messages_description": "Кто видит описание вашего профиля (био)",
+        "friend_requests": "Даты активности",
+        "friend_requests_description": "Кто видит даты вашей регистрации и последней активности",
+        "policy": {
+          "everyone": "Все",
+          "friends": "Друзья",
+          "nobody": "Никто"
+        }
+      }
+    },
+    "colors": {
+      "profile_color": "Цвет профиля",
+      "banner_color": "Цвет баннера",
+      "frame_color": "Цвет рамки",
+      "background_color": "Цвет фона",
+      "custom": {
+        "premium_required": "Для пользовательских цветов нужен премиум"
+      }
+    },
+    "schemes": {
+      "ocean": "Океан",
+      "sunset": "Закат",
+      "forest": "Лес",
+      "lavender": "Лаванда",
+      "rose": "Роза",
+      "mint": "Мята",
+      "amber": "Янтарь",
+      "indigo": "Индиго",
+      "dark_ocean": "Тёмный океан",
+      "monochrome": "Монохром",
+      "charcoal": "Угольный"
+    },
+    "picker": {
+      "title": "Выбор цвета",
+      "color": "Цвет",
+      "create_gradient": "Создать градиент",
+      "solid_color": "Обычный цвет",
+      "angle": "Угол"
+    },
+    "profile_not_found": "Профиль не найден",
+    "user": {
+      "details": "О профиле",
+      "music": "Музыка",
+      "no_music": "Музыка пока не показана",
+      "no_music_description": "Здесь появятся доступные плейлисты и любимые треки",
+      "playlists": "Плейлисты",
+      "favorites": "Любимое",
+      "favorites_empty": "Пока нет любимых треков",
+      "gift": "Подарок",
+      "add_friend": "Добавить",
+      "accept_request": "Принять запрос",
+      "cancel_request": "Отменить",
+      "request_sent": "Заявка отправлена",
+      "remove_friend": "Удалить",
+      "showcase": "Витрина",
+      "joined": "В Dotify с {{date}}",
+      "about": "О себе",
+      "error": {
+        "title": "Ошибка загрузки профиля",
+        "not_found": "Информация о пользователе недоступна"
+      },
+      "status": {
+        "invisible": "Невидимый"
+      },
+      "accept_friend": "Принять",
+      "write": "Написать",
+      "collections": "Коллекции"
+    },
+    "profings": {
+      "password": {
+        "title": "Изменить пароль"
+      }
+    },
+    "pinned": {
+      "title": "Закреплено",
+      "description": "Закрепите любимый трек или плейлист в своем профиле",
+      "remove": "Удалить закреп",
+      "unpin": "Открепить",
+      "pin": "Закрепить в профиле",
+      "no_track": "Ничего не закреплено",
+      "unpinned": "Откреплено",
+      "pinned": "Закреплено"
+    },
+    "overview": {
+      "labels": {
+        "friends": "Друзья",
+        "friendss": "друзей",
+        "tracks": "Треки",
+        "hours": "Часы",
+        "favorites": "Избранное",
+        "playlists": "Плейлисты",
+        "subscribers": "подписчиков"
+      }
+    },
+    "now_playing": {
+      "label": "Сейчас играет",
+      "contexts": {
+        "favorites": "Любимые",
+        "wave": "Моя волна",
+        "wave_artist": "Волна по артисту",
+        "wave_playlist": "Волна по плейлисту",
+        "wave_track": "Волна по треку",
+        "similar": "Похожее",
+        "search": "Поиск",
+        "artist": "Артист",
+        "album": "Альбом",
+        "releases": "Новинки",
+        "mix": "Микс",
+        "mixes": "Миксы",
+        "radio": "Радио",
+        "niche": "Ниша",
+        "popular": "Популярное",
+        "charts": "Чарты",
+        "overplayed": "Часто слушаете",
+        "for_you": "Для вас",
+        "recent": "Недавнее",
+        "offline": "Офлайн",
+        "playlist": "Плейлист"
+      }
+    },
+    "nickname_customization": {
+      "title": "Кастомизация никнейма",
+      "available_infinity": "Доступно с подпиской Infinity",
+      "font": {
+        "title": "Шрифт никнейма",
+        "description": "Стилизация отображения имени в профиле",
+        "serif": "Serif",
+        "mono": "Mono",
+        "code": "Code",
+        "cursive": "Cursive",
+        "impact": "Impact",
+        "display": "Display"
+      },
+      "color": {
+        "title": "Цвет никнейма"
+      },
+      "effect": {
+        "title": "Эффект никнейма",
+        "description": "Анимации и визуальные эффекты для никнейма",
+        "animated": "Переливающийся",
+        "neon": "Неон",
+        "cartoon": "Мультфильм",
+        "highlight": "Выделение",
+        "3d": "3D",
+        "retro": "Ретро"
+      },
+      "locked": "Шрифты и эффекты никнейма"
+    },
+    "leaderboards": {
+      "title": "Рейтинг",
+      "you_rank": "Вы на {{rank}} месте",
+      "users": "Пользователи",
+      "combined": {
+        "title": "Коллекционеры и богачи"
+      },
+      "listeners": {
+        "title": "Слушатели",
+        "all_time": "За всё время",
+        "monthly": "Месячные слушатели",
+        "plays_count": "{{count}} прослушиваний",
+        "hours_count": "{{count}} ч.",
+        "tracks_count_for_hours": "{{plays}} треков за {{hours}} ч.",
+        "tracks_count_only": "{{plays}} треков"
+      },
+      "fans": {
+        "title": "Фанаты",
+        "listened_prefix": "послушал",
+        "plays_count": "{{count}} раз"
+      },
+      "compatible": {
+        "title": "Совместимы"
+      },
+      "playlists": {
+        "title": "Пользовательские плейлисты",
+        "views_count": "{{count}} просмотров"
+      },
+      "tracks": {
+        "title": "Обсуждаемое",
+        "comments_count": "{{count}} комментариев"
+      },
+      "rich": "Богачи",
+      "collectors": "Коллекционеры",
+      "spenders": "Транжиры",
+      "no_data": "Нет данных",
+      "items_count": "{{count}} предметов",
+      "subtitles": {
+        "coins": "{{value}}",
+        "spent": "-{{value}}",
+        "rating": "Рейтинг: {{value}}"
+      }
+    },
+    "labels": {
+      "pinned": "Любимый трек",
+      "playlists": "Мои любимые плейлисты"
+    },
+    "sidebar": {
+      "edit": "Изменить",
+      "security": "Безопасность",
+      "sessions": "Сессии",
+      "privacy": "Приватность"
+    },
+    "subscription": {
+      "title": "Подписка",
+      "no_subscription": "Нет подписки",
+      "no_active": "У вас нет активной подписки",
+      "select_friend": "Друг",
+      "upgrade_to": "Перейдите на",
+      "for_extended_features": "чтобы получить расширенные возможности",
+      "get_premium": "Получите премиум доступ к эксклюзивным функциям",
+      "get_premium_button": "Получить Premium",
+      "lifetime": "Навсегда",
+      "valid_until": "Действует до",
+      "active_until": "Активна до",
+      "renew": "Продлить",
+      "buy": "Купить",
+      "gift_btn": "Подарить",
+      "features_title": "Преимущества Infinity",
+      "slots_title": "Семейные слоты",
+      "owner_badge": "Владелец",
+      "receipt_title": "Детали заказа",
+      "receipt_plan": "Тариф",
+      "receipt_discount": "Скидка",
+      "checkout_title": "Оформление подписки",
+      "invite_friend": "Пригласить",
+      "choose_friend": "Выберите друга для слота",
+      "active": "Активна",
+      "menu_item": "Подписка",
+      "savings_message": "Экономь {{amount}} ₽, оформив подписку на год",
+      "days_left": "Осталось {{days}} дн.",
+      "packages": {
+        "solo": "Solo",
+        "duo": "Duo",
+        "trio": "Trio",
+        "squad": "Squad",
+        "slots_count": "{{count}} слот",
+        "slots_count_many": "{{count}} слота",
+        "members_2": "2 человека",
+        "members_3": "3 человека",
+        "members_4": "4 человека"
+      },
+      "slots": {
+        "slot_free": "Слот {{index}} свободен",
+        "slot_free_desc": "Выберите друга из списка ниже, чтобы предоставить доступ к Infinity",
+        "cooldown": "Перезарядка слота",
+        "cooldown_until": "Слот на перезарядке до {{date}}",
+        "member_slot": "Слот {{index}}",
+        "add_to": "Добавить в {{package}}",
+        "remove": "Освободить слот",
+        "owner": "1 (Вы)",
+        "no_friends_available": "Нет доступных друзей без активной подписки"
+      },
+      "gift": {
+        "select_recipient": "Выберите друга для подарка",
+        "send_as_link": "Или отправьте подарком по ссылке",
+        "message_placeholder": "Сообщение для получателя (до 24 симв.)",
+        "no_friends": "Пока нет друзей, которым можно подарить"
+      },
+      "bytes": {
+        "unlimited": "Безлимитное хранилище",
+        "random_1": "Переходи на Infinity и забудь про лимиты",
+        "random_2": "Получи Infinity для безграничного пространства",
+        "random_3": "Разблокируй безлимит вместе с Infinity",
+        "random_4": "Infinity — это полная свобода и безлимит"
+      },
+      "offers": {
+        "infinity_subtitle": "Годовой план выгоднее на {{amount}} ₽",
+        "basic_subtitle": "Годовой план выгоднее на {{amount}} ₽"
+      },
+      "benefits": {
+        "infinity": "Безлимитное хранилище, премиум качество и эксклюзивные функции",
+        "basic": "Расширенные функции и увеличенные лимиты"
+      },
+      "pricing": {
+        "monthly": "Помесячно",
+        "yearly": "За год",
+        "month": "мес"
+      },
+      "button": {
+        "buy": "Купить за {{price}} ₽",
+        "buy_now": "Купить сейчас",
+        "upgrade": "Улучшить",
+        "renew": "Продлить"
+      }
+    },
+    "user_card": {
+      "remove": "Убрать",
+      "transfer": "Передать права"
+    },
+    "compatibility": {
+      "title": "Совместимость",
+      "high": "Очень похожие вкусы",
+      "medium": "Много общего",
+      "low": "Немного общего",
+      "artists": "Общие исполнители",
+      "tracks": "Общие треки"
+    }
+  },
+  "room": {
+    "overlay": {
+      "participants": "Участники",
+      "creator": "Создатель",
+      "you": "вы",
+      "copy_code": "Код",
+      "copy_link": "Ссылка",
+      "copied": "Скопировано",
+      "leave": "Выйти",
+      "premium": {
+        "basic": "Basic"
+      }
+    },
+    "participants": "участников",
+    "no_rooms": "Нет активных комнат",
+    "modal": {
+      "title": "Комнаты",
+      "active_rooms": "Активные",
+      "private": "Приватная",
+      "feature_name": "создание комнат",
+      "join_title": "Присоединиться",
+      "create_title": "Создать комнату",
+      "join_description": "Войдите в существующую комнату по коду",
+      "create_description": "Создайте новую комнату и слушайте музыку вместе с друзьями",
+      "create": {
+        "name_placeholder": "Название комнаты",
+        "name_required": "Введите название",
+        "password_placeholder": "Пароль",
+        "max_participants_error": "Для вашего уровня подписки максимум {{max}} участников",
+        "private_room": "Приватная",
+        "create_button": "Создать",
+        "creating": "Создание...",
+        "creation_error": "Ошибка создания"
+      },
+      "join": {
+        "or_enter_code": "или код",
+        "join_button": "Войти",
+        "joining": "Подключение...",
+        "code_required": "Введите код",
+        "room_code_empty": "Код не может быть пустым",
+        "room_not_found": "Комната не найдена",
+        "code_placeholder": "Введите код, чтобы зайти",
+        "password": {
+          "placeholder": "Пароль",
+          "required": "Введите пароль",
+          "required_error": "Требуется пароль"
+        }
+      }
+    },
+    "suggest": {
+      "title": "предлагает трек",
+      "add_to_queue": "В очередь",
+      "decline": "Отклонить"
+    },
+    "kicked": {
+      "title": "Вы исключены",
+      "message": "Создатель исключил вас из комнаты"
+    },
+    "password_modal": {
+      "title": "Приватная комната",
+      "description": "Для входа требуется пароль",
+      "placeholder": "Пароль комнаты",
+      "logging_in": "Вход...",
+      "enter": "Войти",
+      "join_failed": "Не удалось присоединиться"
+    },
+    "transfer": {
+      "success": "Передано"
+    }
+  },
+  "search": {
+    "history": "История поиска",
+    "sources": {
+      "youtube": "YouTube",
+      "soundcloud": "SoundCloud",
+      "spotify": "Spotify",
+      "vk": "ВКонтакте",
+      "yandex": "Яндекс"
+    },
+    "artist_selection": {
+      "title": "Исполнители"
+    },
+    "results": {
+      "top_result": "Лучший результат",
+      "empty_state_for_query": "По запросу {{query}} ничего не найдено",
+      "initial_state": "Введите запрос для поиска музыки",
+      "controls": {
+        "add": {
+          "to": {
+            "queue": "В очередь",
+            "favorites": "Добавить в любимое",
+            "playlist": "Добавить в плейлист"
+          }
+        }
+      },
+      "context_menu": {
+        "play": "Воспроизвести",
+        "play_next": "Воспроизвести следующим",
+        "remove_from_favorites": "Убрать из любимых",
+        "delete_local_track": "Удалить",
+        "deleting": "Удаление...",
+        "add": {
+          "to": {
+            "queue": "В очередь",
+            "favorites": "Добавить в любимые",
+            "playlist": "Добавить в плейлист"
+          }
+        }
+      },
+      "tracks_count": "треков",
+      "followers": "подписчиков",
+      "no": {
+        "playlists": "Нет доступных плейлистов",
+        "results_title": "Ничего не найдено",
+        "results_subtitle": "По запросу «{{query}}» ничего не найдено",
+        "try_later": "Попробуйте позже",
+        "network_error_description": "Результаты поиска недоступны из-за ошибки соединения"
+      }
+    },
+    "view": {
+      "empty": {
+        "title": "Начните поиск"
+      },
+      "import_notification": {
+        "error": "Ошибка импорта: {{error}}"
+      },
+      "favorites_error": "Ошибка загрузки избранного в поиске",
+      "search_error": {
+        "tracks": "Ошибка поиска треков"
+      },
+      "history": {
+        "load_error": "Ошибка при загрузке истории поиска",
+        "title": "Недавние поиски",
+        "opened": "Недавно открывали",
+        "loading": "Загрузка истории...",
+        "empty": "История поиска пуста",
+        "query_type": "Запрос",
+        "item_type": {
+          "query": "Запрос",
+          "artist": "Артист",
+          "playlist": "Плейлист",
+          "album": "Альбом"
+        }
+      },
+      "recommendations": "Рекомендации",
+      "settings": {
+        "title": "Настройки поиска",
+        "clear": "Очистить",
+        "clear_history": {
+          "title": "Очистить историю",
+          "description": "Удалить все недавние поиски"
+        },
+        "platform": {
+          "title": "Платформа поиска"
+        },
+        "search_type": {
+          "title": "Тип поиска",
+          "tracks": "Треки",
+          "playlists": "Плейлисты",
+          "albums": "Альбомы",
+          "artists": "Артисты",
+          "all": "Все",
+          "lyrics": "По тексту"
+        }
+      },
+      "local_track": {
+        "delete": {
+          "title": "Удаление локального трека",
+          "warning": "Это действие нельзя будет отменить."
+        }
+      },
+      "controls": {
+        "search_placeholder": "Что включить?",
+        "source": "Искать в {{name}}"
+      },
+      "types": {
+        "artists": "Исполнители"
+      },
+      "remote_playback": {
+        "success": "Воспроизведение \"{{title}}\" начато"
+      },
+      "no_results": {
+        "title": "Ничего не найдено"
+      }
+    }
+  },
+  "services": {
+    "notification": {
+      "title": "{{platform}} не настроен"
+    },
+    "common": {
+      "oauth_subtitle": "Подключите в один клик для настройки и дополнительных возможностей",
+      "login_via": "Войти через {{service}}",
+      "configured": "Сервис настроен",
+      "change": "Изменить",
+      "login": "Логин",
+      "password": "Пароль",
+      "get_token": "Получить токен",
+      "placeholder": "Введите здесь...",
+      "credentials_set": "Данные сохранены",
+      "save": "Сохранить",
+      "clear": "Очистить",
+      "status": "Статус",
+      "connected": "Подключено",
+      "not_connected": "Не подключено"
+    },
+    "status": {
+      "enabled": "Включен",
+      "disabled": "Выключен",
+      "configured": "Настроен",
+      "not_configured": "Не настроен",
+      "configure_instruction": "Настройте по инструкции",
+      "ready_to_use": "Готов к использованию"
+    },
+    "youtube": {
+      "always_on": "Авторизация пока не требуется"
+    },
+    "soundcloud": {
+      "id_set": "Client ID установлен",
+      "id_placeholder": "Введите ваш Client ID",
+      "get_id_link": "Как получить Client ID?",
+      "not_configured": "Настройте Client ID SoundCloud в параметрах",
+      "messages": {
+        "id_required": "Пожалуйста, введите или выберите SoundCloud Client ID",
+        "invalid_id": "Неверный Client ID. Проверьте правильность введенного значения",
+        "save_error": "Ошибка при сохранении SoundCloud Client ID"
+      }
+    },
+    "vk": {
+      "token_set": "Сервис настроен",
+      "token_placeholder": "Токен или ссылка...",
+      "get_token_link": "Получить токен",
+      "link_info": "Можно вставить полную ссылку",
+      "username_placeholder": "Телефон или email",
+      "password_placeholder": "Пароль",
+      "get_token": "Получить токен",
+      "not_configured": "Настройте токен VK в параметрах",
+      "alt_method": "Вход через браузер",
+      "resend_code": "Отправить смс",
+      "enter_password_error": "Введите пароль",
+      "password_placeholder_optional": "Пароль",
+      "confirm_code": "Подтвердить",
+      "messages": {
+        "token_required": "Пожалуйста, введите токен VK",
+        "invalid_token": "Неверный токен VK. Проверьте правильность введенного значения",
+        "save_error": "Ошибка сохранения настроек VK",
+        "invalid_client": "Ошибка: неверный клиент или сессия устарела",
+        "flood_control": "Слишком много попыток входа. Попробуйте позже или используйте другой метод",
+        "media_server_error": "Токен получен, но отклонён медиа-сервером"
+      }
+    },
+    "yandex": {
+      "token_set": "Сервис настроен",
+      "token_placeholder": "Яндекс токен...",
+      "not_configured": "Настройте токен Яндекс.Музыка в параметрах",
+      "messages": {
+        "token_required": "Пожалуйста, введите токен Яндекс",
+        "invalid_token": "Неверный токен Яндекс. Проверьте правильность введенного значения",
+        "save_error": "Ошибка сохранения настроек Яндекса"
+      }
+    },
+    "spotify": {
+      "credentials_set": "Сервис настроен",
+      "instruction": "Введите Client ID и Client Secret из панели разработчика Spotify",
+      "not_configured": "Настройте токен Spotify в параметрах",
+      "client": {
+        "id_label": "Client ID",
+        "id_placeholder": "Введите Client ID",
+        "secret_label": "Client Secret",
+        "secret_placeholder": "Введите Client Secret"
+      },
+      "messages": {
+        "credentials_required": "Пожалуйста, введите и Client ID, и Client Secret",
+        "invalid_credentials": "Неверные учетные данные Spotify. Проверьте правильность введенных значений",
+        "save_error": "Ошибка сохранения настроек Spotify"
+      },
+      "token_required": "Требуется токен"
+    },
+    "deezer": {
+      "token_set": "Токен установлен",
+      "instruction": "Следуйте инструкции для получения ARL токена",
+      "oauth_token_label": "ARL токен",
+      "oauth_token_description": "Введите ARL токен из cookies Deezer",
+      "token_placeholder": "Введите ARL токен...",
+      "how_to_get_token_title": "Как получить ARL токен:",
+      "get_token_link": "Сайт для получения",
+      "authorized_title": "Токен установлен",
+      "authorized_description": "ARL токен активен",
+      "messages": {
+        "invalid_token": "Неверный токен Deezer",
+        "save_error": "Ошибка сохранения настроек Deezer",
+        "token_required": "Требуется токен Deezer"
+      }
+    },
+    "errors": {
+      "invalid_token": "Токен недействителен",
+      "invalid_client_id": "Неверный Client ID"
+    },
+    "all_configured": "Все сервисы настроены",
+    "one_not_configured": "Сервис {{service}} не настроен",
+    "multiple_not_configured": "Сервисы {{services}} не настроены",
+    "actions": {
+      "connect_service": "Подключите свой аккаунт {{service}}",
+      "connect_description": "Для доступа к функциям",
+      "save_and_check": "Сохранить и проверить",
+      "login": "Войти",
+      "disconnect": "Отвязать",
+      "clear_token": "Очистить",
+      "get_token": "Получить токен",
+      "enter_token": "Введите токен..."
+    },
+    "applemusic": {
+      "subtitle": "Настройка не требуется"
+    }
+  },
+  "settings": {
+    "title": "Настройки",
+    "tabs": {
+      "title": "Настройки",
+      "profile": {
+        "title": "Аккаунт",
+        "edit": "Профиль",
+        "stats": "Статистика",
+        "security": "Вход",
+        "subscription": "Подписка",
+        "coins": "Монеты",
+        "privacy": "Приватность"
+      },
+      "main": {
+        "title": "Система",
+        "general": "Общее",
+        "audio": "Звук",
+        "storage": "Хранилище",
+        "keybinds": "Клавиши",
+        "overlay": "Оверлей"
+      },
+      "player": {
+        "title": "Плеер",
+        "audio": "Аудио",
+        "view": "Вид",
+        "queue": "Очередь",
+        "miniplayer": "Мини плеер",
+        "overlay": "Оверлей"
+      },
+      "appearance": {
+        "title": "Интерфейс",
+        "interface": "Вид",
+        "player": "Плеер",
+        "tabs": "Вкладки",
+        "custom": "Кастом",
+        "workshop": "Мастерская"
+      },
+      "services": {
+        "title": "Сервисы"
+      },
+      "integrations": {
+        "title": "Интеграции",
+        "proxy": "Прокси",
+        "others": "Приложения",
+        "discord": "Discord",
+        "lastfm": "Last.fm",
+        "obs": "OBS"
+      }
+    },
+    "account": {
+      "sections": {
+        "images": "Изображения",
+        "about": "Имя и описание",
+        "links": "Ссылки",
+        "sign_in": "Пароль и почта",
+        "linked": "Связанные аккаунты",
+        "devices": "Устройства"
+      },
+      "logout": "Выйти из аккаунта"
+    },
+    "keybinds": {
+      "title": "Горячие клавиши",
+      "local_title": "В приложении",
+      "global_title": "Глобальные",
+      "enable_hotkeys": "Горячие клавиши",
+      "enable_hotkeys_description": "Управляйте музыкой из любого приложения",
+      "warning": "Рекомендуется использовать комбинации с модификаторами (Ctrl, Alt, Shift, Win). Одиночные клавиши могут конфликтовать с другими программами",
+      "edit_prompt": "Нажмите клавишу или комбинацию... (Esc - отмена)",
+      "not_set": "Не назначено",
+      "edit": "Изменить",
+      "assign": "Назначить",
+      "actions": {
+        "openSearch": {
+          "name": "Открыть поиск",
+          "description": "Открывает поиск и ставит курсор в поле"
+        },
+        "startWave": {
+          "name": "Запустить мою волну",
+          "description": "Начинает новую волну с вашими настройками"
+        },
+        "seekBack": {
+          "name": "Перемотать назад",
+          "description": "Отматывает трек на 10 секунд назад"
+        },
+        "seekForward": {
+          "name": "Перемотать вперёд",
+          "description": "Проматывает трек на 10 секунд вперёд"
+        },
+        "toggleOverlay": {
+          "name": "Показать/скрыть оверлей",
+          "description": "Переключает видимость оверлея над другими окнами"
+        },
+        "volumeUp": {
+          "name": "Увеличить громкость",
+          "description": "Увеличивает громкость воспроизведения"
+        },
+        "volumeDown": {
+          "name": "Уменьшить громкость",
+          "description": "Уменьшает громкость воспроизведения"
+        },
+        "playPause": {
+          "name": "Воспроизвести/пауза",
+          "description": "Начинает или приостанавливает воспроизведение"
+        },
+        "nextTrack": {
+          "name": "Следующий трек",
+          "description": "Переключает на следующий трек в очереди"
+        },
+        "prevTrack": {
+          "name": "Предыдущий трек",
+          "description": "Переключает на предыдущий трек в очереди"
+        },
+        "likeCurrentTrack": {
+          "name": "Добавить/убрать лайк",
+          "description": "Добавляет или убирает лайк от текущего трека"
+        },
+        "alwaysOnTop": {
+          "name": "Поверх других окон",
+          "description": "Держит окно Dotify над остальными окнами"
+        }
+      },
+      "active_hotkeys": "Активные горячие клавиши",
+      "add": {
+        "title": "Добавить",
+        "dialog": {
+          "title": "Добавить горячую клавишу"
+        }
+      },
+      "remove": "Удалить",
+      "clear": "Очистить",
+      "recording": "Нажмите клавиши…"
+    },
+    "overlay": {
+      "title": "Настройки оверлея",
+      "description": "Настройте оверлей поверх других окон",
+      "mode": {
+        "title": "Режим",
+        "description": "Как оверлей выглядит поверх других окон",
+        "disabled": "Отключен",
+        "fullscreen": "Полноэкранный",
+        "island": "Остров",
+        "card": "Карточка",
+        "docked": "Прилипший",
+        "docked_hint": "Прилипает к середине края экрана, как чёлка"
+      },
+      "position": {
+        "title": "Положение на экране",
+        "description": "Выберите, где будет расположен оверлей",
+        "top-left": "Сверху слева",
+        "top-right": "Сверху справа",
+        "bottom-left": "Снизу слева",
+        "bottom-right": "Снизу справа",
+        "top-center": "Сверху по центру",
+        "bottom-center": "Снизу по центру",
+        "left-center": "Слева по центру",
+        "right-center": "Справа по центру",
+        "center": "По центру"
+      },
+      "opacity": "Непрозрачность",
+      "opacity_description": "Насколько сквозь оверлей видно окно под ним",
+      "size": "Масштаб",
+      "size_description": "Крупнее или мельче всё содержимое",
+      "dimensions": {
+        "w": "Ширина",
+        "w_description": "Настройте ширину окна оверлея",
+        "h": "Высота",
+        "h_description": "Настройте высоту окна оверлея",
+        "title": "Размер и прозрачность",
+        "description": "Настройте габариты и прозрачность оверлея"
+      },
+      "showCover": "Показывать обложку трека",
+      "showControls": "Показывать кнопки управления",
+      "border": {
+        "title": "Форма",
+        "description": "Выберите между квадратной или полностью скруглённой формой",
+        "options": {
+          "default": "Квадратная",
+          "pill": "Скруглённая"
+        }
+      }
+    },
+    "appearance": {
+      "player": {
+        "slider": {
+          "types": {
+            "gradient": "Градиентный",
+            "default": "Обычный",
+            "thin": "Тонкий",
+            "ios": "Плавный",
+            "waveform": "Волновой",
+            "squiggly": "Волнистый"
+          },
+          "type_description": "Выберите стиль ползунка прогресса",
+          "type": "Тип ползунка"
+        },
+        "visualizer": {
+          "styles": {
+            "bars": "Столбцы",
+            "wave": "Волна",
+            "spectrum": "Спектр",
+            "dots": "Точки",
+            "ring": "Кольцо"
+          },
+          "enabled": "Включить визуализатор",
+          "enabled_description": "Показывать эффекты визуализации аудио",
+          "on_slider": "Визуализатор на ползунке",
+          "on_slider_description": "Объединить визуализацию звука с полосой перемотки в плеере",
+          "placement": "Визуализатор",
+          "placement_description": "Где показывать визуализацию звука",
+          "places": {
+            "off": "Выкл",
+            "strip": "Полоса",
+            "cover": "На обложке",
+            "slider": "На ползунке"
+          },
+          "title": "Визуализатор",
+          "description": "Настройка визуализации аудио",
+          "style": "Стиль",
+          "style_description": "Выберите стиль визуализации аудио"
+        },
+        "title": {
+          "title": "Настройки плеера",
+          "alignment_description": "Выберите выравнивание названия трека",
+          "alignment": "Выравнивание заголовка",
+          "alignments": {
+            "left": "Слева",
+            "center": "По центру",
+            "right": "Справа"
+          }
+        },
+        "description": "Настройте внешний вид и элементы управления плеера",
+        "control_buttons": "Кнопки управления",
+        "control_buttons_description": "Выберите какие кнопки отображать",
+        "controls": {
+          "volume": "Громкость",
+          "equalizer": "Эквалайзер",
+          "fullcover": "Полная обложка",
+          "playlist": "Плейлист",
+          "like": "Лайк",
+          "source": "Источник",
+          "download": "Скачать",
+          "comments": "Комментарии",
+          "speed": "Скорость"
+        },
+        "player": {
+          "style_description": "Выберите визуальный стиль плеера",
+          "style": "Стиль плеера",
+          "styles": {
+            "default": "Обычный",
+            "plate": "Пластинка",
+            "big": "Большой"
+          }
+        },
+        "show": {
+          "queue": "Показывать очередь",
+          "queue_description": "Отображать панель очереди",
+          "queue_layout": "Положение очереди",
+          "queue_layout_description": "Выберите где отображать очередь воспроизведения",
+          "queue_layout_bottom": "Снизу",
+          "queue_layout_left": "Слева",
+          "queue_layout_right": "Справа",
+          "next_track": "Предпросмотр следующего трека",
+          "next_track_description": "Показывать информацию о следующем треке",
+          "compact_queue": "Компактная кнопка очереди",
+          "compact_queue_description": "Использовать компактный стиль кнопки очереди",
+          "avatars": "Аватарки артистов",
+          "avatars_description": "Отображать аватарки исполнителей перед их именами в плеере и мини плеере"
+        },
+        "miniplayer": {
+          "enabled": "Включить мини плеер",
+          "enabled_description": "Показывать мини плеер внизу",
+          "style": "Стиль",
+          "style_description": "Как выглядит мини плеер",
+          "title": "Мини плеер",
+          "description": "Настройка мини плеера",
+          "presets": {
+            "title": "Пресеты",
+            "description": "Быстро применить готовые настройки мини плеера",
+            "rounded": "Закругленный",
+            "hybrid": "Гибрид",
+            "deck": "Дек"
+          },
+          "styles": {
+            "full": "Полный",
+            "compact": "Компактный",
+            "hybrid": "Гибридный",
+            "deck": "Дек",
+            "pill": "Пилл",
+            "block": "Блок"
+          },
+          "background": {
+            "title": "Фон",
+            "description": "Выберите источник фона мини плеера",
+            "options": {
+              "default": "Тема",
+              "cover": "Обложка",
+              "color": "Цвет обложки"
+            }
+          },
+          "progress": {
+            "title": "Прогресс",
+            "description": "Выберите, как отображать прогресс трека",
+            "options": {
+              "default": "Линия",
+              "background": "Фоном",
+              "cover": "Вокруг обложки",
+              "both": "Фон + обложка"
+            }
+          },
+          "cover": {
+            "title": "Обложка",
+            "description": "Выберите форму обложки в мини плеере",
+            "options": {
+              "default": "По умолчанию",
+              "pill": "Круглая"
+            }
+          },
+          "border": {
+            "title": "Форма",
+            "description": "Выберите форму мини плеера",
+            "options": {
+              "default": "По умолчанию",
+              "pill": "Капсула"
+            }
+          },
+          "position": "Позиция",
+          "position_description": "Выберите, где будет отображаться мини плеер",
+          "positions": {
+            "top": "Сверху",
+            "bottom": "Снизу",
+            "left": "Слева",
+            "right": "Справа",
+            "floating": "Плавающий"
+          }
+        }
+      },
+      "tabs": {
+        "interface": "Интерфейс",
+        "tabs_settings": "Вкладки",
+        "performance": "Производительность",
+        "overlay": "Оверлей"
+      },
+      "interface": {
+        "title": "Внешний вид",
+        "theme": {
+          "title": "Тема",
+          "description": "Выберите общее оформление приложения",
+          "light": "Светлые темы",
+          "dark": "Тёмные темы"
+        },
+        "transparency": {
+          "title": "Прозрачность",
+          "description": "Эффекты прозрачности и размытия окна",
+          "native": "Нативная прозрачность",
+          "native_description": "Системная прозрачность окна",
+          "opacity": "Непрозрачность",
+          "opacity_description": "Плотность заливки панелей поверх выбранного фона",
+          "glass_strength": "Сила стекла",
+          "glass_strength_description": "Интенсивность слоя стекла",
+          "glass_blur": "Размытие стекла",
+          "glass_blur_description": "Радиус размытия заднего плана под окном",
+          "disabled": "Выключено",
+          "glass": "Обычная",
+          "native_opt": "Нативная"
+        },
+        "font": {
+          "title": "Шрифт",
+          "category": "Категория",
+          "family": "Семейство шрифта",
+          "size": "Размер шрифта",
+          "size_description": "Базовый размер шрифта интерфейса",
+          "weight": "Жирность шрифта",
+          "weight_description": "Плотность начертания текста",
+          "upload_custom": "Загрузить свой шрифт (.ttf, .otf, .woff)",
+          "remove": "Удалить шрифт",
+          "custom_button": "Свой",
+          "categories": {
+            "system": "Система",
+            "modern": "Модерн",
+            "serif": "Засечки",
+            "monospace": "Моно"
+          },
+          "default_font": "Стандартный"
+        },
+        "rounding": {
+          "title": "Скругление углов",
+          "description": "Радиус скругления элементов интерфейса и карточек",
+          "none": "Нет",
+          "small": "Маленькое",
+          "medium": "Среднее",
+          "large": "Большое"
+        },
+        "scale": {
+          "title": "Масштаб",
+          "fullscreen": "Масштаб на весь экран",
+          "fullscreen_description": "Размер интерфейса, когда окно развёрнуто",
+          "windowed": "Масштаб в окне",
+          "windowed_description": "Размер интерфейса в обычном окне"
+        }
+      },
+      "tabs_settings": {
+        "title": "Настройки вкладок",
+        "position": "Позиция вкладок",
+        "position_description": "Выберите расположение панели вкладок",
+        "style": "Стиль вкладок",
+        "style_description": "Выберите стиль отображения вкладок",
+        "autohide": "Автоскрытие панели вкладок",
+        "adaptive": "Подстраивать вкладки",
+        "adaptive_description": "Контент страницы будет влиять на вкладки",
+        "autohide_description": "Скрывать панель вкладок когда не используется",
+        "positions": {
+          "top": "Сверху",
+          "bottom": "Снизу",
+          "bottom_full": "Снизу на всю ширину",
+          "left": "Слева",
+          "right": "Справа",
+          "floating": "Плавающие"
+        },
+        "styles": {
+          "default": "По умолчанию",
+          "compact": "Компактный",
+          "full": "Полный",
+          "circle": "Круглый",
+          "floating": "Плавающий"
+        },
+        "subtitles": {
+          "default": "Классическая панель",
+          "compact": "Минимум места",
+          "full": "Вся высота экрана",
+          "circle": "Круглые иконки",
+          "floating": "Парящий островок"
+        }
+      },
+      "autohide": {
+        "title": "Автоскрытие",
+        "label": "Скрытие элементов",
+        "description": "Автоскрытие неактивных панелей",
+        "none": "Ничего",
+        "tabs": "Вкладки"
+      },
+      "scaling": {
+        "title": "Масштабирование",
+        "fullscreen": "Полноэкранный режим"
+      },
+      "particles": {
+        "title": "Частицы",
+        "type": "Тип частиц",
+        "disabled": "Выкл",
+        "color": "Цвет частиц",
+        "speed": "Скорость",
+        "size": "Размер",
+        "types": {
+          "dots": "Точки",
+          "rain": "Дождь",
+          "snow": "Снег",
+          "fireflies": "Светлячки",
+          "sakura": "Сакура",
+          "hearts": "Сердечки",
+          "grid": "Сетка",
+          "network": "Сеть",
+          "crosses": "Кресты",
+          "rings": "Кольца"
+        }
+      },
+      "cover": {
+        "title": "Настройки обложки",
+        "description": "Настройте внешний вид и эффекты обложки",
+        "position": "Позиция обложки",
+        "position_description": "Выберите где отображается обложка",
+        "positions": {
+          "left": "Слева",
+          "right": "Справа"
+        },
+        "animation": "Анимация обложки",
+        "animation_description": "Выберите эффект анимации для обложки",
+        "animations": {
+          "none": "Нет",
+          "rotate": "Вращение",
+          "pulse": "Пульсация",
+          "wave": "Волна",
+          "zoom": "Зум",
+          "flip": "Переворот"
+        },
+        "effect": "Эффект обложки",
+        "effect_description": "Применить визуальные эффекты к обложке",
+        "effects": {
+          "none": "Нет",
+          "blur": "Размытие",
+          "grayscale": "Чёрно-белый",
+          "sepia": "Сепия",
+          "saturate": "Насыщенность",
+          "invert": "Инверсия"
+        },
+        "visualizer": "Визуализатор на обложке",
+        "visualizer_description": "Показывать наложение аудио визуализатора на обложке",
+        "coverincover": "Обложка в обложке",
+        "coverincover_description": "Отображать меньшую обложку внутри основной",
+        "gif": {
+          "title": "Своя обложка",
+          "description": "Выберите для отображения на обложке",
+          "select": "Выбрать",
+          "none": "Без",
+          "current": "Текущий"
+        },
+        "effects_section": {
+          "title": "Эффекты и анимация",
+          "description": "Настройте визуальные эффекты обложки"
+        },
+        "theme": {
+          "title": "Автоматическая тема",
+          "description": "Автоматически менять тему и гифки на основе цветов обложки",
+          "mode": "Режим автоматизации",
+          "mode_description": "Выберите что подстраивать под обложку",
+          "select": "Выбрать режим",
+          "accent_color": "Акцентный цвет",
+          "accent_color_description": "Автоматически подстраивать цвета темы под обложку",
+          "modes": {
+            "disabled": "Отключено",
+            "theme": "Только тема",
+            "gif": "Только гифки",
+            "both": "Тема и гифки"
+          }
+        }
+      },
+      "background": {
+        "title": "Настройки фона",
+        "description": "Настройте внешний вид фона и частиц",
+        "enable": "Включить фон",
+        "enable_description": "Показывать пользовательский фон за интерфейсом",
+        "gif": {
+          "title": "Изображение фона",
+          "description": "Выберите GIF или изображение для фона"
+        },
+        "opacity": "Прозрачность фона",
+        "opacity_description": "Настройте прозрачность фона",
+        "blur": "Размытие фона",
+        "blur_description": "Применить эффект размытия к фону",
+        "particles": {
+          "title": "Настройки частиц",
+          "description": "Настройте эффект анимированных частиц",
+          "enable": "Включить частицы",
+          "enable_description": "Показывать анимированные частицы на фоне",
+          "gif": "Изображение частиц",
+          "gif_description": "Выберите GIF или изображение для частиц",
+          "count": "Количество частиц",
+          "count_description": "Число отображаемых частиц",
+          "speed": "Скорость частиц",
+          "speed_description": "Скорость анимации частиц",
+          "size": "Размер частиц",
+          "size_description": "Размер отдельных частиц",
+          "parallax": "Эффект параллакса",
+          "parallax_description": "Включить эффект параллакса для частиц",
+          "color": "Свой цвет",
+          "color_description": "Использовать свой цвет для частиц"
+        }
+      },
+      "theme": {
+        "description": "Выберите цветовую схему интерфейса",
+        "title": "Тема",
+        "light": "Светлая",
+        "dark": "Тёмная",
+        "system": "Системная",
+        "adaptcover": "Под трек",
+        "adaptcover_description": "Динамически окрашивать акцент интерфейса в цвет текущей обложки",
+        "presets": "Готовые темы"
+      },
+      "performance": {
+        "title": "Оптимизация производительности",
+        "description": "Настройка производительности приложения",
+        "disable_animations": "Отключить анимации",
+        "disable_animations_description": "Отключает все анимации интерфейса для экономии ресурсов",
+        "smooth_visualizer": "Плавный визуализатор",
+        "smooth_visualizer_description": "Повышает частоту обновления визуализатора для более плавной анимации",
+        "game": {
+          "mode": {
+            "title": "Оптимизация производительности",
+            "description": "Автоматически оптимизирует производительность, когда окно теряет фокус или свернуто",
+            "disabled": "Отключено",
+            "always": "Всегда включено",
+            "blur": "При потере фокуса",
+            "minimize": "При сворачивании"
+          }
+        },
+        "resource": {
+          "unload": {
+            "title": "Выгрузка ресурсов",
+            "description": "Автоматически выгружает фоны, обложки и прочее из памяти",
+            "disabled": "Отключено",
+            "minimize": "При сворачивании",
+            "blur": "При потере фокуса"
+          }
+        },
+        "lazy_loading": "Ленивая загрузка вкладок",
+        "lazy_loading_description": "Улучшает производительность, но вкладки загружаются по требованию"
+      },
+      "sections": {
+        "cover": "Обложка",
+        "queue": "Очередь",
+        "miniplayer": "Мини плеер"
+      }
+    },
+    "custom": {
+      "title": "Кастомизация",
+      "tabs": {
+        "library": "Библиотека",
+        "presets": "Пресеты"
+      },
+      "workshop": {
+        "find": "Найти оформление в мастерской"
+      },
+      "upload": "Загрузить",
+      "upload_file": "Загрузить файл",
+      "upload_hint": "Поддерживаются PNG, JPG, GIF, WEBP",
+      "add_url": "Добавить",
+      "by_link": "По ссылке",
+      "url_placeholder": "Вставьте прямую ссылку на GIF или изображение...",
+      "active_slots_title": "Активные слоты",
+      "effects_title": "Эффекты фона",
+      "effects_close": "Закрыть",
+      "empty_title": "В библиотеке пока пусто",
+      "empty_subtitle": "Загрузите изображение с компьютера или вставьте прямую ссылку",
+      "active_now": "Активен",
+      "preset": "Пресет",
+      "export": "Экспорт",
+      "delete": "Удалить",
+      "media_file": "Медиа файл",
+      "use_as": "Использовать как",
+      "library": "Библиотека",
+      "library_subtitle": "Изображения и анимации для активных слотов",
+      "empty": "Библиотека пуста",
+      "active": "Активных",
+      "drop_here": "Сюда",
+      "usage": {
+        "background": "Фон",
+        "cover": "Обложка",
+        "visualizer": "Визуализатор",
+        "cursor": "Курсор",
+        "slider": "Ползунок",
+        "remove": "Удалить"
+      },
+      "slots": {
+        "background": "Фон",
+        "cover": "Обложка",
+        "visualizer": "Визуализатор",
+        "cursor": "Курсор",
+        "slider": "Ползунок"
+      },
+      "background": "Фон",
+      "cover": "Обложка",
+      "visualizer": "Визуализатор",
+      "particles": "Частицы",
+      "cursor": "Курсор",
+      "slider": "Ползунок",
+      "categories": {
+        "all": "Все",
+        "covers": "Обложки",
+        "visualizers": "Визуализаторы",
+        "particles": "Частицы"
+      },
+      "font_categories": {
+        "system": "Системные",
+        "serif": "С засечками",
+        "monospace": "Моноширинные",
+        "decorative": "Декоративные",
+        "modern": "Современные",
+        "handwriting": "Рукописные",
+        "gaming": "Игровые",
+        "disabled": "Выключено"
+      },
+      "notifications": {
+        "generation": {
+          "success": "успешно создано и применено!",
+          "error": "Не удалось сгенерировать тему. Попробуйте позже."
+        },
+        "import": {
+          "error": "Ошибка импорта настроек"
+        }
+      },
+      "labels": {
+        "disabled": "Выключена",
+        "library": {
+          "title": "Библиотека",
+          "empty": "Библиотека пуста"
+        },
+        "transparency": {
+          "title": "Прозрачность",
+          "style": "Стиль прозрачности",
+          "level": "Уровень прозрачности"
+        },
+        "settings": "Настройки",
+        "apply": "Применить",
+        "loading": {
+          "title": "Загрузка...",
+          "error": "Ошибка загрузки",
+          "library": "Загрузка библиотеки..."
+        },
+        "blur": "Размытие",
+        "border": "Граница",
+        "font": {
+          "title": "Шрифт"
+        },
+        "background": {
+          "title": "Фон",
+          "blur": "Размытие фона",
+          "particles": "Частицы фона"
+        },
+        "cover": "Обложка",
+        "visualizer": "Визуализатор",
+        "cursor": "Курсор",
+        "slider": "Ползунок"
+      },
+      "set": {
+        "as": {
+          "background": "Установить как фон",
+          "cover": "Установить как обложку",
+          "visualizer": "Установить как визуализатор",
+          "particles": "Установить как частицы",
+          "cursor": "Установить как курсор",
+          "slider": "Установить как ползунок"
+        }
+      },
+      "presets_hint": "Найти пресеты и дизайны",
+      "search_giphy": "Поиск гифок...",
+      "search_empty": "Попробуйте что-нибудь найти!",
+      "effects": {
+        "dimming": "Затемнение",
+        "dimming_description": "Регулировка затемнения фона подложкой",
+        "parallax": "Параллакс"
+      },
+      "modes": {
+        "title": "Режим",
+        "description": "Отображать кастомную обложку для всех треков или только при отсутствии оригинальной",
+        "always": "Всегда",
+        "fallback": "Если нет обложки",
+        "animate_playing": "Только при игре",
+        "static": "Статично"
+      },
+      "presets": {
+        "name_placeholder": "Назовите пресет...",
+        "empty": "Нет сохраненных пресетов",
+        "subtitle": "Сохраните текущее оформление или импортируйте готовый пресет",
+        "imported_name": "Импортированный пресет {{time}}"
+      }
+    },
+    "main": {
+      "startup": {
+        "title": "Продолжить с прошлого раза",
+        "description": "Что вернуть при открытии приложения",
+        "modes": {
+          "disabled": "Ничего",
+          "track": "Трек",
+          "queue": "Очередь",
+          "all": "Трек и очередь"
+        }
+      },
+      "canvas": {
+        "title": "Канвас",
+        "description": "Показывать анимированные зацикленные видеоролики вместо обложек треков"
+      },
+      "general": {
+        "title": "Основные",
+        "preferred_platform": "Платформа главной",
+        "preferred_platform_label": "Платформа",
+        "preferred_platform_description": "Откуда главная берёт волну и рекомендации",
+        "platform": {
+          "auto": "Авто"
+        }
+      },
+      "language": {
+        "title": "Язык приложения",
+        "choose_description": "Язык интерфейса",
+        "ru": "Русский",
+        "en": "English",
+        "ua": "Українська"
+      },
+      "system": {
+        "title": "Поведение приложения"
+      },
+      "efficiency": {
+        "title": "Экономия ресурсов",
+        "mode": {
+          "title": "Состояние ограничения",
+          "description": "Когда упрощать эффекты, чтобы не нагружать компьютер",
+          "disabled": "Выключено",
+          "minimized": "При сворачивании",
+          "unfocused": "При потере фокуса",
+          "unfocused_short": "В фоне"
+        },
+        "parameters": {
+          "title": "Параметры ресурсосбережения"
+        },
+        "unfocused": {
+          "title": "Анфокус",
+          "description": "Поведение при переключении на другое окно",
+          "simplify": {
+            "title": "Упрощение графики",
+            "description": "Снижать качество эффектов в неактивном окне"
+          },
+          "blur_mode": {
+            "title": "Качество размытия",
+            "description": "Насколько сильно упрощать стекло в фоне",
+            "full": "Высокое (HQ)",
+            "reduced": "Низкое (Быстро)",
+            "disabled": "Выключено"
+          },
+          "blur_amount": {
+            "title": "Сила размытия",
+            "description": "Настройте интенсивность размытия в анфокусе"
+          }
+        },
+        "minimized": {
+          "title": "Свернутое состояние",
+          "description": "Высвобождение ресурсов при сворачивании",
+          "smart_release": {
+            "title": "Умное высвобождение ресурсов",
+            "description": "Автоматически отключать тяжелые процессы при сворачивании"
+          }
+        },
+        "resources": {
+          "title": "Активные ресурсы",
+          "description": "Выберите, какие ресурсы остаются активными в этом состоянии",
+          "background": "Фон",
+          "particles": "Частицы",
+          "covers": "Обложки",
+          "visualizers": "Визуализаторы",
+          "blur": "Размытие"
+        },
+        "states": {
+          "active": "Активен",
+          "active_plural": "Активны",
+          "frozen": "Заморожен",
+          "disabled": "Отключены",
+          "simplified": "Упрощены",
+          "hidden": "Скрыты",
+          "stopped": "Остановлены"
+        }
+      },
+      "about": {
+        "title": "О приложении",
+        "version": "Версия",
+        "website": "Сайт",
+        "telegram": "Телеграм",
+        "tos": "Соглашение",
+        "privacy": "Конфиденциальность",
+        "subs": "Подписка",
+        "reset": "Сброс",
+        "subscriptions": "Условия подписки"
+      },
+      "version": {
+        "title": "Версия приложения"
+      },
+      "player": {
+        "title": "Настройки плеера",
+        "playback": {
+          "title": "Воспроизведение"
+        },
+        "autoplay": "Автовоспроизведение",
+        "autoplay_description": "Автоматически воспроизводить последний трек",
+        "gapless": "Бесшовное воспроизведение",
+        "gapless_description": "Плавный переход между треками без пауз и задержек",
+        "gapless_options": {
+          "off": "Выключено",
+          "short": "Короткое",
+          "optimal": "Оптимальное",
+          "long": "Длинное"
+        },
+        "ducking": "Тише во время звонков",
+        "ducking_description": "Музыка стихает, пока идёт звонок или голосовой чат в другом приложении",
+        "crossfade": "Кроссфейд",
+        "crossfade_description": "Плавное затухание в конце трека и нарастание в начале следующего",
+        "crossfade_options": {
+          "off": "Выключено",
+          "short": "Короткий (150 мс)",
+          "medium": "Средний (300 мс)",
+          "long": "Длинный (500 мс)"
+        },
+        "normalization": "Нормализация громкости",
+        "normalization_description": "Автоматическое выравнивание уровня громкости для всех треков",
+        "miniplayer": {
+          "title": "Мини плеер",
+          "compact": "Компактный",
+          "default": "Полный",
+          "hybrid": "Гибрид"
+        },
+        "caching": "Кеширование треков",
+        "caching_description": "Все треки будут сохранены в кеш для быстрого воспроизведения",
+        "cache": {
+          "listened": "Прослушанное",
+          "listened_desc": "Кешировать треки после прослушивания",
+          "liked": "Лайк",
+          "liked_desc": "Кешировать треки при лайке",
+          "playlist": "Плейлист",
+          "playlist_desc": "Кешировать треки при добавлении в плейлист",
+          "maxsize_title": "Размер хранилища",
+          "maxsize_desc": "Максимальный объем кеша треков на диске",
+          "unlimited": "Без лимита",
+          "size_gb": "{{value}} ГБ"
+        },
+        "audio": {
+          "quality": {
+            "title": "Качество аудио",
+            "description": "Выберите предпочтительное качество воспроизведения",
+            "low": "Низкое",
+            "medium": "Среднее",
+            "high": "Высокое",
+            "lossless": "Без потерь",
+            "max": "Максимальное",
+            "max_bitrate": "от {{value}} кбит/с",
+            "parameters": "{{bits}} бит, {{rate}} кГц",
+            "pcm_bitrate": "PCM · {{value}} кбит/с",
+            "bitrate": "{{value}} кбит/с"
+          },
+          "device": {
+            "title": "Устройство вывода",
+            "description": "Выберите аудиоустройство для воспроизведения музыки на этом компьютере",
+            "default": "По умолчанию",
+            "system": "Системное устройство",
+            "output": "Устройство вывода"
+          }
+        }
+      },
+      "visualizer": {
+        "title": "Визуализатор",
+        "style": "Стиль",
+        "disabled": "Выключен",
+        "styles": {
+          "bars": "Столбцы",
+          "wave": "Волна",
+          "circle": "Круг",
+          "rings": "Кольца",
+          "stars": "Звёзды",
+          "radial": "Радиаль",
+          "crosses": "Кресты"
+        }
+      },
+      "notifications": {
+        "title": "Уведомления",
+        "style": "Стиль уведомлений",
+        "tooltips": {
+          "disabled": "Выключить уведомления"
+        },
+        "disabled": "Уведомления выключены",
+        "enabled": "Уведомления включены"
+      },
+      "advanced": {
+        "title": "Расширенное",
+        "tray": "Сворачивать в трей",
+        "tray_description": "Крестик прячет окно, музыка играет дальше",
+        "autolaunch": "Автозапуск",
+        "autolaunch_description": "Открывать Dotify при входе в систему"
+      },
+      "data": {
+        "title": "Управление данными"
+      },
+      "storage": {
+        "title": "Очистка кеша",
+        "description": "Управление данными приложения",
+        "analysis_description": "Анализ локального дискового пространства и сохраненных файлов",
+        "clear_description": "Очистка сохраненных треков, обложек альбомов и текстов",
+        "data": {
+          "title": "Данные",
+          "description": "История поиска и настройки треков, сохранённые на этом устройстве",
+          "search_history": "История поиска",
+          "search_history_description": "Запросы и открытые из поиска результаты",
+          "track_settings": "Настройки треков",
+          "track_settings_description": "Скорость, эквалайзер и сдвиг текста, сохранённые для отдельных треков",
+          "clear": "Очистить",
+          "reset": "Сбросить"
+        },
+        "occupied": "Занято",
+        "cache_categories": {
+          "tracks": "Треки",
+          "covers": "Обложки",
+          "lyrics": "Тексты",
+          "artists": "Артисты",
+          "search": "Поиск"
+        },
+        "auto_cleanup": {
+          "title": "Автоматическая очистка",
+          "description": "Параметры автоматического удаления старых данных",
+          "period_label": "Период хранения для категории"
+        },
+        "periods": {
+          "never": "Никогда",
+          "curr_session": "До перезапуска",
+          "day": "24 часа",
+          "3days": "3 дня",
+          "week": "1 неделя",
+          "month": "1 месяц"
+        },
+        "notifications": {
+          "cleared_all": "Кеш полностью очищен",
+          "cleared_category": "Категория очищена",
+          "error": "Ошибочка вышла"
+        },
+        "loading": "Загрузка информации о хранилище...",
+        "no_data": "Нет данных о хранилище",
+        "tracks": "треков",
+        "items_count": "элементов",
+        "clear": {
+          "title": "Очистить",
+          "all": "Очистить всё",
+          "error": "Ошибка при очистке"
+        },
+        "load_error": "Ошибка загрузки информации о хранилище",
+        "cleared": "Очищено {{count}} элементов из {{category}}",
+        "cache_cleared": "Очищено {{count}} треков из {{source}}",
+        "cache_type_cleared": "Очищено {{count}} треков типа {{type}}",
+        "expired_cleared": "Очищено {{count}} истекших записей",
+        "all_cleared": "Все данные очищены",
+        "cache": {
+          "total_tracks": "Всего треков",
+          "total_size": "Общий размер",
+          "expired_tracks": "Истекшие записи"
+        },
+        "sources": {
+          "local": "Локальные"
+        },
+        "types": {
+          "audio": "Аудио",
+          "embed": "Встроенные",
+          "hls": "Потоковые"
+        },
+        "item_deleted": "Элемент {{item}} удален",
+        "track_deleted": "Трек {{track}} удален",
+        "track_not_found": "Трек не найден",
+        "delete_error": "Ошибка при удалении",
+        "items": {
+          "queue": {
+            "title": "Очередь воспроизведения",
+            "position": "Позиция в очереди",
+            "playlist_info": "Информация о плейлисте очереди"
+          },
+          "restore_queue": "Восстановление очереди",
+          "autoplay_similar": "Автовоспроизведение похожих",
+          "starred_playlists": "Избранные плейлисты",
+          "search_history": "История поиска",
+          "playback_history": "История воспроизведения",
+          "history_limit": "Лимит истории",
+          "weather_city": "Город для погоды",
+          "gif_categories": "Категории GIF",
+          "viewed_news": "Просмотренные новости",
+          "news_dismissed": "Отклоненные новости",
+          "track_cache": "Кеш треков",
+          "cache_settings": "Настройки кеширования",
+          "volume": "Громкость",
+          "fullcover_mode": "Режим полной обложки",
+          "player_layout": "Макет плеера",
+          "player_settings": "Настройки плеера",
+          "playback_queue": "Очередь воспроизведения",
+          "full_cover_layout_mode": "Режим макета полной обложки",
+          "color_platform_icons": "Цветные иконки платформ",
+          "gif_ui_mode": "Режим GIF интерфейса",
+          "equalizer_bands": "Полосы эквалайзера",
+          "active_tab": "Активная вкладка",
+          "title_bar_hidden": "Скрытая панель заголовка",
+          "full_cover_layout": "Макет полной обложки",
+          "equalizer_enabled": "Эквалайзер включён",
+          "particle_mouse_interactive": "Интерактивные частицы мыши",
+          "last": {
+            "played": "Последний трек",
+            "news_show": "Последний показ новостей",
+            "search_query": "Последний поисковый запрос"
+          },
+          "cover": {
+            "animation": "Анимация обложки",
+            "effect": "Эффект обложки",
+            "visualizer": "Визуализатор обложки",
+            "in_cover": "Обложка в обложке",
+            "settings": "Настройки обложки"
+          },
+          "playlist": {
+            "folders": "Папки плейлистов",
+            "list_collapsed": "Свёрнутый список плейлистов",
+            "sort_modes": "Режимы сортировки плейлистов",
+            "folders_collapsed": "Свёрнутые папки плейлистов",
+            "layout_modes": "Режимы отображения плейлистов"
+          },
+          "dotify": {
+            "presets": "Пресеты Dotify",
+            "custom_presets": "Пользовательские пресеты Dotify",
+            "now_playing": "Текущее воспроизведение Dotify"
+          }
+        },
+        "clear_all": "Очистить всё",
+        "clear_error": "Ошибка при очистке",
+        "units": {
+          "tracks": {
+            "one": "трек",
+            "few": "трека",
+            "many": "треков"
+          },
+          "covers": {
+            "one": "обложка",
+            "few": "обложки",
+            "many": "обложек"
+          },
+          "lyrics": {
+            "one": "текст",
+            "few": "текста",
+            "many": "текстов"
+          }
+        }
+      },
+      "cache": {
+        "modes": {
+          "memory": "В памяти",
+          "disk": "На диск"
+        },
+        "folder": {
+          "error": "Ошибка при выборе папки"
+        },
+        "disabled": "Кеширование отключено"
+      },
+      "queue": {
+        "title": "Очередь воспроизведения",
+        "similar_tracks": "Авто похожие",
+        "similar_tracks_description": "Автоматически догружать похожие треки, когда следующего нет",
+        "restore_queue": "Восстановление очереди",
+        "restore_queue_description": "Восстанавливать очередь воспроизведения при запуске приложения",
+        "style": "Вид очереди",
+        "style_description": "Выберите режим отображения треков в списке очереди",
+        "style_normal": "Обычный",
+        "style_normal_desc": "Простой плоский список треков",
+        "style_expanded": "Расширенный",
+        "style_expanded_desc": "Разделение на секции: Прослушано, Сейчас играет, Далее",
+        "styles": {
+          "normal": "Обычный",
+          "expanded": "Развернутый"
+        },
+        "following": "Добавлять следующие",
+        "following_description": "Нажатый трек ставит в очередь и треки после него"
+      },
+      "sync": {
+        "title": "Синхронизация",
+        "description": "Автоматическая синхронизация избранного, плейлистов и статистики прослушиваний между устройствами",
+        "enable": "Включить синхронизацию",
+        "premium_required": "Требуется Premium уровня 2",
+        "enabled": "Синхронизация включена",
+        "disabled": "Синхронизация отключена",
+        "favorites": "Избранное",
+        "playlists": "Плейлисты",
+        "stats": "Статистика",
+        "tracks": "треков",
+        "last_sync": "Последняя синхронизация",
+        "push": "Сохранить в облако",
+        "push_desc": "Лайки и плейлисты с этого устройства",
+        "pull": "Загрузить из облака",
+        "pull_desc": "Заменит лайки и плейлисты здесь",
+        "push_success": "Данные отправлены на сервер",
+        "pull_success": "Данные получены с сервера",
+        "error": "Ошибка синхронизации",
+        "status": {
+          "success": "Синхронизировано успешно",
+          "error": "Ошибка синхронизации",
+          "syncing": "Синхронизация..."
+        }
+      },
+      "sections": {
+        "startup": "Запуск",
+        "output": "Вывод и качество",
+        "sound": "Громкость и переходы",
+        "queue": "Очередь"
+      }
+    },
+    "themes": {
+      "title": "Темы",
+      "custom": "Пользовательские",
+      "edit_dialog": {
+        "title": "Редактировать тему"
+      },
+      "colors": {
+        "input": "Ввод",
+        "primary": "Основной",
+        "accent": "Акцентный",
+        "background": "Фон",
+        "foreground": "Текст",
+        "card": "Карточка",
+        "secondary": "Вторичный",
+        "border": "Граница",
+        "muted": "Приглушенный",
+        "ring": "Фокус"
+      },
+      "context_menu": {
+        "delete": "Удалить"
+      },
+      "create": {
+        "title": "Создать новую тему",
+        "theme": "Создать новую тему",
+        "dialog": {
+          "title": "Создать новую тему",
+          "name_placeholder": "Моя тема",
+          "random_colors_button": "Случайные цвета",
+          "save_button": "Сохранить"
+        },
+        "success": "Тема успешно создана",
+        "error": "Ошибка при создании темы"
+      },
+      "export": {
+        "success": "Темы успешно экспортированы",
+        "error": "Ошибка при экспорте тем"
+      },
+      "import": {
+        "error": "Ошибка при импорте темы",
+        "success": "Успешно импортировано тем: {{count}}"
+      }
+    },
+    "presets": {
+      "title": "Пресеты",
+      "save_dialog": {
+        "title": "Сохранить пресет",
+        "description": {
+          "title": "Создать пользовательский пресет из текущих настроек"
+        },
+        "theme": {
+          "title": "Тема",
+          "info": "({{theme}})"
+        },
+        "hotkeys": {
+          "title": "Горячие клавиши",
+          "info": "({{count}} клавиш)"
+        }
+      },
+      "delete_dialog": {
+        "title": "Удалить пресет"
+      },
+      "notifications": {
+        "preset": {
+          "empty": "Пресет \"{{name}}\" не содержит настроек для применения"
+        },
+        "publish": {
+          "success": "Пресет \"{{name}}\" успешно опубликован в Мастерской!"
+        }
+      },
+      "gif_usage": {
+        "background": "Фон",
+        "cover": "Обложка",
+        "visualizer": "Визуализатор",
+        "particles": "Частицы",
+        "cursor": "Курсор"
+      },
+      "preset_types": {
+        "theme": "Тема",
+        "player": "Плеер",
+        "empty": "Пустой пресет"
+      },
+      "publish_dialog": {
+        "title": "Опубликовать в Мастерскую"
+      },
+      "create": {
+        "preset": "Создать пресет",
+        "button": "Создать"
+      }
+    },
+    "messages": {
+      "soundcloud": {
+        "id_required": "Пожалуйста, введите или выберите SoundCloud Client ID",
+        "invalid_id": "Неверный Client ID. Проверьте правильность введенного значения",
+        "save_error": "Ошибка при сохранении SoundCloud Client ID"
+      },
+      "vk": {
+        "token_required": "Пожалуйста, введите токен VK",
+        "invalid_token": "Неверный токен VK. Проверьте правильность введенного значения",
+        "save_error": "Ошибка сохранения настроек VK"
+      },
+      "yandex": {
+        "token_required": "Пожалуйста, введите токен Яндекс",
+        "invalid_token": "Неверный токен Яндекс. Проверьте правильность введенного значения",
+        "save_error": "Ошибка сохранения настроек Яндекса"
+      },
+      "spotify": {
+        "credentials_required": "Пожалуйста, введите и Client ID, и Client Secret",
+        "invalid_credentials": "Неверные учетные данные Spotify. Проверьте правильность введенных значений",
+        "save_error": "Ошибка сохранения настроек Spotify"
+      },
+      "general": {
+        "token": {
+          "invalid": "Токен недействителен"
+        }
+      },
+      "deezer": {
+        "invalid_token": "Неверный токен Deezer",
+        "save_error": "Ошибка сохранения настроек Deezer",
+        "token_required": "Требуется токен Deezer"
+      }
+    },
+    "integrations": {
+      "proxy": {
+        "zapret": {
+          "select_folder": "Выбрать папку"
+        }
+      }
+    }
+  },
+  "shop": {
+    "title": "Магазин",
+    "search_placeholder": "Поиск...",
+    "sort": {
+      "title": "Сортировка",
+      "default": "По умолчанию",
+      "price_desc": "Цена: По убыванию",
+      "price_asc": "Цена: По возрастанию",
+      "name_asc": "Название: От А до Я",
+      "name_desc": "Название: От Я до А",
+      "rarity_desc": "Редкость: По убыванию",
+      "rarity_asc": "Редкость: По возрастанию"
+    },
+    "promo": {
+      "activate_button": "Активировать",
+      "success": "Код успешно активирован!",
+      "error_default": "Ошибка активации промокода",
+      "title": "Промокод"
+    },
+    "rarity": {
+      "common": "Обычный",
+      "rare": "Редкий",
+      "epic": "Эпический",
+      "legendary": "Легендарный"
+    },
+    "title_category": {
+      "default": "Стандартные",
+      "all": "Все титулы",
+      "common": "Обычный",
+      "epic": "Эпический",
+      "legendary": "Легендарный",
+      "rare": "Редкий"
+    },
+    "preview": {
+      "default_user": "Пользователь"
+    },
+    "category": {
+      "title": "Титулы",
+      "design": "Дизайны",
+      "case": "Кейсы",
+      "nft": "Подарки",
+      "emblem": "Эмблемы",
+      "pack": "Паки"
+    },
+    "notifications": {
+      "load_error": "Ошибка загрузки данных"
+    },
+    "item": {
+      "unnamed_alt": "Товар",
+      "owned": "Имеется",
+      "buy": "Купить",
+      "purchased_successfully": "Куплено",
+      "no_coins": "Нет монет",
+      "purchase_failed": "Ошибка покупки"
+    },
+    "design_type": {
+      "frame": "Рамка",
+      "default": "Дизайн"
+    },
+    "status": {
+      "error_title": "Произошла ошибка",
+      "error_button": "Обновить страницу",
+      "not_found_title": "Товары не найдены",
+      "not_found_subtitle": "Попробуйте изменить категорию или поисковый запрос"
+    },
+    "design_category": {
+      "all": "Все дизайны",
+      "frame": "Рамка"
+    },
+    "purchase_confirmation": {
+      "title": "Подтверждение покупки",
+      "message": "Вы собираетесь купить этот предмет. Уверены?",
+      "price": "Стоимость",
+      "confirm": "Купить",
+      "purchasing": "Покупка..."
+    },
+    "case": {
+      "loading_contents": "Загрузка содержимого...",
+      "failed_to_load": "Не удалось загрузить содержимое"
+    },
+    "buy": "Купить",
+    "wallet": {
+      "top_up": "Пополнить"
+    }
+  },
+  "social": {
+    "listening_now": "Слушают прямо сейчас",
+    "listeners": "Слушатели",
+    "overplayed": "Заслушанные треки",
+    "listen_with_them": "Слушать вместе",
+    "post_rate_limited": "Публикация доступна через",
+    "room": {
+      "join_failed": "Не удалось присоединиться к комнате",
+      "creation_error": "Ошибка создания комнаты",
+      "code_required": "Введите код комнаты",
+      "code_empty": "Код комнаты не может быть пустым",
+      "not_found": "Комната не найдена",
+      "password_required": "Эта комната требует пароль",
+      "max_participants": "Достигнут лимит участников для вашего уровня подписки"
+    },
+    "chat": {
+      "load_error": "Не удалось загрузить чат",
+      "premium_required": "Для доступа к этому чату нужна подписка"
+    },
+    "friends": {
+      "load_error": "Ошибка загрузки списка друзей",
+      "request_fail": "Ошибка отправки запроса"
+    },
+    "sections": {
+      "friends": "Друзья",
+      "chats": "Чаты",
+      "rooms": "Комнаты",
+      "all": "Все",
+      "no_friends": "Пока нет друзей",
+      "no_chats": "Пока нет чатов",
+      "you_are_here": "Вы здесь"
+    }
+  },
+  "stats": {
+    "title": "Статистика",
+    "time": "Время",
+    "tracks": "Треков",
+    "listened": "Прослушано",
+    "listenings": "Прослушиваний",
+    "total": "всего",
+    "favorites": "избранного",
+    "for": "за",
+    "h": "ч",
+    "m": "м",
+    "tabs": {
+      "overview": "Обзор",
+      "tracks": "Треки",
+      "artists": "Артисты"
+    },
+    "plays": "прослушиваний",
+    "total_time": "Всего времени",
+    "unique_tracks": "Уникальных",
+    "total_plays": "Прослушиваний",
+    "avg_duration": "Средняя длина",
+    "daily_stats": "В среднем за день",
+    "hours_per_day": "часов/день",
+    "tracks_per_day": "треков/день",
+    "artists_count": "артистов",
+    "top_label": "ТОП",
+    "favorite_artists": "Любимые артисты",
+    "favorite_tracks": "Любимые треки",
+    "hours": "часов",
+    "hours_one": "час",
+    "hours_few": "часа",
+    "hours_many": "часов",
+    "minutes": "мин",
+    "hours_short": "ч",
+    "times": "раз",
+    "times_one": "раз",
+    "times_few": "раза",
+    "times_many": "раз",
+    "review_label": "Пересмотреть итоги месяца",
+    "top_source": "Главный источник",
+    "your_top_artists": "Ротация",
+    "your_top_artists_desc": "Артисты, которых вы слушали чаще всего",
+    "your_top_tracks": "Репит",
+    "your_top_tracks_desc": "Треки на постоянном повторе",
+    "your_top_source": "Площадка",
+    "viewed": "просмотрено",
+    "all_time": "За месяц",
+    "wrapped_title": "Итоги месяца",
+    "wrap_available": "Вам доступны итоги",
+    "minutes_together": "{{count}} минут вместе",
+    "no_data": "Нет данных",
+    "materializing": "Материализуем итоги месяца...",
+    "next": "Далее",
+    "load_failed": "Не удалось загрузить итоги",
+    "overview": "Показатели",
+    "streak": "дней подряд",
+    "peak_hour": "пик прослушивания",
+    "daily_tracks": "треков в день",
+    "artists_total": "артистов всего",
+    "fav_day": "любимый день недели",
+    "nonstop": "≈ {{days}} суток без паузы"
+  },
+  "track": {
+    "context_menu": {
+      "play": "Воспроизвести",
+      "play_next": "Следующим",
+      "add_to_queue": "В очередь",
+      "add_to_favorites": "Добавить в избранное",
+      "remove_from_favorites": "Удалить из избранного",
+      "add_to_playlist": "Добавить в плейлист",
+      "remove_from_playlist": "Удалить из плейлиста",
+      "remove_from_queue": "Удалить из очереди",
+      "wave_by_track": "Волна по треку",
+      "share": "Поделиться",
+      "not_interested": "Не интересно",
+      "remove_from_not_interested": "Убрать из «Не интересно»",
+      "download_mp3": "Скачать",
+      "cache": "Кешировать",
+      "remove_cache": "Убрать из кеша",
+      "downloading": "Скачивается...",
+      "suggest_to_room": "Предложить в комнату",
+      "platform": "Платформа"
+    },
+    "collaborator": {
+      "added_by": "От"
+    },
+    "added_at": "Добавлен",
+    "unknown_artist": "Неизвестный исполнитель",
+    "unknown_title": "Неизвестный трек",
+    "row": {
+      "context_menu": {
+        "play": {
+          "title": "Воспроизвести",
+          "next": "Воспроизвести следующим"
+        },
+        "add": {
+          "to": {
+            "queue": "В очередь",
+            "favorites": "Добавить в любимое",
+            "playlist": "Добавить в плейлист"
+          }
+        },
+        "remove": {
+          "from": {
+            "favorites": "Убрать из любимого",
+            "playlist": "Удалить из плейлиста",
+            "queue": "Удалить из очереди"
+          }
+        }
+      },
+      "select": "Выбрать",
+      "change_cover": "Сменить обложку"
+    },
+    "view": {
+      "share": {
+        "success": "Ссылка скопирована",
+        "error": "Не удалось скопировать ссылку",
+        "error_description": "Произошла ошибка",
+        "warning": "Предупреждение",
+        "app_link": "Приложение",
+        "web": {
+          "link": "Веб-ссылка"
+        },
+        "platform": {
+          "link": "Платформа",
+          "link_desc": "Поделиться оригинальной ссылкой с платформы"
+        }
+      },
+      "bio": {
+        "not_found": "Биография не найдена",
+        "loading": "Загрузка..."
+      }
+    },
+    "alerts": {
+      "not_found": {
+        "title": "Трек пропущен",
+        "message": "Этот трек не найден или недоступен",
+        "purge": "Удалить везде",
+        "purging": "Удаляю из медиатеки…",
+        "purged": "Трек убран из медиатеки"
+      },
+      "unauthorized": {
+        "title": "Требуется авторизация",
+        "message": "Добавьте токен для этого сервиса в настройках"
+      },
+      "rate_limit": {
+        "title": "Не так часто",
+        "message": "Слишком много попыток. Попробуйте позже"
+      },
+      "platform_error": {
+        "title": "Ошибка сервиса",
+        "message": "Проблема на стороне музыкальной платформы. Попробуйте что то другое"
+      },
+      "server_error": {
+        "title": "Ошибка сервера",
+        "message": "Попробуйте позже"
+      },
+      "network_error": {
+        "title": "Нет связи с сервером",
+        "message": "Проверьте подключение"
+      },
+      "proxy": {
+        "title": "Поток через прокси",
+        "message": "Прямая ссылка недоступна"
+      },
+      "offline": {
+        "title": "Нет подключения к сети",
+        "message": "Проверьте подключение"
+      },
+      "timeout": {
+        "title": "Сервер не ответил",
+        "message": "Попробуйте позже"
+      },
+      "spotify_rate_limit": {
+        "title": "Перегрузка платформы",
+        "message": "Spotify перегружен (429). Попробуйте позже"
+      }
+    },
+    "cached": "В кеше"
+  },
+  "update": {
+    "title_important": "Важное обновление",
+    "title_available": "Доступно обновление",
+    "error_check": "Ошибка при проверке обновлений",
+    "error_download": "Не удалось загрузить или установить файл обновления",
+    "download_success": "Обновление успешно загружено. Перезапустите приложение для установки.",
+    "version_available": "Доступна новая версия",
+    "available_desc": "Доступна новая версия Dotify с улучшениями и исправлениями.",
+    "release_notes": "Что нового",
+    "no_notes": "Описание обновления отсутствует.",
+    "checking": "Проверка...",
+    "checking_desc": "Поиск обновлений...",
+    "downloading": "Загрузка...",
+    "up_to_date": "Обновлений нет",
+    "up_to_date_desc": "Вы используете актуальную версию.",
+    "platforms": {
+      "windows": "Windows",
+      "mac": "macOS",
+      "linux": "Linux"
+    },
+    "button": {
+      "update": "Обновить",
+      "restart": "Установить",
+      "retry": "Повторить"
+    },
+    "beta_required_title": "Требуется подписка Infinity",
+    "beta_required_description": "Для входа в эту версию приложения",
+    "beta_required_redirect": "Возврат к авторизации...",
+    "screenshot": "Снимок экрана {{index}}"
+  },
+  "workshop": {
+    "title": "Мастерская",
+    "installed": "Установлено",
+    "add_to_library": "В библиотеку",
+    "in_library": "В библиотеке",
+    "author": "автор",
+    "try": "Примерить",
+    "trying": "Примерка...",
+    "stop_trying": "Остановить",
+    "apply": "Применить",
+    "delete": "Удалить",
+    "search_placeholder": "Поиск по названию, автору...",
+    "types": {
+      "preset": "пресет",
+      "theme": "тема",
+      "background": "фон",
+      "equalizer": "эквалайзер",
+      "css": "css"
+    },
+    "loading": {
+      "title": "Загрузка мастерской...",
+      "more": "Загрузить еще"
+    },
+    "item_card": {
+      "try_tooltip": "Примерить",
+      "like": {
+        "tooltip": {
+          "unauthorized": "Требуется авторизация",
+          "liked": "Ты уже оценил это"
+        }
+      },
+      "download": {
+        "button": "Скачать"
+      }
+    },
+    "design_preview": {
+      "cursor": "Курсор",
+      "particles": "Частицы",
+      "background": "Фон",
+      "cover": "Обложка",
+      "visualizer": "Визуалайзер"
+    },
+    "delete_confirm_dialog": {
+      "title": "Удалить элемент"
+    },
+    "donate_dialog": {
+      "title": "Поддержать автора"
+    },
+    "full_preview": {
+      "preview": "Предпросмотр",
+      "rounding": "Скругление",
+      "scale": "Масштаб",
+      "hotkeys": {
+        "enabled": "Горячие клавиши включены",
+        "title": "Горячие клавиши"
+      }
+    },
+    "by": "от",
+    "like": "Лайк",
+    "liked": "Оценено",
+    "download": "Скачать",
+    "publish": {
+      "title": "Опубликовать в мастерской",
+      "button": "Опубликовать",
+      "publishing": "Публикация...",
+      "failed": "Не удалось опубликовать",
+      "name_required": "Укажите название",
+      "select_preset": "Выберите пресет",
+      "select_theme": "Выберите тему для публикации",
+      "select_equalizer": "Выберите пресет эквалайзера",
+      "custom_theme": "Кастомная тема",
+      "equalizer_label": "Эквалайзер",
+      "bands_count": "{{count}} полос",
+      "types": {
+        "preset": {
+          "title": "Пресет",
+          "subtitle": "Выберите сохраненный пресет для публикации в мастерскую"
+        },
+        "theme": {
+          "title": "Тема",
+          "subtitle": "Выберите тему оформления для публикации"
+        },
+        "equalizer": {
+          "title": "Эквалайзер",
+          "subtitle": "Выберите профиль эквалайзера для публикации"
+        }
+      },
+      "empty": {
+        "presets": "У тебя нет сохраненных пресетов",
+        "themes": "Нет созданных тем",
+        "equalizer": "Нет сохраненных пресетов эквалайзера"
+      },
+      "name": {
+        "label": "Название",
+        "placeholder": "Название пресета",
+        "hint": "Имя, которое увидят другие пользователи в мастерской"
+      },
+      "description": {
+        "label": "Описание",
+        "placeholder": "Краткое описание",
+        "hint": "Расскажите об особенностях или идее вашего оформления"
+      },
+      "tags": {
+        "label": "Теги",
+        "placeholder": "Введи тег...",
+        "limit": "Лимит тегов достигнут",
+        "hint": "До 5 ключевых слов для быстрого поиска в каталоге"
+      },
+      "name_label": "Название",
+      "name_placeholder": "Название пресета",
+      "description_label": "Описание",
+      "description_placeholder": "Краткое описание",
+      "tags_label": "Теги",
+      "tags_placeholder": "Введи тег...",
+      "tags_limit": "Лимит тегов достигнут",
+      "tags_hint": "До 5 тегов для поиска (Enter или запятая)",
+      "no_presets": "У тебя нет сохраненных пресетов",
+      "dialog": {
+        "title": "Опубликовать в мастерской",
+        "type": {
+          "design": "Дизайн",
+          "preset": "Полный пресет"
+        }
+      },
+      "cancel": "Отмена",
+      "back": "Назад"
+    },
+    "sort": {
+      "title": "Сортировка",
+      "popular": "Популярные",
+      "newest": "Новые",
+      "downloads": "Скачиваемые"
+    },
+    "filter": {
+      "stats": "Показано: {{shown}} из {{total}}",
+      "all": "Все типы",
+      "designs": "Дизайны",
+      "presets": "Пресеты"
+    },
+    "categories": {
+      "all": "Все",
+      "presets": "Пресеты",
+      "themes": "Темы",
+      "backgrounds": "Фоны",
+      "equalizer": "Эквалайзер"
+    },
+    "empty": {
+      "workshop_title": "В мастерской пока пусто",
+      "workshop_subtitle": "Зайди позже или опубликуй свой пресет"
+    }
+  }
+}

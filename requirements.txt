@@ -1,0 +1,5 @@
+fastapi==0.143.5
+uvicorn==0.54.0
+yandex-music==3.2.2
+keyring==25.7.0
+pywebview==6.1; sys_platform == "win32"
