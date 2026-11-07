@@ -22,7 +22,7 @@ try {
     $previousPreference = $ErrorActionPreference
     try {
         $ErrorActionPreference = 'Continue'
-        $output = @(& $cli --bypass-admin -n path 2>&1)
+        $output = @(& $cli --bypass-admin -a path 2>&1)
         $exitCode = $LASTEXITCODE
     } finally { $ErrorActionPreference = $previousPreference }
     if ($exitCode -ne 0) { $output | ForEach-Object { Write-Host $_ }; throw 'Spicetify could not initialize its test config.' }

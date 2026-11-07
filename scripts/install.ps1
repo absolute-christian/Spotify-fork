@@ -31,7 +31,7 @@ if ($LASTEXITCODE -ne 0) { throw 'Failed to initialize pairing' }
 $previousPreference = $ErrorActionPreference
 try {
     $ErrorActionPreference = 'Continue'
-    $initOutput = @(& $spicetify -n path 2>&1)
+    $initOutput = @(& $spicetify -a path 2>&1)
     $initExit = $LASTEXITCODE
 } finally { $ErrorActionPreference = $previousPreference }
 if ($initExit -ne 0) {
