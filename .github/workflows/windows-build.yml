@@ -28,6 +28,9 @@ jobs:
       - name: Build installer
         shell: powershell
         run: .\scripts\package-windows.ps1
+      - name: Smoke test Spicetify first run
+        shell: powershell
+        run: .\scripts\smoke-spicetify.ps1
       - name: Smoke test installed backend
         shell: powershell
         run: .\scripts\smoke-installer.ps1

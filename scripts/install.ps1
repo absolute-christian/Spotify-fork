@@ -26,6 +26,18 @@ $python = Join-Path $root '.venv\Scripts\python.exe'
 if (-not (Test-Path -LiteralPath $python)) { throw 'Run Setup.cmd first.' }
 & $python -m backend pair
 if ($LASTEXITCODE -ne 0) { throw 'Failed to initialize pairing' }
+# `-c` only prints the config path; it does not create the config or detect
+# Spotify. `path` initializes both without applying or restarting Spotify.
+$previousPreference = $ErrorActionPreference
+try {
+    $ErrorActionPreference = 'Continue'
+    $initOutput = @(& $spicetify -n path 2>&1)
+    $initExit = $LASTEXITCODE
+} finally { $ErrorActionPreference = $previousPreference }
+if ($initExit -ne 0) {
+    $initOutput | ForEach-Object { Write-Host $_ }
+    throw 'Spicetify could not find Spotify or its preferences. Open Spotify and sign in before setup.'
+}
 $configuration = & $spicetify -c
 if ($LASTEXITCODE -ne 0) { throw 'Cannot find Spicetify config' }
 $configPath = ($configuration | Select-Object -Last 1).Trim()
